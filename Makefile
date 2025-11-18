@@ -33,6 +33,8 @@ train-all:
 	@mkdir -p $(MODELS_DIR)
 	@echo "Training models for 90/30 configuration..."
 	$(PYTHON) scripts/train_models.py --model all --seq-length 90 --out-length 30
+	@echo "Training models for 90/60 configuration..."
+	$(PYTHON) scripts/train_models.py --model all --seq-length 90 --out-length 60
 	@echo "Training models for 180/120 configuration..."
 	$(PYTHON) scripts/train_models.py --model all --seq-length 180 --out-length 120
 	@echo "Training models for 225/150 configuration..."
