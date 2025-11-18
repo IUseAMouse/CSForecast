@@ -118,41 +118,17 @@ def extract_config_from_filename(filename: str):
     return model_name, seq_length, out_length
 
 
-def create_baseline_model(data: pd.DataFrame, seq_length: int, out_length: int, baseline_name: str):
+def create_baseline_model(baseline_name: str):
     """Create baseline model on-the-fly if it doesn't exist."""
     if baseline_name != "random_walk":
         return None
     
-    print(f"\n🎲 Creating Random Walk baseline on-the-fly...")
+    print(f"\n🎲 Creating Random Walk baseline (adaptive)...")
     
-    # Get training data
-    train_data = data[data.set_split == "train"]
+    # Create model - no fitting needed, it's adaptive per-sequence
+    model = RandomWalkModel(random_state=42, adaptive=True)
     
-    # Prepare sequences using the same logic as train_models.py
-    x_all = []
-    y_all = []
-    
-    for index, row in train_data.iterrows():
-        trend = row["rating_trend"]
-        _, _, _, x_ratings, y_ratings = prepare_data(
-            trend, sequence_length=seq_length, out_length=out_length
-        )
-        
-        for i in range(len(y_ratings)):
-            x_all.append(x_ratings[i])
-            y_all.append(y_ratings[i])
-    
-    X_train = np.array(x_all)
-    y_train = np.array(y_all)
-    X_train = np.reshape(X_train, newshape=(X_train.shape[0], 1, X_train.shape[1]))
-    
-    print(f"  Training on {len(X_train)} sequences...")
-    
-    # Create and train model
-    model = RandomWalkModel(random_state=42)
-    model.fit(X_train, y_train)
-    
-    print(f"  ✓ Random Walk created\n")
+    print(f"  ✓ Random Walk created (will estimate per-sequence)\n")
     
     return model
 
