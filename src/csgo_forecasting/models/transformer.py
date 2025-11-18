@@ -14,13 +14,6 @@ class PositionalEncoding(nn.Module):
     """Positional encoding for transformer."""
 
     def __init__(self, d_model: int, max_len: int = 5000):
-        """
-        Initialize positional encoding.
-
-        Args:
-            d_model: Model dimension
-            max_len: Maximum sequence length
-        """
         super(PositionalEncoding, self).__init__()
         
         pe = torch.zeros(max_len, d_model)
@@ -29,7 +22,8 @@ class PositionalEncoding(nn.Module):
             torch.arange(0, d_model, 2).float() * (-np.log(10000.0) / d_model)
         )
         pe[:, 0::2] = torch.sin(position * div_term)
-        pe[:, 1::2] = torch.cos(position * div_term)
+        # Gère le cas où d_model est impair
+        pe[:, 1::2] = torch.cos(position * div_term[:pe[:, 1::2].shape[1]])
         pe = pe.unsqueeze(0).transpose(0, 1)
         
         self.register_buffer("pe", pe)

@@ -99,8 +99,12 @@ class Evaluator:
                 predictions = self.model.forward(initial_step)
                 y_pred = np.array(predictions[0])
 
+            # Ensure y_pred and y_true are 1D arrays
+            y_pred = np.array(y_pred).flatten()
+            y_true = np.array(y_true).flatten()
+
             metrics = calculate_metrics(y_true, y_pred, include_horizons=True)
-            
+
             player_results.append({
                 "player_name": pname,
                 "metrics": metrics,
