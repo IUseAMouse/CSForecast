@@ -28,6 +28,7 @@ from src.csgo_forecasting.models import (
     TransformerModel,
     RidgeModel,
     RandomForestModel,
+    RandomWalkModel
 )
 from src.csgo_forecasting.training import Trainer, prepare_data
 
@@ -45,7 +46,7 @@ def parse_args():
         "--model",
         type=str,
         required=True,
-        choices=["lstm", "gru", "transformer", "ridge", "random_forest", "all"],
+        choices=["lstm", "gru", "transformer", "ridge", "random_forest", "random_walk", "all"],
         help="Model to train",
     )
     parser.add_argument(
@@ -313,6 +314,22 @@ def train_random_forest(X_train, y_train, X_val, y_val, args):
     return model, {"val_loss": val_loss}
 
 
+def train_random_walk(X_train, y_train, X_val, y_val, args):
+    """Train Random Walk model."""
+    print("\n🎲 Training Random Walk baseline...")
+    
+    model = RandomWalkModel(random_state=42)
+    model.fit(X_train, y_train)
+    
+    # Calculate validation loss
+    y_pred = model.forward(X_val)
+    val_loss = np.mean((y_val - y_pred) ** 2)
+    
+    print(f"✓ Training complete. Validation MSE: {val_loss:.5f}")
+    
+    return model, {"val_loss": val_loss}
+
+
 def main():
     """Main function."""
     args = parse_args()
@@ -359,7 +376,7 @@ def main():
     # Models to train
     models_to_train = []
     if args.model == "all":
-        models_to_train = ["lstm", "gru", "transformer", "ridge", "random_forest"]
+        models_to_train = ["lstm", "gru", "transformer", "ridge", "random_forest", "random_walk"]
     else:
         models_to_train = [args.model]
     
@@ -375,6 +392,8 @@ def main():
             model, history = train_ridge(X_train, y_train, X_val, y_val, args)
         elif model_name == "random_forest":
             model, history = train_random_forest(X_train, y_train, X_val, y_val, args)
+        elif model_name == "random_walk":  
+            model, history = train_random_walk(X_train, y_train, X_val, y_val, args)
         
         # Save model
         model_filename = f"{model_name}_csgo_{args.seq_length}_{args.out_length}.pickle"

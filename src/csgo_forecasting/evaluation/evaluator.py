@@ -2,9 +2,10 @@
 Model evaluation class.
 """
 
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
 import numpy as np
 import torch
+from scipy import stats
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
 
@@ -98,7 +99,7 @@ class Evaluator:
                 predictions = self.model.forward(initial_step)
                 y_pred = np.array(predictions[0])
 
-            metrics = calculate_metrics(y_true, y_pred)
+            metrics = calculate_metrics(y_true, y_pred, include_horizons=True)
             
             player_results.append({
                 "player_name": pname,
@@ -116,11 +117,63 @@ class Evaluator:
         # Calculate aggregate metrics
         all_predictions = np.concatenate(all_predictions)
         all_true = np.concatenate(all_true)
-        aggregate_metrics = calculate_metrics(all_true, all_predictions)
+        aggregate_metrics = calculate_metrics(all_true, all_predictions, include_horizons=True)
 
         return {
             "aggregate_metrics": aggregate_metrics,
             "player_results": player_results,
+        }
+    
+    def compare_to_baseline(
+        self,
+        model_results: Dict[str, Any],
+        baseline_results: Dict[str, Any],
+        metric: str = "rmse"
+    ) -> Dict[str, float]:
+        """
+        Perform paired t-test comparing model to baseline.
+        
+        Args:
+            model_results: Results from evaluate_on_dataset() for the model
+            baseline_results: Results from evaluate_on_dataset() for baseline
+            metric: Metric to compare (default: 'rmse')
+            
+        Returns:
+            Dictionary with statistical test results
+        """
+        
+        # Extract metric values per player
+        model_scores = [
+            r["metrics"][metric] 
+            for r in model_results["player_results"]
+        ]
+        baseline_scores = [
+            r["metrics"][metric] 
+            for r in baseline_results["player_results"]
+        ]
+        
+        # Ensure same number of players
+        assert len(model_scores) == len(baseline_scores), \
+            "Model and baseline must have same number of players"
+        
+        # Paired t-test (lower is better for RMSE/MAE)
+        t_stat, p_value = stats.ttest_rel(baseline_scores, model_scores)
+        
+        # Calculate effect size (Cohen's d for paired samples)
+        differences = np.array(baseline_scores) - np.array(model_scores)
+        cohens_d = np.mean(differences) / np.std(differences, ddof=1)
+        
+        # Percentage of players where model beats baseline
+        wins = np.sum(np.array(model_scores) < np.array(baseline_scores))
+        win_rate = 100 * wins / len(model_scores)
+        
+        return {
+            "t_statistic": t_stat,
+            "p_value": p_value,
+            "significant": p_value < 0.001,  # p < 0.001 threshold
+            "cohens_d": cohens_d,
+            "win_rate_percent": win_rate,
+            "n_players": len(model_scores)
         }
 
     def plot_predictions(

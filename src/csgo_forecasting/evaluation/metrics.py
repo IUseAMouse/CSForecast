@@ -2,8 +2,9 @@
 Evaluation metrics for forecasting.
 """
 
-from typing import Dict
+from typing import Dict, List, Optional
 import numpy as np
+from scipy import stats
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 
@@ -63,21 +64,122 @@ def r2(y_true: np.ndarray, y_pred: np.ndarray) -> float:
     return r2_score(y_true, y_pred)
 
 
-def calculate_metrics(y_true: np.ndarray, y_pred: np.ndarray) -> Dict[str, float]:
+def calculate_horizon_metrics(
+    y_true: np.ndarray, 
+    y_pred: np.ndarray, 
+    horizons: Optional[List[int]] = None
+) -> Dict[str, float]:
+    """
+    Calculate metrics at specific forecast horizons.
+    
+    Args:
+        y_true: True values of shape (n_samples, sequence_length)
+        y_pred: Predicted values of shape (n_samples, sequence_length)
+        horizons: List of time steps to calculate metrics at (e.g., [30, 60, 90, 120])
+                 If None, uses [30, 60, 90, 120] or all available horizons
+    
+    Returns:
+        Dictionary with horizon-specific metrics
+    """
+    if len(y_true.shape) == 1:
+        y_true = y_true.reshape(1, -1)
+    if len(y_pred.shape) == 1:
+        y_pred = y_pred.reshape(1, -1)
+    
+    seq_length = y_true.shape[1]
+    
+    # Default horizons if not specified
+    if horizons is None:
+        horizons = [30, 60, 90, 120]
+        # Filter to only horizons that fit in the sequence
+        horizons = [h for h in horizons if h <= seq_length]
+        # If sequence is shorter, use quarters of the sequence
+        if not horizons:
+            horizons = [seq_length // 4, seq_length // 2, 3 * seq_length // 4, seq_length]
+            horizons = [h for h in horizons if h > 0]
+    
+    metrics = {}
+    
+    for horizon in horizons:
+        if horizon > seq_length:
+            continue
+        
+        # Extract predictions up to this horizon
+        y_true_h = y_true[:, :horizon]
+        y_pred_h = y_pred[:, :horizon]
+        
+        # Calculate metrics
+        metrics[f"rmse@{horizon}"] = rmse(y_true_h.flatten(), y_pred_h.flatten())
+        metrics[f"mae@{horizon}"] = mae(y_true_h.flatten(), y_pred_h.flatten())
+        
+    return metrics
+
+
+def calculate_metrics(
+    y_true: np.ndarray, 
+    y_pred: np.ndarray,
+    include_horizons: bool = True,
+    horizons: Optional[List[int]] = None
+) -> Dict[str, float]:
     """
     Calculate all metrics.
 
     Args:
         y_true: True values
         y_pred: Predicted values
+        include_horizons: Whether to include horizon-specific metrics
+        horizons: Specific horizons to calculate metrics at
 
     Returns:
         Dictionary with all metrics
     """
-    return {
+    # Overall metrics
+    metrics = {
         "rmse": rmse(y_true, y_pred),
         "mae": mae(y_true, y_pred),
         "mape": mape(y_true, y_pred),
         "r2": r2(y_true, y_pred),
         "mse": mean_squared_error(y_true, y_pred),
+    }
+    
+    # Add horizon-specific metrics
+    if include_horizons:
+        horizon_metrics = calculate_horizon_metrics(y_true, y_pred, horizons)
+        metrics.update(horizon_metrics)
+    
+    return metrics
+
+
+def statistical_comparison(
+    y_true: np.ndarray,
+    y_pred_model: np.ndarray,
+    y_pred_baseline: np.ndarray
+) -> Dict[str, float]:
+    """
+    Statistical comparison between model and baseline predictions.
+    
+    Args:
+        y_true: Ground truth values
+        y_pred_model: Model predictions
+        y_pred_baseline: Baseline predictions
+        
+    Returns:
+        Dictionary with comparison metrics
+    """
+    
+    # Squared errors for each prediction
+    se_model = (y_true - y_pred_model) ** 2
+    se_baseline = (y_true - y_pred_baseline) ** 2
+    
+    # Paired t-test on squared errors
+    t_stat, p_value = stats.ttest_rel(se_baseline, se_model)
+    
+    # Percentage improvement
+    improvement = 100 * (1 - rmse(y_true, y_pred_model) / rmse(y_true, y_pred_baseline))
+    
+    return {
+        "t_statistic": t_stat,
+        "p_value": p_value,
+        "improvement_percent": improvement,
+        "significant_at_001": p_value < 0.001
     }
