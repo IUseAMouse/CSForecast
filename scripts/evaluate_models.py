@@ -222,7 +222,7 @@ def main():
         else:
             # Create baseline on-the-fly if it's random_walk
             print(f"⚠️  No baseline file found for {args.baseline}")
-            baseline_model = create_baseline_model(data, seq_length, out_length, args.baseline)
+            baseline_model = create_baseline_model(args.baseline)
             baseline_name = args.baseline
 
         # Evaluate baseline if available
