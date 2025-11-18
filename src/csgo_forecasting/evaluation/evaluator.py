@@ -96,7 +96,7 @@ class Evaluator:
                 initial_step = np.reshape(
                     initial_step, newshape=(1, initial_step.shape[0])
                 )
-                predictions = self.model.forward(initial_step)
+                predictions = self.model.forward(initial_step, out_length=out_length)
                 y_pred = np.array(predictions[0])
 
             # Ensure y_pred and y_true are 1D arrays
