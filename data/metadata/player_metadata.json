@@ -1,0 +1,7484 @@
+{
+    "data": [
+    {
+    "name": "ZywOo",
+    "url": "https://www.hltv.org/stats/players/11893/zywoo",
+    "maps": "1083",
+    "rounds": "28535",
+    "kdd": "+6626",
+    "kd": "1.38",
+    "rating1": "1.27"
+    },
+    {
+    "name": "s1mple",
+    "url": "https://www.hltv.org/stats/players/7998/s1mple",
+    "maps": "1617",
+    "rounds": "42759",
+    "kdd": "+9307",
+    "kd": "1.34",
+    "rating1": "1.25"
+    },
+    {
+    "name": "sh1ro",
+    "url": "https://www.hltv.org/stats/players/16920/sh1ro",
+    "maps": "925",
+    "rounds": "24587",
+    "kdd": "+5863",
+    "kd": "1.45",
+    "rating1": "1.22"
+    },
+    {
+    "name": "deko",
+    "url": "https://www.hltv.org/stats/players/20113/deko",
+    "maps": "474",
+    "rounds": "12844",
+    "kdd": "+2756",
+    "kd": "1.37",
+    "rating1": "1.21"
+    },
+    {
+    "name": "Kaze",
+    "url": "https://www.hltv.org/stats/players/8950/kaze",
+    "maps": "885",
+    "rounds": "23137",
+    "kdd": "+4323",
+    "kd": "1.32",
+    "rating1": "1.19"
+    },
+    {
+    "name": "saffee",
+    "url": "https://www.hltv.org/stats/players/18835/saffee",
+    "maps": "439",
+    "rounds": "11608",
+    "kdd": "+2040",
+    "kd": "1.29",
+    "rating1": "1.18"
+    },
+    {
+    "name": "degster",
+    "url": "https://www.hltv.org/stats/players/17306/degster",
+    "maps": "739",
+    "rounds": "19693",
+    "kdd": "+3573",
+    "kd": "1.30",
+    "rating1": "1.18"
+    },
+    {
+    "name": "smooya",
+    "url": "https://www.hltv.org/stats/players/11271/smooya",
+    "maps": "916",
+    "rounds": "24290",
+    "kdd": "+4039",
+    "kd": "1.27",
+    "rating1": "1.18"
+    },
+    {
+    "name": "XANTARES",
+    "url": "https://www.hltv.org/stats/players/7938/xantares",
+    "maps": "1854",
+    "rounds": "48916",
+    "kdd": "+6564",
+    "kd": "1.20",
+    "rating1": "1.17"
+    },
+    {
+    "name": "sterling",
+    "url": "https://www.hltv.org/stats/players/12591/sterling",
+    "maps": "893",
+    "rounds": "22899",
+    "kdd": "+4044",
+    "kd": "1.30",
+    "rating1": "1.17"
+    },
+    {
+    "name": "device",
+    "url": "https://www.hltv.org/stats/players/7592/device",
+    "maps": "1793",
+    "rounds": "46666",
+    "kdd": "+7208",
+    "kd": "1.25",
+    "rating1": "1.16"
+    },
+    {
+    "name": "SENSEi",
+    "url": "https://www.hltv.org/stats/players/18227/sensei",
+    "maps": "558",
+    "rounds": "14919",
+    "kdd": "+2816",
+    "kd": "1.34",
+    "rating1": "1.16"
+    },
+    {
+    "name": "DANK1NG",
+    "url": "https://www.hltv.org/stats/players/16207/dank1ng",
+    "maps": "420",
+    "rounds": "11151",
+    "kdd": "+1730",
+    "kd": "1.25",
+    "rating1": "1.16"
+    },
+    {
+    "name": "NiKo",
+    "url": "https://www.hltv.org/stats/players/3741/niko",
+    "maps": "1675",
+    "rounds": "44506",
+    "kdd": "+5691",
+    "kd": "1.19",
+    "rating1": "1.15"
+    },
+    {
+    "name": "blameF",
+    "url": "https://www.hltv.org/stats/players/15165/blamef",
+    "maps": "938",
+    "rounds": "25183",
+    "kdd": "+3953",
+    "kd": "1.26",
+    "rating1": "1.15"
+    },
+    {
+    "name": "torzsi",
+    "url": "https://www.hltv.org/stats/players/18072/torzsi",
+    "maps": "536",
+    "rounds": "14278",
+    "kdd": "+2082",
+    "kd": "1.24",
+    "rating1": "1.15"
+    },
+    {
+    "name": "KSCERATO",
+    "url": "https://www.hltv.org/stats/players/15631/kscerato",
+    "maps": "965",
+    "rounds": "25115",
+    "kdd": "+3996",
+    "kd": "1.27",
+    "rating1": "1.15"
+    },
+    {
+    "name": "BnTeT",
+    "url": "https://www.hltv.org/stats/players/7131/bntet",
+    "maps": "1052",
+    "rounds": "27422",
+    "kdd": "+3782",
+    "kd": "1.22",
+    "rating1": "1.15"
+    },
+    {
+    "name": "coldzera",
+    "url": "https://www.hltv.org/stats/players/9216/coldzera",
+    "maps": "1451",
+    "rounds": "37944",
+    "kdd": "+5640",
+    "kd": "1.24",
+    "rating1": "1.14"
+    },
+    {
+    "name": "Benkai",
+    "url": "https://www.hltv.org/stats/players/8944/benkai",
+    "maps": "603",
+    "rounds": "15560",
+    "kdd": "+2046",
+    "kd": "1.20",
+    "rating1": "1.14"
+    },
+    {
+    "name": "XigN",
+    "url": "https://www.hltv.org/stats/players/9172/xign",
+    "maps": "751",
+    "rounds": "19534",
+    "kdd": "+2444",
+    "kd": "1.19",
+    "rating1": "1.14"
+    },
+    {
+    "name": "Sico",
+    "url": "https://www.hltv.org/stats/players/9102/sico",
+    "maps": "944",
+    "rounds": "23897",
+    "kdd": "+3741",
+    "kd": "1.27",
+    "rating1": "1.14"
+    },
+    {
+    "name": "Texta",
+    "url": "https://www.hltv.org/stats/players/11847/texta",
+    "maps": "625",
+    "rounds": "15713",
+    "kdd": "+1750",
+    "kd": "1.16",
+    "rating1": "1.13"
+    },
+    {
+    "name": "XELLOW",
+    "url": "https://www.hltv.org/stats/players/9626/xellow",
+    "maps": "1151",
+    "rounds": "30359",
+    "kdd": "+3595",
+    "kd": "1.18",
+    "rating1": "1.13"
+    },
+    {
+    "name": "Jame",
+    "url": "https://www.hltv.org/stats/players/13776/jame",
+    "maps": "1240",
+    "rounds": "32857",
+    "kdd": "+5537",
+    "kd": "1.31",
+    "rating1": "1.13"
+    },
+    {
+    "name": "forsyy",
+    "url": "https://www.hltv.org/stats/players/19069/forsyy",
+    "maps": "455",
+    "rounds": "12315",
+    "kdd": "+1742",
+    "kd": "1.24",
+    "rating1": "1.13"
+    },
+    {
+    "name": "oskar",
+    "url": "https://www.hltv.org/stats/players/798/oskar",
+    "maps": "1497",
+    "rounds": "39524",
+    "kdd": "+4973",
+    "kd": "1.20",
+    "rating1": "1.13"
+    },
+    {
+    "name": "mhL",
+    "url": "https://www.hltv.org/stats/players/16847/mhl",
+    "maps": "536",
+    "rounds": "14390",
+    "kdd": "+1862",
+    "kd": "1.20",
+    "rating1": "1.13"
+    },
+    {
+    "name": "El1an",
+    "url": "https://www.hltv.org/stats/players/13281/el1an",
+    "maps": "1316",
+    "rounds": "35114",
+    "kdd": "+4780",
+    "kd": "1.22",
+    "rating1": "1.13"
+    },
+    {
+    "name": "kennyS",
+    "url": "https://www.hltv.org/stats/players/7167/kennys",
+    "maps": "1869",
+    "rounds": "49343",
+    "kdd": "+6294",
+    "kd": "1.20",
+    "rating1": "1.12"
+    },
+    {
+    "name": "frozen",
+    "url": "https://www.hltv.org/stats/players/9960/frozen",
+    "maps": "1276",
+    "rounds": "33368",
+    "kdd": "+3822",
+    "kd": "1.18",
+    "rating1": "1.12"
+    },
+    {
+    "name": "mantuu",
+    "url": "https://www.hltv.org/stats/players/10981/mantuu",
+    "maps": "696",
+    "rounds": "18646",
+    "kdd": "+2374",
+    "kd": "1.21",
+    "rating1": "1.12"
+    },
+    {
+    "name": "Freeman",
+    "url": "https://www.hltv.org/stats/players/10774/freeman",
+    "maps": "788",
+    "rounds": "20184",
+    "kdd": "+2295",
+    "kd": "1.18",
+    "rating1": "1.12"
+    },
+    {
+    "name": "huNter-",
+    "url": "https://www.hltv.org/stats/players/3972/hunter",
+    "maps": "1512",
+    "rounds": "39927",
+    "kdd": "+4284",
+    "kd": "1.16",
+    "rating1": "1.12"
+    },
+    {
+    "name": "liTTle",
+    "url": "https://www.hltv.org/stats/players/1088/little",
+    "maps": "458",
+    "rounds": "12159",
+    "kdd": "+1550",
+    "kd": "1.20",
+    "rating1": "1.12"
+    },
+    {
+    "name": "yuurih",
+    "url": "https://www.hltv.org/stats/players/12553/yuurih",
+    "maps": "1057",
+    "rounds": "27584",
+    "kdd": "+3242",
+    "kd": "1.18",
+    "rating1": "1.12"
+    },
+    {
+    "name": "woxic",
+    "url": "https://www.hltv.org/stats/players/8574/woxic",
+    "maps": "1257",
+    "rounds": "33092",
+    "kdd": "+4139",
+    "kd": "1.20",
+    "rating1": "1.12"
+    },
+    {
+    "name": "INS",
+    "url": "https://www.hltv.org/stats/players/11140/ins",
+    "maps": "993",
+    "rounds": "25161",
+    "kdd": "+2741",
+    "kd": "1.17",
+    "rating1": "1.12"
+    },
+    {
+    "name": "ropz",
+    "url": "https://www.hltv.org/stats/players/11816/ropz",
+    "maps": "1196",
+    "rounds": "31698",
+    "kdd": "+3960",
+    "kd": "1.20",
+    "rating1": "1.12"
+    },
+    {
+    "name": "dgt",
+    "url": "https://www.hltv.org/stats/players/14736/dgt",
+    "maps": "473",
+    "rounds": "12514",
+    "kdd": "+1662",
+    "kd": "1.22",
+    "rating1": "1.12"
+    },
+    {
+    "name": "kNgV-",
+    "url": "https://www.hltv.org/stats/players/5736/kngv",
+    "maps": "854",
+    "rounds": "22371",
+    "kdd": "+2478",
+    "kd": "1.17",
+    "rating1": "1.12"
+    },
+    {
+    "name": "Jamppi",
+    "url": "https://www.hltv.org/stats/players/14087/jamppi",
+    "maps": "503",
+    "rounds": "13449",
+    "kdd": "+1408",
+    "kd": "1.16",
+    "rating1": "1.12"
+    },
+    {
+    "name": "erkaSt",
+    "url": "https://www.hltv.org/stats/players/11141/erkast",
+    "maps": "893",
+    "rounds": "23246",
+    "kdd": "+2493",
+    "kd": "1.16",
+    "rating1": "1.12"
+    },
+    {
+    "name": "wrath",
+    "url": "https://www.hltv.org/stats/players/9884/wrath",
+    "maps": "525",
+    "rounds": "13568",
+    "kdd": "+1239",
+    "kd": "1.13",
+    "rating1": "1.12"
+    },
+    {
+    "name": "chelleos",
+    "url": "https://www.hltv.org/stats/players/12877/chelleos",
+    "maps": "581",
+    "rounds": "14973",
+    "kdd": "+1437",
+    "kd": "1.14",
+    "rating1": "1.11"
+    },
+    {
+    "name": "PTC",
+    "url": "https://www.hltv.org/stats/players/13238/ptc",
+    "maps": "476",
+    "rounds": "12393",
+    "kdd": "+1408",
+    "kd": "1.18",
+    "rating1": "1.11"
+    },
+    {
+    "name": "vsm",
+    "url": "https://www.hltv.org/stats/players/16816/vsm",
+    "maps": "613",
+    "rounds": "16254",
+    "kdd": "+1609",
+    "kd": "1.15",
+    "rating1": "1.11"
+    },
+    {
+    "name": "h4rn",
+    "url": "https://www.hltv.org/stats/players/20097/h4rn",
+    "maps": "657",
+    "rounds": "17610",
+    "kdd": "+2253",
+    "kd": "1.21",
+    "rating1": "1.11"
+    },
+    {
+    "name": "splashske",
+    "url": "https://www.hltv.org/stats/players/8943/splashske",
+    "maps": "722",
+    "rounds": "18651",
+    "kdd": "+1811",
+    "kd": "1.15",
+    "rating1": "1.11"
+    },
+    {
+    "name": "zorte",
+    "url": "https://www.hltv.org/stats/players/15662/zorte",
+    "maps": "819",
+    "rounds": "21968",
+    "kdd": "+2731",
+    "kd": "1.21",
+    "rating1": "1.11"
+    },
+    {
+    "name": "Twistzz",
+    "url": "https://www.hltv.org/stats/players/10394/twistzz",
+    "maps": "1441",
+    "rounds": "37922",
+    "kdd": "+4136",
+    "kd": "1.18",
+    "rating1": "1.11"
+    },
+    {
+    "name": "Vexite",
+    "url": "https://www.hltv.org/stats/players/17384/vexite",
+    "maps": "391",
+    "rounds": "9966",
+    "kdd": "+846",
+    "kd": "1.12",
+    "rating1": "1.11"
+    },
+    {
+    "name": "xsepower",
+    "url": "https://www.hltv.org/stats/players/12733/xsepower",
+    "maps": "1328",
+    "rounds": "35664",
+    "kdd": "+4788",
+    "kd": "1.23",
+    "rating1": "1.11"
+    },
+    {
+    "name": "GuardiaN",
+    "url": "https://www.hltv.org/stats/players/2757/guardian",
+    "maps": "1590",
+    "rounds": "41693",
+    "kdd": "+4763",
+    "kd": "1.18",
+    "rating1": "1.11"
+    },
+    {
+    "name": "nawwk",
+    "url": "https://www.hltv.org/stats/players/13670/nawwk",
+    "maps": "929",
+    "rounds": "24844",
+    "kdd": "+3065",
+    "kd": "1.20",
+    "rating1": "1.11"
+    },
+    {
+    "name": "ottoNd",
+    "url": "https://www.hltv.org/stats/players/11283/ottond",
+    "maps": "883",
+    "rounds": "23305",
+    "kdd": "+2694",
+    "kd": "1.19",
+    "rating1": "1.11"
+    },
+    {
+    "name": "dream3r",
+    "url": "https://www.hltv.org/stats/players/8412/dream3r",
+    "maps": "1331",
+    "rounds": "34918",
+    "kdd": "+4202",
+    "kd": "1.20",
+    "rating1": "1.11"
+    },
+    {
+    "name": "FREDDyFROG",
+    "url": "https://www.hltv.org/stats/players/9277/freddyfrog",
+    "maps": "1208",
+    "rounds": "32176",
+    "kdd": "+3606",
+    "kd": "1.18",
+    "rating1": "1.11"
+    },
+    {
+    "name": "TenZ",
+    "url": "https://www.hltv.org/stats/players/13254/tenz",
+    "maps": "401",
+    "rounds": "10399",
+    "kdd": "+839",
+    "kd": "1.12",
+    "rating1": "1.10"
+    },
+    {
+    "name": "oSee",
+    "url": "https://www.hltv.org/stats/players/13249/osee",
+    "maps": "1159",
+    "rounds": "30231",
+    "kdd": "+3477",
+    "kd": "1.18",
+    "rating1": "1.10"
+    },
+    {
+    "name": "f0rest",
+    "url": "https://www.hltv.org/stats/players/29/f0rest",
+    "maps": "2101",
+    "rounds": "54645",
+    "kdd": "+5673",
+    "kd": "1.16",
+    "rating1": "1.10"
+    },
+    {
+    "name": "Olivia",
+    "url": "https://www.hltv.org/stats/players/10664/olivia",
+    "maps": "634",
+    "rounds": "16189",
+    "kdd": "+1565",
+    "kd": "1.15",
+    "rating1": "1.10"
+    },
+    {
+    "name": "poizon",
+    "url": "https://www.hltv.org/stats/players/12126/poizon",
+    "maps": "1101",
+    "rounds": "29160",
+    "kdd": "+2855",
+    "kd": "1.15",
+    "rating1": "1.10"
+    },
+    {
+    "name": "mertz",
+    "url": "https://www.hltv.org/stats/players/9895/mertz",
+    "maps": "955",
+    "rounds": "25333",
+    "kdd": "+2594",
+    "kd": "1.16",
+    "rating1": "1.10"
+    },
+    {
+    "name": "mir",
+    "url": "https://www.hltv.org/stats/players/8789/mir",
+    "maps": "1066",
+    "rounds": "28082",
+    "kdd": "+2792",
+    "kd": "1.15",
+    "rating1": "1.10"
+    },
+    {
+    "name": "Brehze",
+    "url": "https://www.hltv.org/stats/players/9136/brehze",
+    "maps": "1199",
+    "rounds": "31238",
+    "kdd": "+2779",
+    "kd": "1.13",
+    "rating1": "1.10"
+    },
+    {
+    "name": "WARDELL",
+    "url": "https://www.hltv.org/stats/players/11264/wardell",
+    "maps": "609",
+    "rounds": "15901",
+    "kdd": "+1648",
+    "kd": "1.17",
+    "rating1": "1.10"
+    },
+    {
+    "name": "CeRq",
+    "url": "https://www.hltv.org/stats/players/11219/cerq",
+    "maps": "1234",
+    "rounds": "32056",
+    "kdd": "+3437",
+    "kd": "1.17",
+    "rating1": "1.10"
+    },
+    {
+    "name": "Infinite",
+    "url": "https://www.hltv.org/stats/players/14619/infinite",
+    "maps": "853",
+    "rounds": "22195",
+    "kdd": "+1988",
+    "kd": "1.14",
+    "rating1": "1.10"
+    },
+    {
+    "name": "swag",
+    "url": "https://www.hltv.org/stats/players/5021/swag",
+    "maps": "556",
+    "rounds": "14447",
+    "kdd": "+1629",
+    "kd": "1.18",
+    "rating1": "1.10"
+    },
+    {
+    "name": "ekul",
+    "url": "https://www.hltv.org/stats/players/14505/ekul",
+    "maps": "452",
+    "rounds": "11703",
+    "kdd": "+986",
+    "kd": "1.12",
+    "rating1": "1.10"
+    },
+    {
+    "name": "Ax1Le",
+    "url": "https://www.hltv.org/stats/players/16555/ax1le",
+    "maps": "998",
+    "rounds": "26505",
+    "kdd": "+2679",
+    "kd": "1.16",
+    "rating1": "1.10"
+    },
+    {
+    "name": "allu",
+    "url": "https://www.hltv.org/stats/players/695/allu",
+    "maps": "1661",
+    "rounds": "43559",
+    "kdd": "+4527",
+    "kd": "1.16",
+    "rating1": "1.10"
+    },
+    {
+    "name": "dumau",
+    "url": "https://www.hltv.org/stats/players/15698/dumau",
+    "maps": "497",
+    "rounds": "13209",
+    "kdd": "+1435",
+    "kd": "1.17",
+    "rating1": "1.10"
+    },
+    {
+    "name": "nython",
+    "url": "https://www.hltv.org/stats/players/18743/nython",
+    "maps": "524",
+    "rounds": "13953",
+    "kdd": "+1416",
+    "kd": "1.16",
+    "rating1": "1.10"
+    },
+    {
+    "name": "HEN1",
+    "url": "https://www.hltv.org/stats/players/8565/hen1",
+    "maps": "1175",
+    "rounds": "30553",
+    "kdd": "+3765",
+    "kd": "1.21",
+    "rating1": "1.10"
+    },
+    {
+    "name": "moose",
+    "url": "https://www.hltv.org/stats/players/12271/moose",
+    "maps": "752",
+    "rounds": "19559",
+    "kdd": "+1975",
+    "kd": "1.16",
+    "rating1": "1.10"
+    },
+    {
+    "name": "xccurate",
+    "url": "https://www.hltv.org/stats/players/10263/xccurate",
+    "maps": "698",
+    "rounds": "18113",
+    "kdd": "+1724",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "mixwell",
+    "url": "https://www.hltv.org/stats/players/8370/mixwell",
+    "maps": "840",
+    "rounds": "21804",
+    "kdd": "+1911",
+    "kd": "1.13",
+    "rating1": "1.09"
+    },
+    {
+    "name": "PwnAlone",
+    "url": "https://www.hltv.org/stats/players/15090/pwnalone",
+    "maps": "948",
+    "rounds": "24659",
+    "kdd": "+2382",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "Sonic",
+    "url": "https://www.hltv.org/stats/players/8711/sonic",
+    "maps": "963",
+    "rounds": "24799",
+    "kdd": "+2362",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "syrsoN",
+    "url": "https://www.hltv.org/stats/players/7266/syrson",
+    "maps": "1777",
+    "rounds": "47238",
+    "kdd": "+4777",
+    "kd": "1.16",
+    "rating1": "1.09"
+    },
+    {
+    "name": "NEOFRAG",
+    "url": "https://www.hltv.org/stats/players/15821/neofrag",
+    "maps": "729",
+    "rounds": "19489",
+    "kdd": "+1450",
+    "kd": "1.11",
+    "rating1": "1.09"
+    },
+    {
+    "name": "aliStair",
+    "url": "https://www.hltv.org/stats/players/11139/alistair",
+    "maps": "1105",
+    "rounds": "28044",
+    "kdd": "+2865",
+    "kd": "1.16",
+    "rating1": "1.09"
+    },
+    {
+    "name": "electroNic",
+    "url": "https://www.hltv.org/stats/players/8918/electronic",
+    "maps": "1365",
+    "rounds": "36039",
+    "kdd": "+3123",
+    "kd": "1.13",
+    "rating1": "1.09"
+    },
+    {
+    "name": "GeT_RiGhT",
+    "url": "https://www.hltv.org/stats/players/39/get-right",
+    "maps": "1746",
+    "rounds": "45054",
+    "kdd": "+4291",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "JUGi",
+    "url": "https://www.hltv.org/stats/players/8783/jugi",
+    "maps": "940",
+    "rounds": "24427",
+    "kdd": "+2676",
+    "kd": "1.18",
+    "rating1": "1.09"
+    },
+    {
+    "name": "ritchiEE",
+    "url": "https://www.hltv.org/stats/players/19059/ritchiee",
+    "maps": "406",
+    "rounds": "10791",
+    "kdd": "+915",
+    "kd": "1.13",
+    "rating1": "1.09"
+    },
+    {
+    "name": "biguzera",
+    "url": "https://www.hltv.org/stats/players/18141/biguzera",
+    "maps": "661",
+    "rounds": "17570",
+    "kdd": "+1675",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "zehN",
+    "url": "https://www.hltv.org/stats/players/1378/zehn",
+    "maps": "1147",
+    "rounds": "30404",
+    "kdd": "+2559",
+    "kd": "1.13",
+    "rating1": "1.09"
+    },
+    {
+    "name": "hades",
+    "url": "https://www.hltv.org/stats/players/16848/hades",
+    "maps": "661",
+    "rounds": "17842",
+    "kdd": "+1904",
+    "kd": "1.17",
+    "rating1": "1.09"
+    },
+    {
+    "name": "Cooper",
+    "url": "https://www.hltv.org/stats/players/15007/cooper",
+    "maps": "805",
+    "rounds": "20937",
+    "kdd": "+2050",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "Calyx",
+    "url": "https://www.hltv.org/stats/players/8575/calyx",
+    "maps": "1124",
+    "rounds": "29439",
+    "kdd": "+2866",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "ryx",
+    "url": "https://www.hltv.org/stats/players/9042/ryx",
+    "maps": "491",
+    "rounds": "12856",
+    "kdd": "+1181",
+    "kd": "1.14",
+    "rating1": "1.09"
+    },
+    {
+    "name": "ScreaM",
+    "url": "https://www.hltv.org/stats/players/7390/scream",
+    "maps": "1430",
+    "rounds": "37087",
+    "kdd": "+3105",
+    "kd": "1.13",
+    "rating1": "1.09"
+    },
+    {
+    "name": "NAF",
+    "url": "https://www.hltv.org/stats/players/8520/naf",
+    "maps": "1631",
+    "rounds": "42915",
+    "kdd": "+4179",
+    "kd": "1.15",
+    "rating1": "1.09"
+    },
+    {
+    "name": "ZOREE",
+    "url": "https://www.hltv.org/stats/players/8576/zoree",
+    "maps": "1707",
+    "rounds": "45382",
+    "kdd": "+4487",
+    "kd": "1.16",
+    "rating1": "1.09"
+    },
+    {
+    "name": "BL1TZ",
+    "url": "https://www.hltv.org/stats/players/12715/bl1tz",
+    "maps": "740",
+    "rounds": "19035",
+    "kdd": "+1601",
+    "kd": "1.13",
+    "rating1": "1.09"
+    },
+    {
+    "name": "nex",
+    "url": "https://www.hltv.org/stats/players/7256/nex",
+    "maps": "1074",
+    "rounds": "28389",
+    "kdd": "+2435",
+    "kd": "1.13",
+    "rating1": "1.09"
+    },
+    {
+    "name": "dennyslaw",
+    "url": "https://www.hltv.org/stats/players/13466/dennyslaw",
+    "maps": "1270",
+    "rounds": "34216",
+    "kdd": "+3154",
+    "kd": "1.14",
+    "rating1": "1.08"
+    },
+    {
+    "name": "draken",
+    "url": "https://www.hltv.org/stats/players/9255/draken",
+    "maps": "1195",
+    "rounds": "31711",
+    "kdd": "+3082",
+    "kd": "1.16",
+    "rating1": "1.08"
+    },
+    {
+    "name": "EliGE",
+    "url": "https://www.hltv.org/stats/players/8738/elige",
+    "maps": "1670",
+    "rounds": "43867",
+    "kdd": "+3093",
+    "kd": "1.10",
+    "rating1": "1.08"
+    },
+    {
+    "name": "nukkye",
+    "url": "https://www.hltv.org/stats/players/13679/nukkye",
+    "maps": "592",
+    "rounds": "15492",
+    "kdd": "+1330",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "lollipop21k",
+    "url": "https://www.hltv.org/stats/players/13980/lollipop21k",
+    "maps": "1243",
+    "rounds": "33291",
+    "kdd": "+2474",
+    "kd": "1.11",
+    "rating1": "1.08"
+    },
+    {
+    "name": "gas",
+    "url": "https://www.hltv.org/stats/players/10722/gas",
+    "maps": "499",
+    "rounds": "13098",
+    "kdd": "+777",
+    "kd": "1.08",
+    "rating1": "1.08"
+    },
+    {
+    "name": "pz",
+    "url": "https://www.hltv.org/stats/players/18736/pz",
+    "maps": "481",
+    "rounds": "12494",
+    "kdd": "+1117",
+    "kd": "1.14",
+    "rating1": "1.08"
+    },
+    {
+    "name": "floppy",
+    "url": "https://www.hltv.org/stats/players/12713/floppy",
+    "maps": "863",
+    "rounds": "22675",
+    "kdd": "+1729",
+    "kd": "1.12",
+    "rating1": "1.08"
+    },
+    {
+    "name": "JOTA",
+    "url": "https://www.hltv.org/stats/players/17861/jota",
+    "maps": "504",
+    "rounds": "13183",
+    "kdd": "+1165",
+    "kd": "1.14",
+    "rating1": "1.08"
+    },
+    {
+    "name": "fer",
+    "url": "https://www.hltv.org/stats/players/8564/fer",
+    "maps": "1468",
+    "rounds": "38442",
+    "kdd": "+2823",
+    "kd": "1.11",
+    "rating1": "1.08"
+    },
+    {
+    "name": "valde",
+    "url": "https://www.hltv.org/stats/players/9031/valde",
+    "maps": "1272",
+    "rounds": "33803",
+    "kdd": "+2832",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "faveN",
+    "url": "https://www.hltv.org/stats/players/14932/faven",
+    "maps": "1377",
+    "rounds": "36802",
+    "kdd": "+3090",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Savage",
+    "url": "https://www.hltv.org/stats/players/180/savage",
+    "maps": "836",
+    "rounds": "21434",
+    "kdd": "+1926",
+    "kd": "1.14",
+    "rating1": "1.08"
+    },
+    {
+    "name": "hazr",
+    "url": "https://www.hltv.org/stats/players/14294/hazr",
+    "maps": "816",
+    "rounds": "20895",
+    "kdd": "+1308",
+    "kd": "1.09",
+    "rating1": "1.08"
+    },
+    {
+    "name": "cynic",
+    "url": "https://www.hltv.org/stats/players/16546/cynic",
+    "maps": "771",
+    "rounds": "20085",
+    "kdd": "+1750",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "DJOXiC",
+    "url": "https://www.hltv.org/stats/players/3543/djoxic",
+    "maps": "489",
+    "rounds": "12531",
+    "kdd": "+1204",
+    "kd": "1.15",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Detrony",
+    "url": "https://www.hltv.org/stats/players/7993/detrony",
+    "maps": "412",
+    "rounds": "10449",
+    "kdd": "+862",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Spinx",
+    "url": "https://www.hltv.org/stats/players/18221/spinx",
+    "maps": "501",
+    "rounds": "13358",
+    "kdd": "+1082",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Attacker",
+    "url": "https://www.hltv.org/stats/players/8552/attacker",
+    "maps": "1280",
+    "rounds": "32942",
+    "kdd": "+2681",
+    "kd": "1.12",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Machinegun",
+    "url": "https://www.hltv.org/stats/players/9247/machinegun",
+    "maps": "431",
+    "rounds": "10994",
+    "kdd": "+676",
+    "kd": "1.09",
+    "rating1": "1.08"
+    },
+    {
+    "name": "mezii",
+    "url": "https://www.hltv.org/stats/players/18462/mezii",
+    "maps": "584",
+    "rounds": "15760",
+    "kdd": "+1349",
+    "kd": "1.14",
+    "rating1": "1.08"
+    },
+    {
+    "name": "k0nfig",
+    "url": "https://www.hltv.org/stats/players/9078/k0nfig",
+    "maps": "1595",
+    "rounds": "42269",
+    "kdd": "+2493",
+    "kd": "1.09",
+    "rating1": "1.08"
+    },
+    {
+    "name": "keev",
+    "url": "https://www.hltv.org/stats/players/5799/keev",
+    "maps": "594",
+    "rounds": "15524",
+    "kdd": "+1217",
+    "kd": "1.12",
+    "rating1": "1.08"
+    },
+    {
+    "name": "sergej",
+    "url": "https://www.hltv.org/stats/players/11916/sergej",
+    "maps": "776",
+    "rounds": "20425",
+    "kdd": "+1816",
+    "kd": "1.14",
+    "rating1": "1.08"
+    },
+    {
+    "name": "exit",
+    "url": "https://www.hltv.org/stats/players/11154/exit",
+    "maps": "813",
+    "rounds": "21005",
+    "kdd": "+2158",
+    "kd": "1.17",
+    "rating1": "1.08"
+    },
+    {
+    "name": "ShahZaM",
+    "url": "https://www.hltv.org/stats/players/7810/shahzam",
+    "maps": "966",
+    "rounds": "25252",
+    "kdd": "+2058",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "junior",
+    "url": "https://www.hltv.org/stats/players/14494/junior",
+    "maps": "504",
+    "rounds": "13160",
+    "kdd": "+1366",
+    "kd": "1.17",
+    "rating1": "1.08"
+    },
+    {
+    "name": "FL1T",
+    "url": "https://www.hltv.org/stats/players/12732/fl1t",
+    "maps": "1300",
+    "rounds": "35009",
+    "kdd": "+2983",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Hatz",
+    "url": "https://www.hltv.org/stats/players/11162/hatz",
+    "maps": "961",
+    "rounds": "24476",
+    "kdd": "+2035",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "s4ltovsk1yy",
+    "url": "https://www.hltv.org/stats/players/19614/s4ltovsk1yy",
+    "maps": "427",
+    "rounds": "11648",
+    "kdd": "+1092",
+    "kd": "1.15",
+    "rating1": "1.08"
+    },
+    {
+    "name": "dupreeh",
+    "url": "https://www.hltv.org/stats/players/7398/dupreeh",
+    "maps": "2012",
+    "rounds": "52488",
+    "kdd": "+4316",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Magisk",
+    "url": "https://www.hltv.org/stats/players/9032/magisk",
+    "maps": "1470",
+    "rounds": "38760",
+    "kdd": "+3273",
+    "kd": "1.13",
+    "rating1": "1.08"
+    },
+    {
+    "name": "felps",
+    "url": "https://www.hltv.org/stats/players/9219/felps",
+    "maps": "1078",
+    "rounds": "27678",
+    "kdd": "+1657",
+    "kd": "1.09",
+    "rating1": "1.08"
+    },
+    {
+    "name": "MICHU",
+    "url": "https://www.hltv.org/stats/players/7356/michu",
+    "maps": "1745",
+    "rounds": "45760",
+    "kdd": "+3071",
+    "kd": "1.10",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Farlig",
+    "url": "https://www.hltv.org/stats/players/13300/farlig",
+    "maps": "775",
+    "rounds": "20762",
+    "kdd": "+1777",
+    "kd": "1.14",
+    "rating1": "1.08"
+    },
+    {
+    "name": "meyern",
+    "url": "https://www.hltv.org/stats/players/14737/meyern",
+    "maps": "500",
+    "rounds": "13071",
+    "kdd": "+885",
+    "kd": "1.10",
+    "rating1": "1.08"
+    },
+    {
+    "name": "jayzaR",
+    "url": "https://www.hltv.org/stats/players/8555/jayzar",
+    "maps": "531",
+    "rounds": "14033",
+    "kdd": "+935",
+    "kd": "1.10",
+    "rating1": "1.08"
+    },
+    {
+    "name": "Rickeh",
+    "url": "https://www.hltv.org/stats/players/8745/rickeh",
+    "maps": "962",
+    "rounds": "25181",
+    "kdd": "+2388",
+    "kd": "1.15",
+    "rating1": "1.07"
+    },
+    {
+    "name": "gxx-",
+    "url": "https://www.hltv.org/stats/players/19725/gxx",
+    "maps": "439",
+    "rounds": "11707",
+    "kdd": "+1193",
+    "kd": "1.17",
+    "rating1": "1.07"
+    },
+    {
+    "name": "Summer",
+    "url": "https://www.hltv.org/stats/players/7028/summer",
+    "maps": "1297",
+    "rounds": "33451",
+    "kdd": "+2750",
+    "kd": "1.13",
+    "rating1": "1.07"
+    },
+    {
+    "name": "iDISBALANCE",
+    "url": "https://www.hltv.org/stats/players/14273/idisbalance",
+    "maps": "912",
+    "rounds": "24231",
+    "kdd": "+2253",
+    "kd": "1.15",
+    "rating1": "1.07"
+    },
+    {
+    "name": "Ryxxo",
+    "url": "https://www.hltv.org/stats/players/8848/ryxxo",
+    "maps": "874",
+    "rounds": "22968",
+    "kdd": "+1934",
+    "kd": "1.13",
+    "rating1": "1.07"
+    },
+    {
+    "name": "Liazz",
+    "url": "https://www.hltv.org/stats/players/10588/liazz",
+    "maps": "1020",
+    "rounds": "26256",
+    "kdd": "+2220",
+    "kd": "1.14",
+    "rating1": "1.07"
+    },
+    {
+    "name": "ptr",
+    "url": "https://www.hltv.org/stats/players/8707/ptr",
+    "maps": "1136",
+    "rounds": "29729",
+    "kdd": "+2699",
+    "kd": "1.15",
+    "rating1": "1.07"
+    },
+    {
+    "name": "broky",
+    "url": "https://www.hltv.org/stats/players/18053/broky",
+    "maps": "761",
+    "rounds": "20348",
+    "kdd": "+1881",
+    "kd": "1.15",
+    "rating1": "1.07"
+    },
+    {
+    "name": "fejtZ",
+    "url": "https://www.hltv.org/stats/players/7910/fejtz",
+    "maps": "837",
+    "rounds": "22140",
+    "kdd": "+1590",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "dapr",
+    "url": "https://www.hltv.org/stats/players/11586/dapr",
+    "maps": "594",
+    "rounds": "15426",
+    "kdd": "+1002",
+    "kd": "1.10",
+    "rating1": "1.07"
+    },
+    {
+    "name": "dexter",
+    "url": "https://www.hltv.org/stats/players/9115/dexter",
+    "maps": "1064",
+    "rounds": "27406",
+    "kdd": "+1836",
+    "kd": "1.10",
+    "rating1": "1.07"
+    },
+    {
+    "name": "YEKINDAR",
+    "url": "https://www.hltv.org/stats/players/13915/yekindar",
+    "maps": "1160",
+    "rounds": "30938",
+    "kdd": "+1560",
+    "kd": "1.07",
+    "rating1": "1.07"
+    },
+    {
+    "name": "NaToSaphiX",
+    "url": "https://www.hltv.org/stats/players/9294/natosaphix",
+    "maps": "959",
+    "rounds": "25615",
+    "kdd": "+2452",
+    "kd": "1.16",
+    "rating1": "1.07"
+    },
+    {
+    "name": "hAdji",
+    "url": "https://www.hltv.org/stats/players/9656/hadji",
+    "maps": "1211",
+    "rounds": "31976",
+    "kdd": "+2356",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "autimatic",
+    "url": "https://www.hltv.org/stats/players/8735/autimatic",
+    "maps": "1199",
+    "rounds": "31335",
+    "kdd": "+2303",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "Impulse",
+    "url": "https://www.hltv.org/stats/players/12379/impulse",
+    "maps": "781",
+    "rounds": "20768",
+    "kdd": "+1589",
+    "kd": "1.12",
+    "rating1": "1.07"
+    },
+    {
+    "name": "anarkez",
+    "url": "https://www.hltv.org/stats/players/11815/anarkez",
+    "maps": "768",
+    "rounds": "20689",
+    "kdd": "+1538",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "hallzerk",
+    "url": "https://www.hltv.org/stats/players/12840/hallzerk",
+    "maps": "796",
+    "rounds": "21601",
+    "kdd": "+1506",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "nicoodoz",
+    "url": "https://www.hltv.org/stats/players/13602/nicoodoz",
+    "maps": "792",
+    "rounds": "21228",
+    "kdd": "+1927",
+    "kd": "1.15",
+    "rating1": "1.07"
+    },
+    {
+    "name": "fame",
+    "url": "https://www.hltv.org/stats/players/20101/fame",
+    "maps": "569",
+    "rounds": "15154",
+    "kdd": "+1050",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "xand",
+    "url": "https://www.hltv.org/stats/players/9218/xand",
+    "maps": "515",
+    "rounds": "13210",
+    "kdd": "+875",
+    "kd": "1.10",
+    "rating1": "1.07"
+    },
+    {
+    "name": "EspiranTo",
+    "url": "https://www.hltv.org/stats/players/12030/espiranto",
+    "maps": "881",
+    "rounds": "23045",
+    "kdd": "+1349",
+    "kd": "1.09",
+    "rating1": "1.07"
+    },
+    {
+    "name": "InfrequeNt",
+    "url": "https://www.hltv.org/stats/players/10587/infrequent",
+    "maps": "479",
+    "rounds": "12350",
+    "kdd": "+920",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "shox",
+    "url": "https://www.hltv.org/stats/players/1225/shox",
+    "maps": "2053",
+    "rounds": "53896",
+    "kdd": "+3736",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "jL",
+    "url": "https://www.hltv.org/stats/players/19206/jl",
+    "maps": "386",
+    "rounds": "10331",
+    "kdd": "+673",
+    "kd": "1.10",
+    "rating1": "1.07"
+    },
+    {
+    "name": "CRUC1AL",
+    "url": "https://www.hltv.org/stats/players/7996/cruc1al",
+    "maps": "1491",
+    "rounds": "39118",
+    "kdd": "+2817",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "somebody",
+    "url": "https://www.hltv.org/stats/players/8605/somebody",
+    "maps": "1257",
+    "rounds": "32545",
+    "kdd": "+2162",
+    "kd": "1.10",
+    "rating1": "1.07"
+    },
+    {
+    "name": "jks",
+    "url": "https://www.hltv.org/stats/players/4679/jks",
+    "maps": "1221",
+    "rounds": "31892",
+    "kdd": "+2340",
+    "kd": "1.12",
+    "rating1": "1.07"
+    },
+    {
+    "name": "QKA",
+    "url": "https://www.hltv.org/stats/players/11355/qka",
+    "maps": "402",
+    "rounds": "10409",
+    "kdd": "+702",
+    "kd": "1.10",
+    "rating1": "1.07"
+    },
+    {
+    "name": "NikoM",
+    "url": "https://www.hltv.org/stats/players/10504/nikom",
+    "maps": "537",
+    "rounds": "13864",
+    "kdd": "+966",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "WorldEdit",
+    "url": "https://www.hltv.org/stats/players/7403/worldedit",
+    "maps": "1330",
+    "rounds": "34767",
+    "kdd": "+2453",
+    "kd": "1.11",
+    "rating1": "1.07"
+    },
+    {
+    "name": "shroud",
+    "url": "https://www.hltv.org/stats/players/8349/shroud",
+    "maps": "676",
+    "rounds": "17460",
+    "kdd": "+1311",
+    "kd": "1.12",
+    "rating1": "1.07"
+    },
+    {
+    "name": "Pimp",
+    "url": "https://www.hltv.org/stats/players/7154/pimp",
+    "maps": "976",
+    "rounds": "25052",
+    "kdd": "+2016",
+    "kd": "1.13",
+    "rating1": "1.07"
+    },
+    {
+    "name": "reiko",
+    "url": "https://www.hltv.org/stats/players/15203/reiko",
+    "maps": "413",
+    "rounds": "11018",
+    "kdd": "+385",
+    "kd": "1.05",
+    "rating1": "1.07"
+    },
+    {
+    "name": "FalleN",
+    "url": "https://www.hltv.org/stats/players/2023/fallen",
+    "maps": "1615",
+    "rounds": "42388",
+    "kdd": "+3802",
+    "kd": "1.15",
+    "rating1": "1.07"
+    },
+    {
+    "name": "DD",
+    "url": "https://www.hltv.org/stats/players/7026/dd",
+    "maps": "917",
+    "rounds": "23728",
+    "kdd": "+1523",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "HObbit",
+    "url": "https://www.hltv.org/stats/players/8528/hobbit",
+    "maps": "1225",
+    "rounds": "32359",
+    "kdd": "+2268",
+    "kd": "1.11",
+    "rating1": "1.06"
+    },
+    {
+    "name": "chelo",
+    "url": "https://www.hltv.org/stats/players/10566/chelo",
+    "maps": "946",
+    "rounds": "24624",
+    "kdd": "+1501",
+    "kd": "1.09",
+    "rating1": "1.06"
+    },
+    {
+    "name": "dycha",
+    "url": "https://www.hltv.org/stats/players/16080/dycha",
+    "maps": "855",
+    "rounds": "22908",
+    "kdd": "+1310",
+    "kd": "1.09",
+    "rating1": "1.06"
+    },
+    {
+    "name": "snatchie",
+    "url": "https://www.hltv.org/stats/players/9574/snatchie",
+    "maps": "1614",
+    "rounds": "43241",
+    "kdd": "+2549",
+    "kd": "1.09",
+    "rating1": "1.06"
+    },
+    {
+    "name": "smike",
+    "url": "https://www.hltv.org/stats/players/8526/smike",
+    "maps": "496",
+    "rounds": "12846",
+    "kdd": "+601",
+    "kd": "1.07",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Brollan",
+    "url": "https://www.hltv.org/stats/players/13666/brollan",
+    "maps": "1052",
+    "rounds": "27932",
+    "kdd": "+1545",
+    "kd": "1.08",
+    "rating1": "1.06"
+    },
+    {
+    "name": "acoR",
+    "url": "https://www.hltv.org/stats/players/10330/acor",
+    "maps": "1100",
+    "rounds": "28820",
+    "kdd": "+2129",
+    "kd": "1.12",
+    "rating1": "1.06"
+    },
+    {
+    "name": "ofnu",
+    "url": "https://www.hltv.org/stats/players/8767/ofnu",
+    "maps": "852",
+    "rounds": "21778",
+    "kdd": "+1380",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "AnJ",
+    "url": "https://www.hltv.org/stats/players/9317/anj",
+    "maps": "403",
+    "rounds": "10503",
+    "kdd": "+763",
+    "kd": "1.11",
+    "rating1": "1.06"
+    },
+    {
+    "name": "slaxz-",
+    "url": "https://www.hltv.org/stats/players/15370/slaxz",
+    "maps": "1021",
+    "rounds": "27719",
+    "kdd": "+2180",
+    "kd": "1.13",
+    "rating1": "1.06"
+    },
+    {
+    "name": "boltz",
+    "url": "https://www.hltv.org/stats/players/8568/boltz",
+    "maps": "1335",
+    "rounds": "34905",
+    "kdd": "+2599",
+    "kd": "1.12",
+    "rating1": "1.06"
+    },
+    {
+    "name": "shz",
+    "url": "https://www.hltv.org/stats/players/11739/shz",
+    "maps": "813",
+    "rounds": "21090",
+    "kdd": "+1433",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Ethan",
+    "url": "https://www.hltv.org/stats/players/10671/ethan",
+    "maps": "986",
+    "rounds": "25998",
+    "kdd": "+1488",
+    "kd": "1.09",
+    "rating1": "1.06"
+    },
+    {
+    "name": "malbsMd",
+    "url": "https://www.hltv.org/stats/players/11617/malbsmd",
+    "maps": "628",
+    "rounds": "16061",
+    "kdd": "+557",
+    "kd": "1.05",
+    "rating1": "1.06"
+    },
+    {
+    "name": "trk",
+    "url": "https://www.hltv.org/stats/players/11163/trk",
+    "maps": "916",
+    "rounds": "23925",
+    "kdd": "+1594",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "SHiPZ",
+    "url": "https://www.hltv.org/stats/players/11343/shipz",
+    "maps": "1792",
+    "rounds": "47830",
+    "kdd": "+2408",
+    "kd": "1.07",
+    "rating1": "1.06"
+    },
+    {
+    "name": "NikkeZ",
+    "url": "https://www.hltv.org/stats/players/9676/nikkez",
+    "maps": "420",
+    "rounds": "10817",
+    "kdd": "+549",
+    "kd": "1.07",
+    "rating1": "1.06"
+    },
+    {
+    "name": "zhokiNg",
+    "url": "https://www.hltv.org/stats/players/8601/zhoking",
+    "maps": "1233",
+    "rounds": "31525",
+    "kdd": "+1463",
+    "kd": "1.07",
+    "rating1": "1.06"
+    },
+    {
+    "name": "roeJ",
+    "url": "https://www.hltv.org/stats/players/14419/roej",
+    "maps": "961",
+    "rounds": "25373",
+    "kdd": "+1463",
+    "kd": "1.08",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Happy",
+    "url": "https://www.hltv.org/stats/players/7429/happy",
+    "maps": "1464",
+    "rounds": "37933",
+    "kdd": "+2745",
+    "kd": "1.11",
+    "rating1": "1.06"
+    },
+    {
+    "name": "shalfey",
+    "url": "https://www.hltv.org/stats/players/17011/shalfey",
+    "maps": "465",
+    "rounds": "12591",
+    "kdd": "+1019",
+    "kd": "1.13",
+    "rating1": "1.06"
+    },
+    {
+    "name": "COLDYY1",
+    "url": "https://www.hltv.org/stats/players/9083/coldyy1",
+    "maps": "947",
+    "rounds": "24917",
+    "kdd": "+1718",
+    "kd": "1.11",
+    "rating1": "1.06"
+    },
+    {
+    "name": "b4rtiN",
+    "url": "https://www.hltv.org/stats/players/17585/b4rtin",
+    "maps": "547",
+    "rounds": "14329",
+    "kdd": "+948",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Rainwaker",
+    "url": "https://www.hltv.org/stats/players/17145/rainwaker",
+    "maps": "1224",
+    "rounds": "33040",
+    "kdd": "+2283",
+    "kd": "1.11",
+    "rating1": "1.06"
+    },
+    {
+    "name": "paz",
+    "url": "https://www.hltv.org/stats/players/9353/paz",
+    "maps": "1147",
+    "rounds": "30130",
+    "kdd": "+1910",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Skadoodle",
+    "url": "https://www.hltv.org/stats/players/7440/skadoodle",
+    "maps": "1047",
+    "rounds": "27129",
+    "kdd": "+2458",
+    "kd": "1.15",
+    "rating1": "1.06"
+    },
+    {
+    "name": "afro",
+    "url": "https://www.hltv.org/stats/players/19926/afro",
+    "maps": "652",
+    "rounds": "17445",
+    "kdd": "+1158",
+    "kd": "1.11",
+    "rating1": "1.06"
+    },
+    {
+    "name": "koosta",
+    "url": "https://www.hltv.org/stats/players/9056/koosta",
+    "maps": "977",
+    "rounds": "25766",
+    "kdd": "+1341",
+    "kd": "1.08",
+    "rating1": "1.06"
+    },
+    {
+    "name": "pancc",
+    "url": "https://www.hltv.org/stats/players/16314/pancc",
+    "maps": "602",
+    "rounds": "15875",
+    "kdd": "+818",
+    "kd": "1.08",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Valiance",
+    "url": "https://www.hltv.org/stats/players/16323/valiance",
+    "maps": "657",
+    "rounds": "16993",
+    "kdd": "+1091",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "flameZ",
+    "url": "https://www.hltv.org/stats/players/16693/flamez",
+    "maps": "440",
+    "rounds": "11761",
+    "kdd": "+566",
+    "kd": "1.07",
+    "rating1": "1.06"
+    },
+    {
+    "name": "flying",
+    "url": "https://www.hltv.org/stats/players/16872/flying",
+    "maps": "410",
+    "rounds": "10937",
+    "kdd": "+522",
+    "kd": "1.07",
+    "rating1": "1.06"
+    },
+    {
+    "name": "tucks",
+    "url": "https://www.hltv.org/stats/players/9108/tucks",
+    "maps": "718",
+    "rounds": "18208",
+    "kdd": "+1227",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "TOR",
+    "url": "https://www.hltv.org/stats/players/9288/tor",
+    "maps": "452",
+    "rounds": "11472",
+    "kdd": "+657",
+    "kd": "1.09",
+    "rating1": "1.06"
+    },
+    {
+    "name": "remix",
+    "url": "https://www.hltv.org/stats/players/2544/remix",
+    "maps": "456",
+    "rounds": "12172",
+    "kdd": "+733",
+    "kd": "1.09",
+    "rating1": "1.06"
+    },
+    {
+    "name": "hardzao",
+    "url": "https://www.hltv.org/stats/players/16817/hardzao",
+    "maps": "741",
+    "rounds": "19481",
+    "kdd": "+1471",
+    "kd": "1.12",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Maka",
+    "url": "https://www.hltv.org/stats/players/13138/maka",
+    "maps": "1242",
+    "rounds": "32995",
+    "kdd": "+2168",
+    "kd": "1.10",
+    "rating1": "1.06"
+    },
+    {
+    "name": "suNny",
+    "url": "https://www.hltv.org/stats/players/5479/sunny",
+    "maps": "1351",
+    "rounds": "35653",
+    "kdd": "+1627",
+    "kd": "1.07",
+    "rating1": "1.06"
+    },
+    {
+    "name": "Sobol",
+    "url": "https://www.hltv.org/stats/players/15940/sobol",
+    "maps": "859",
+    "rounds": "23256",
+    "kdd": "+1309",
+    "kd": "1.09",
+    "rating1": "1.06"
+    },
+    {
+    "name": "olofmeister",
+    "url": "https://www.hltv.org/stats/players/885/olofmeister",
+    "maps": "1568",
+    "rounds": "40980",
+    "kdd": "+2664",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "SLOWLY",
+    "url": "https://www.hltv.org/stats/players/15683/slowly",
+    "maps": "569",
+    "rounds": "15083",
+    "kdd": "+672",
+    "kd": "1.07",
+    "rating1": "1.05"
+    },
+    {
+    "name": "rallen",
+    "url": "https://www.hltv.org/stats/players/5388/rallen",
+    "maps": "1783",
+    "rounds": "47655",
+    "kdd": "+3106",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "b1t",
+    "url": "https://www.hltv.org/stats/players/18987/b1t",
+    "maps": "506",
+    "rounds": "13440",
+    "kdd": "+881",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "bottle",
+    "url": "https://www.hltv.org/stats/players/10168/bottle",
+    "maps": "768",
+    "rounds": "19801",
+    "kdd": "+871",
+    "kd": "1.06",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Gratisfaction",
+    "url": "https://www.hltv.org/stats/players/9686/gratisfaction",
+    "maps": "919",
+    "rounds": "23921",
+    "kdd": "+1674",
+    "kd": "1.11",
+    "rating1": "1.05"
+    },
+    {
+    "name": "ISSAA",
+    "url": "https://www.hltv.org/stats/players/10449/issaa",
+    "maps": "870",
+    "rounds": "22834",
+    "kdd": "+1402",
+    "kd": "1.09",
+    "rating1": "1.05"
+    },
+    {
+    "name": "rigoN",
+    "url": "https://www.hltv.org/stats/players/12708/rigon",
+    "maps": "455",
+    "rounds": "12154",
+    "kdd": "+234",
+    "kd": "1.03",
+    "rating1": "1.05"
+    },
+    {
+    "name": "KEi",
+    "url": "https://www.hltv.org/stats/players/17504/kei",
+    "maps": "720",
+    "rounds": "19382",
+    "kdd": "+724",
+    "kd": "1.05",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Krimbo",
+    "url": "https://www.hltv.org/stats/players/19899/krimbo",
+    "maps": "412",
+    "rounds": "11059",
+    "kdd": "+689",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Ramz1kBO$$",
+    "url": "https://www.hltv.org/stats/players/11842/ramz1kbo",
+    "maps": "425",
+    "rounds": "11070",
+    "kdd": "+553",
+    "kd": "1.07",
+    "rating1": "1.05"
+    },
+    {
+    "name": "tabseN",
+    "url": "https://www.hltv.org/stats/players/5794/tabsen",
+    "maps": "2007",
+    "rounds": "53071",
+    "kdd": "+1614",
+    "kd": "1.04",
+    "rating1": "1.05"
+    },
+    {
+    "name": "HZ",
+    "url": "https://www.hltv.org/stats/players/7016/hz",
+    "maps": "500",
+    "rounds": "12856",
+    "kdd": "+691",
+    "kd": "1.08",
+    "rating1": "1.05"
+    },
+    {
+    "name": "stavn",
+    "url": "https://www.hltv.org/stats/players/10994/stavn",
+    "maps": "1189",
+    "rounds": "31684",
+    "kdd": "+1641",
+    "kd": "1.08",
+    "rating1": "1.05"
+    },
+    {
+    "name": "iM",
+    "url": "https://www.hltv.org/stats/players/14759/im",
+    "maps": "811",
+    "rounds": "21775",
+    "kdd": "+887",
+    "kd": "1.06",
+    "rating1": "1.05"
+    },
+    {
+    "name": "nin9",
+    "url": "https://www.hltv.org/stats/players/15072/nin9",
+    "maps": "422",
+    "rounds": "11162",
+    "kdd": "+756",
+    "kd": "1.11",
+    "rating1": "1.05"
+    },
+    {
+    "name": "WolfY",
+    "url": "https://www.hltv.org/stats/players/12937/wolfy",
+    "maps": "618",
+    "rounds": "16446",
+    "kdd": "+1251",
+    "kd": "1.12",
+    "rating1": "1.05"
+    },
+    {
+    "name": "cajunb",
+    "url": "https://www.hltv.org/stats/players/2469/cajunb",
+    "maps": "1751",
+    "rounds": "45848",
+    "kdd": "+2868",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "JW",
+    "url": "https://www.hltv.org/stats/players/3849/jw",
+    "maps": "2017",
+    "rounds": "53048",
+    "kdd": "+2499",
+    "kd": "1.07",
+    "rating1": "1.05"
+    },
+    {
+    "name": "mou",
+    "url": "https://www.hltv.org/stats/players/964/mou",
+    "maps": "1508",
+    "rounds": "39968",
+    "kdd": "+2502",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Grim",
+    "url": "https://www.hltv.org/stats/players/13578/grim",
+    "maps": "945",
+    "rounds": "24863",
+    "kdd": "+816",
+    "kd": "1.05",
+    "rating1": "1.05"
+    },
+    {
+    "name": "nexa",
+    "url": "https://www.hltv.org/stats/players/9618/nexa",
+    "maps": "1306",
+    "rounds": "34570",
+    "kdd": "+2147",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Lucaozy",
+    "url": "https://www.hltv.org/stats/players/18717/lucaozy",
+    "maps": "479",
+    "rounds": "12939",
+    "kdd": "+825",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "KRIMZ",
+    "url": "https://www.hltv.org/stats/players/7528/krimz",
+    "maps": "1847",
+    "rounds": "48593",
+    "kdd": "+3127",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "zeph",
+    "url": "https://www.hltv.org/stats/players/13054/zeph",
+    "maps": "596",
+    "rounds": "15139",
+    "kdd": "+598",
+    "kd": "1.06",
+    "rating1": "1.05"
+    },
+    {
+    "name": "yay",
+    "url": "https://www.hltv.org/stats/players/8513/yay",
+    "maps": "653",
+    "rounds": "17182",
+    "kdd": "+604",
+    "kd": "1.05",
+    "rating1": "1.05"
+    },
+    {
+    "name": "REDSTAR",
+    "url": "https://www.hltv.org/stats/players/15369/redstar",
+    "maps": "709",
+    "rounds": "18882",
+    "kdd": "+1250",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "latto",
+    "url": "https://www.hltv.org/stats/players/19045/latto",
+    "maps": "401",
+    "rounds": "10649",
+    "kdd": "+635",
+    "kd": "1.09",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Lucky",
+    "url": "https://www.hltv.org/stats/players/13843/lucky",
+    "maps": "581",
+    "rounds": "15680",
+    "kdd": "+1070",
+    "kd": "1.11",
+    "rating1": "1.05"
+    },
+    {
+    "name": "juanflatroo",
+    "url": "https://www.hltv.org/stats/players/17147/juanflatroo",
+    "maps": "648",
+    "rounds": "17311",
+    "kdd": "+492",
+    "kd": "1.04",
+    "rating1": "1.05"
+    },
+    {
+    "name": "SicK",
+    "url": "https://www.hltv.org/stats/players/9258/sick",
+    "maps": "795",
+    "rounds": "20701",
+    "kdd": "+1040",
+    "kd": "1.07",
+    "rating1": "1.05"
+    },
+    {
+    "name": "NEEX",
+    "url": "https://www.hltv.org/stats/players/8543/neex",
+    "maps": "429",
+    "rounds": "11195",
+    "kdd": "+574",
+    "kd": "1.08",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Marcelious",
+    "url": "https://www.hltv.org/stats/players/14602/marcelious",
+    "maps": "510",
+    "rounds": "13753",
+    "kdd": "+665",
+    "kd": "1.07",
+    "rating1": "1.05"
+    },
+    {
+    "name": "loWel",
+    "url": "https://www.hltv.org/stats/players/3997/lowel",
+    "maps": "1008",
+    "rounds": "26413",
+    "kdd": "+1739",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "FASHR",
+    "url": "https://www.hltv.org/stats/players/11954/fashr",
+    "maps": "796",
+    "rounds": "21105",
+    "kdd": "+814",
+    "kd": "1.06",
+    "rating1": "1.05"
+    },
+    {
+    "name": "raafa",
+    "url": "https://www.hltv.org/stats/players/11748/raafa",
+    "maps": "640",
+    "rounds": "16832",
+    "kdd": "+1092",
+    "kd": "1.10",
+    "rating1": "1.05"
+    },
+    {
+    "name": "TeSeS",
+    "url": "https://www.hltv.org/stats/players/12018/teses",
+    "maps": "901",
+    "rounds": "24067",
+    "kdd": "+1098",
+    "kd": "1.07",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Zellsis",
+    "url": "https://www.hltv.org/stats/players/13188/zellsis",
+    "maps": "626",
+    "rounds": "16210",
+    "kdd": "+803",
+    "kd": "1.07",
+    "rating1": "1.05"
+    },
+    {
+    "name": "rommi",
+    "url": "https://www.hltv.org/stats/players/10589/rommi",
+    "maps": "516",
+    "rounds": "13467",
+    "kdd": "+604",
+    "kd": "1.06",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Bwills",
+    "url": "https://www.hltv.org/stats/players/16647/bwills",
+    "maps": "892",
+    "rounds": "23191",
+    "kdd": "+1178",
+    "kd": "1.08",
+    "rating1": "1.05"
+    },
+    {
+    "name": "Flarich",
+    "url": "https://www.hltv.org/stats/players/11250/flarich",
+    "maps": "1083",
+    "rounds": "28855",
+    "kdd": "+1821",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "cadiaN",
+    "url": "https://www.hltv.org/stats/players/7964/cadian",
+    "maps": "1544",
+    "rounds": "40820",
+    "kdd": "+2705",
+    "kd": "1.11",
+    "rating1": "1.04"
+    },
+    {
+    "name": "MarKE",
+    "url": "https://www.hltv.org/stats/players/10892/marke",
+    "maps": "931",
+    "rounds": "23971",
+    "kdd": "+1349",
+    "kd": "1.09",
+    "rating1": "1.04"
+    },
+    {
+    "name": "DavCost",
+    "url": "https://www.hltv.org/stats/players/8124/davcost",
+    "maps": "1302",
+    "rounds": "34292",
+    "kdd": "+1984",
+    "kd": "1.09",
+    "rating1": "1.04"
+    },
+    {
+    "name": "malta",
+    "url": "https://www.hltv.org/stats/players/11485/malta",
+    "maps": "1037",
+    "rounds": "26395",
+    "kdd": "+1481",
+    "kd": "1.09",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Aerial",
+    "url": "https://www.hltv.org/stats/players/4076/aerial",
+    "maps": "1015",
+    "rounds": "27068",
+    "kdd": "+1248",
+    "kd": "1.07",
+    "rating1": "1.04"
+    },
+    {
+    "name": "jkaem",
+    "url": "https://www.hltv.org/stats/players/8248/jkaem",
+    "maps": "1352",
+    "rounds": "35751",
+    "kdd": "+1243",
+    "kd": "1.05",
+    "rating1": "1.04"
+    },
+    {
+    "name": "motm",
+    "url": "https://www.hltv.org/stats/players/13230/motm",
+    "maps": "1039",
+    "rounds": "27336",
+    "kdd": "+1155",
+    "kd": "1.06",
+    "rating1": "1.04"
+    },
+    {
+    "name": "sdy",
+    "url": "https://www.hltv.org/stats/players/12731/sdy",
+    "maps": "1152",
+    "rounds": "30254",
+    "kdd": "+1877",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Kjaerbye",
+    "url": "https://www.hltv.org/stats/players/8394/kjaerbye",
+    "maps": "1549",
+    "rounds": "40780",
+    "kdd": "+2094",
+    "kd": "1.08",
+    "rating1": "1.04"
+    },
+    {
+    "name": "zewsy",
+    "url": "https://www.hltv.org/stats/players/8764/zewsy",
+    "maps": "618",
+    "rounds": "15666",
+    "kdd": "+667",
+    "kd": "1.06",
+    "rating1": "1.04"
+    },
+    {
+    "name": "STOMP",
+    "url": "https://www.hltv.org/stats/players/12699/stomp",
+    "maps": "809",
+    "rounds": "21729",
+    "kdd": "+1329",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "aumaN",
+    "url": "https://www.hltv.org/stats/players/8604/auman",
+    "maps": "874",
+    "rounds": "22423",
+    "kdd": "+1183",
+    "kd": "1.08",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Hiko",
+    "url": "https://www.hltv.org/stats/players/2644/hiko",
+    "maps": "937",
+    "rounds": "24398",
+    "kdd": "+1532",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Geniuss",
+    "url": "https://www.hltv.org/stats/players/12564/geniuss",
+    "maps": "398",
+    "rounds": "10155",
+    "kdd": "+309",
+    "kd": "1.04",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Qikert",
+    "url": "https://www.hltv.org/stats/players/13239/qikert",
+    "maps": "1320",
+    "rounds": "34873",
+    "kdd": "+1891",
+    "kd": "1.08",
+    "rating1": "1.04"
+    },
+    {
+    "name": "HSK",
+    "url": "https://www.hltv.org/stats/players/9174/hsk",
+    "maps": "540",
+    "rounds": "13851",
+    "kdd": "+845",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "fleav",
+    "url": "https://www.hltv.org/stats/players/12317/fleav",
+    "maps": "577",
+    "rounds": "15148",
+    "kdd": "+489",
+    "kd": "1.05",
+    "rating1": "1.04"
+    },
+    {
+    "name": "land1n",
+    "url": "https://www.hltv.org/stats/players/10557/land1n",
+    "maps": "804",
+    "rounds": "21047",
+    "kdd": "+1328",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Snax",
+    "url": "https://www.hltv.org/stats/players/2553/snax",
+    "maps": "2169",
+    "rounds": "57258",
+    "kdd": "+2851",
+    "kd": "1.08",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Bubzkji",
+    "url": "https://www.hltv.org/stats/players/9612/bubzkji",
+    "maps": "817",
+    "rounds": "21619",
+    "kdd": "+963",
+    "kd": "1.07",
+    "rating1": "1.04"
+    },
+    {
+    "name": "flusha",
+    "url": "https://www.hltv.org/stats/players/3055/flusha",
+    "maps": "1955",
+    "rounds": "51348",
+    "kdd": "+2512",
+    "kd": "1.07",
+    "rating1": "1.04"
+    },
+    {
+    "name": "n0rb3r7",
+    "url": "https://www.hltv.org/stats/players/16612/n0rb3r7",
+    "maps": "1127",
+    "rounds": "30086",
+    "kdd": "+841",
+    "kd": "1.04",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Swahn",
+    "url": "https://www.hltv.org/stats/players/15255/swahn",
+    "maps": "462",
+    "rounds": "12209",
+    "kdd": "+640",
+    "kd": "1.08",
+    "rating1": "1.04"
+    },
+    {
+    "name": "eraa",
+    "url": "https://www.hltv.org/stats/players/16487/eraa",
+    "maps": "641",
+    "rounds": "17333",
+    "kdd": "+811",
+    "kd": "1.07",
+    "rating1": "1.04"
+    },
+    {
+    "name": "ANDROID",
+    "url": "https://www.hltv.org/stats/players/9043/android",
+    "maps": "835",
+    "rounds": "21741",
+    "kdd": "+1036",
+    "kd": "1.07",
+    "rating1": "1.04"
+    },
+    {
+    "name": "LOVEYY",
+    "url": "https://www.hltv.org/stats/players/8957/loveyy",
+    "maps": "708",
+    "rounds": "17977",
+    "kdd": "+699",
+    "kd": "1.06",
+    "rating1": "1.04"
+    },
+    {
+    "name": "dEE",
+    "url": "https://www.hltv.org/stats/players/4576/dee",
+    "maps": "477",
+    "rounds": "12607",
+    "kdd": "+618",
+    "kd": "1.07",
+    "rating1": "1.04"
+    },
+    {
+    "name": "buster",
+    "url": "https://www.hltv.org/stats/players/11942/buster",
+    "maps": "1252",
+    "rounds": "33082",
+    "kdd": "+1966",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "b0denmaster",
+    "url": "https://www.hltv.org/stats/players/15501/b0denmaster",
+    "maps": "618",
+    "rounds": "16393",
+    "kdd": "+806",
+    "kd": "1.08",
+    "rating1": "1.04"
+    },
+    {
+    "name": "phzy",
+    "url": "https://www.hltv.org/stats/players/16726/phzy",
+    "maps": "535",
+    "rounds": "14401",
+    "kdd": "+850",
+    "kd": "1.10",
+    "rating1": "1.04"
+    },
+    {
+    "name": "KHTEX",
+    "url": "https://www.hltv.org/stats/players/10842/khtex",
+    "maps": "626",
+    "rounds": "16154",
+    "kdd": "+859",
+    "kd": "1.08",
+    "rating1": "1.04"
+    },
+    {
+    "name": "Davidp",
+    "url": "https://www.hltv.org/stats/players/8138/davidp",
+    "maps": "774",
+    "rounds": "20539",
+    "kdd": "+1009",
+    "kd": "1.08",
+    "rating1": "1.03"
+    },
+    {
+    "name": "tb",
+    "url": "https://www.hltv.org/stats/players/839/tb",
+    "maps": "619",
+    "rounds": "15737",
+    "kdd": "+708",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "refrezh",
+    "url": "https://www.hltv.org/stats/players/10610/refrezh",
+    "maps": "1061",
+    "rounds": "28374",
+    "kdd": "+1242",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Swisher",
+    "url": "https://www.hltv.org/stats/players/16599/swisher",
+    "maps": "711",
+    "rounds": "18472",
+    "kdd": "+601",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "tarik",
+    "url": "https://www.hltv.org/stats/players/8523/tarik",
+    "maps": "1438",
+    "rounds": "37326",
+    "kdd": "+1316",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "REZ",
+    "url": "https://www.hltv.org/stats/players/9278/rez",
+    "maps": "1402",
+    "rounds": "36877",
+    "kdd": "+1378",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "twist",
+    "url": "https://www.hltv.org/stats/players/7443/twist",
+    "maps": "1800",
+    "rounds": "47812",
+    "kdd": "+1711",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Snakes",
+    "url": "https://www.hltv.org/stats/players/13229/snakes",
+    "maps": "427",
+    "rounds": "10951",
+    "kdd": "+432",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "skullz",
+    "url": "https://www.hltv.org/stats/players/18676/skullz",
+    "maps": "401",
+    "rounds": "10789",
+    "kdd": "+479",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "kabal",
+    "url": "https://www.hltv.org/stats/players/10870/kabal",
+    "maps": "858",
+    "rounds": "22580",
+    "kdd": "+998",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "NK4Y",
+    "url": "https://www.hltv.org/stats/players/10761/nk4y",
+    "maps": "480",
+    "rounds": "12325",
+    "kdd": "+429",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Kntz",
+    "url": "https://www.hltv.org/stats/players/10705/kntz",
+    "maps": "552",
+    "rounds": "14299",
+    "kdd": "+670",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Subroza",
+    "url": "https://www.hltv.org/stats/players/11231/subroza",
+    "maps": "623",
+    "rounds": "16275",
+    "kdd": "+375",
+    "kd": "1.03",
+    "rating1": "1.03"
+    },
+    {
+    "name": "USTILO",
+    "url": "https://www.hltv.org/stats/players/8771/ustilo",
+    "maps": "1153",
+    "rounds": "29801",
+    "kdd": "+931",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Patsi",
+    "url": "https://www.hltv.org/stats/players/19673/patsi",
+    "maps": "557",
+    "rounds": "14971",
+    "kdd": "+368",
+    "kd": "1.04",
+    "rating1": "1.03"
+    },
+    {
+    "name": "max",
+    "url": "https://www.hltv.org/stats/players/12092/max",
+    "maps": "608",
+    "rounds": "16101",
+    "kdd": "+693",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Lucky",
+    "url": "https://www.hltv.org/stats/players/13497/lucky",
+    "maps": "1224",
+    "rounds": "32709",
+    "kdd": "+1477",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "yam",
+    "url": "https://www.hltv.org/stats/players/2555/yam",
+    "maps": "547",
+    "rounds": "14003",
+    "kdd": "+650",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Thomas",
+    "url": "https://www.hltv.org/stats/players/13018/thomas",
+    "maps": "956",
+    "rounds": "25407",
+    "kdd": "+952",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Blytz",
+    "url": "https://www.hltv.org/stats/players/12945/blytz",
+    "maps": "421",
+    "rounds": "11309",
+    "kdd": "+294",
+    "kd": "1.04",
+    "rating1": "1.03"
+    },
+    {
+    "name": "alex",
+    "url": "https://www.hltv.org/stats/players/8371/alex",
+    "maps": "1344",
+    "rounds": "35591",
+    "kdd": "+1513",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "JUST",
+    "url": "https://www.hltv.org/stats/players/8998/just",
+    "maps": "963",
+    "rounds": "25444",
+    "kdd": "+896",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "TRAVIS",
+    "url": "https://www.hltv.org/stats/players/16948/travis",
+    "maps": "578",
+    "rounds": "15473",
+    "kdd": "+455",
+    "kd": "1.04",
+    "rating1": "1.03"
+    },
+    {
+    "name": "znajder",
+    "url": "https://www.hltv.org/stats/players/3847/znajder",
+    "maps": "1050",
+    "rounds": "27577",
+    "kdd": "+1070",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Relaxa",
+    "url": "https://www.hltv.org/stats/players/9279/relaxa",
+    "maps": "1204",
+    "rounds": "32063",
+    "kdd": "+1931",
+    "kd": "1.10",
+    "rating1": "1.03"
+    },
+    {
+    "name": "dobu",
+    "url": "https://www.hltv.org/stats/players/9521/dobu",
+    "maps": "825",
+    "rounds": "21688",
+    "kdd": "+625",
+    "kd": "1.04",
+    "rating1": "1.03"
+    },
+    {
+    "name": "DEV7L",
+    "url": "https://www.hltv.org/stats/players/9358/dev7l",
+    "maps": "549",
+    "rounds": "14256",
+    "kdd": "+582",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "RCF",
+    "url": "https://www.hltv.org/stats/players/11337/rcf",
+    "maps": "664",
+    "rounds": "17456",
+    "kdd": "+600",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "captainMo",
+    "url": "https://www.hltv.org/stats/players/5187/captainmo",
+    "maps": "814",
+    "rounds": "20980",
+    "kdd": "+617",
+    "kd": "1.04",
+    "rating1": "1.03"
+    },
+    {
+    "name": "sjuush",
+    "url": "https://www.hltv.org/stats/players/14148/sjuush",
+    "maps": "894",
+    "rounds": "23654",
+    "kdd": "+998",
+    "kd": "1.07",
+    "rating1": "1.03"
+    },
+    {
+    "name": "AiyvaN",
+    "url": "https://www.hltv.org/stats/players/9349/aiyvan",
+    "maps": "701",
+    "rounds": "18214",
+    "kdd": "+578",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "DeStiNy",
+    "url": "https://www.hltv.org/stats/players/9483/destiny",
+    "maps": "1134",
+    "rounds": "29466",
+    "kdd": "+679",
+    "kd": "1.03",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Maden",
+    "url": "https://www.hltv.org/stats/players/11777/maden",
+    "maps": "741",
+    "rounds": "19750",
+    "kdd": "+365",
+    "kd": "1.03",
+    "rating1": "1.03"
+    },
+    {
+    "name": "kressy",
+    "url": "https://www.hltv.org/stats/players/12782/kressy",
+    "maps": "1102",
+    "rounds": "29508",
+    "kdd": "+1165",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "stfN",
+    "url": "https://www.hltv.org/stats/players/8800/stfn",
+    "maps": "1365",
+    "rounds": "36267",
+    "kdd": "+1442",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "JonY BoY",
+    "url": "https://www.hltv.org/stats/players/10499/jony-boy",
+    "maps": "426",
+    "rounds": "10943",
+    "kdd": "+344",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "rain",
+    "url": "https://www.hltv.org/stats/players/8183/rain",
+    "maps": "1674",
+    "rounds": "44353",
+    "kdd": "+882",
+    "kd": "1.03",
+    "rating1": "1.03"
+    },
+    {
+    "name": "chawzyyy",
+    "url": "https://www.hltv.org/stats/players/19021/chawzyyy",
+    "maps": "405",
+    "rounds": "10828",
+    "kdd": "+437",
+    "kd": "1.06",
+    "rating1": "1.03"
+    },
+    {
+    "name": "shuadapai",
+    "url": "https://www.hltv.org/stats/players/11576/shuadapai",
+    "maps": "549",
+    "rounds": "14214",
+    "kdd": "+492",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "aizy",
+    "url": "https://www.hltv.org/stats/players/8095/aizy",
+    "maps": "1564",
+    "rounds": "41206",
+    "kdd": "+1170",
+    "kd": "1.04",
+    "rating1": "1.03"
+    },
+    {
+    "name": "Forester",
+    "url": "https://www.hltv.org/stats/players/13982/forester",
+    "maps": "1260",
+    "rounds": "33595",
+    "kdd": "+1142",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "RIKO",
+    "url": "https://www.hltv.org/stats/players/11737/riko",
+    "maps": "406",
+    "rounds": "10568",
+    "kdd": "+155",
+    "kd": "1.02",
+    "rating1": "1.03"
+    },
+    {
+    "name": "food",
+    "url": "https://www.hltv.org/stats/players/9875/food",
+    "maps": "456",
+    "rounds": "11711",
+    "kdd": "+380",
+    "kd": "1.05",
+    "rating1": "1.03"
+    },
+    {
+    "name": "dennis",
+    "url": "https://www.hltv.org/stats/players/1146/dennis",
+    "maps": "1580",
+    "rounds": "41962",
+    "kdd": "+1131",
+    "kd": "1.04",
+    "rating1": "1.03"
+    },
+    {
+    "name": "kolor",
+    "url": "https://www.hltv.org/stats/players/10698/kolor",
+    "maps": "568",
+    "rounds": "14867",
+    "kdd": "+346",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "DiMKE",
+    "url": "https://www.hltv.org/stats/players/3732/dimke",
+    "maps": "663",
+    "rounds": "17460",
+    "kdd": "+479",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "hoody",
+    "url": "https://www.hltv.org/stats/players/13396/hoody",
+    "maps": "575",
+    "rounds": "15453",
+    "kdd": "+402",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Maluk3",
+    "url": "https://www.hltv.org/stats/players/2529/maluk3",
+    "maps": "1150",
+    "rounds": "29789",
+    "kdd": "+1303",
+    "kd": "1.07",
+    "rating1": "1.02"
+    },
+    {
+    "name": "juho",
+    "url": "https://www.hltv.org/stats/players/7775/juho",
+    "maps": "774",
+    "rounds": "20351",
+    "kdd": "+147",
+    "kd": "1.01",
+    "rating1": "1.02"
+    },
+    {
+    "name": "CyberFocus",
+    "url": "https://www.hltv.org/stats/players/8255/cyberfocus",
+    "maps": "491",
+    "rounds": "12779",
+    "kdd": "+320",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "cxzi",
+    "url": "https://www.hltv.org/stats/players/17353/cxzi",
+    "maps": "536",
+    "rounds": "13946",
+    "kdd": "+112",
+    "kd": "1.01",
+    "rating1": "1.02"
+    },
+    {
+    "name": "kai",
+    "url": "https://www.hltv.org/stats/players/14445/kai",
+    "maps": "483",
+    "rounds": "12692",
+    "kdd": "+415",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "pashaBiceps",
+    "url": "https://www.hltv.org/stats/players/317/pashabiceps",
+    "maps": "1597",
+    "rounds": "41346",
+    "kdd": "+989",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "AMANEK",
+    "url": "https://www.hltv.org/stats/players/9616/amanek",
+    "maps": "1075",
+    "rounds": "28853",
+    "kdd": "+1256",
+    "kd": "1.07",
+    "rating1": "1.02"
+    },
+    {
+    "name": "smiley",
+    "url": "https://www.hltv.org/stats/players/17793/smiley",
+    "maps": "478",
+    "rounds": "12883",
+    "kdd": "+631",
+    "kd": "1.08",
+    "rating1": "1.02"
+    },
+    {
+    "name": "niko",
+    "url": "https://www.hltv.org/stats/players/10264/niko",
+    "maps": "1211",
+    "rounds": "32024",
+    "kdd": "+1078",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "dragonfly",
+    "url": "https://www.hltv.org/stats/players/10992/dragonfly",
+    "maps": "507",
+    "rounds": "13234",
+    "kdd": "+502",
+    "kd": "1.06",
+    "rating1": "1.02"
+    },
+    {
+    "name": "jdm64",
+    "url": "https://www.hltv.org/stats/players/8346/jdm64",
+    "maps": "823",
+    "rounds": "21321",
+    "kdd": "+825",
+    "kd": "1.06",
+    "rating1": "1.02"
+    },
+    {
+    "name": "HS",
+    "url": "https://www.hltv.org/stats/players/8994/hs",
+    "maps": "1070",
+    "rounds": "28607",
+    "kdd": "+414",
+    "kd": "1.02",
+    "rating1": "1.02"
+    },
+    {
+    "name": "fnx",
+    "url": "https://www.hltv.org/stats/players/557/fnx",
+    "maps": "690",
+    "rounds": "17759",
+    "kdd": "+662",
+    "kd": "1.06",
+    "rating1": "1.02"
+    },
+    {
+    "name": "fl0m",
+    "url": "https://www.hltv.org/stats/players/8503/fl0m",
+    "maps": "708",
+    "rounds": "18721",
+    "kdd": "+623",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "KENSI",
+    "url": "https://www.hltv.org/stats/players/19236/kensi",
+    "maps": "590",
+    "rounds": "15976",
+    "kdd": "+689",
+    "kd": "1.07",
+    "rating1": "1.02"
+    },
+    {
+    "name": "MonttY",
+    "url": "https://www.hltv.org/stats/players/9961/montty",
+    "maps": "522",
+    "rounds": "13451",
+    "kdd": "+338",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "F1KU",
+    "url": "https://www.hltv.org/stats/players/19044/f1ku",
+    "maps": "661",
+    "rounds": "17958",
+    "kdd": "+325",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "FANAT ROCKA",
+    "url": "https://www.hltv.org/stats/players/9008/fanat-rocka",
+    "maps": "465",
+    "rounds": "12150",
+    "kdd": "+453",
+    "kd": "1.06",
+    "rating1": "1.02"
+    },
+    {
+    "name": "disco doplan",
+    "url": "https://www.hltv.org/stats/players/9256/disco-doplan",
+    "maps": "1207",
+    "rounds": "32000",
+    "kdd": "+1094",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Nico",
+    "url": "https://www.hltv.org/stats/players/7413/nico",
+    "maps": "399",
+    "rounds": "10074",
+    "kdd": "+547",
+    "kd": "1.09",
+    "rating1": "1.02"
+    },
+    {
+    "name": "bondik",
+    "url": "https://www.hltv.org/stats/players/2131/bondik",
+    "maps": "1470",
+    "rounds": "38637",
+    "kdd": "+1456",
+    "kd": "1.06",
+    "rating1": "1.02"
+    },
+    {
+    "name": "mouz",
+    "url": "https://www.hltv.org/stats/players/8323/mouz",
+    "maps": "1720",
+    "rounds": "45715",
+    "kdd": "+1741",
+    "kd": "1.06",
+    "rating1": "1.02"
+    },
+    {
+    "name": "qqGOD",
+    "url": "https://www.hltv.org/stats/players/9289/qqgod",
+    "maps": "584",
+    "rounds": "15180",
+    "kdd": "+280",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "sLowi",
+    "url": "https://www.hltv.org/stats/players/9271/slowi",
+    "maps": "1167",
+    "rounds": "31339",
+    "kdd": "+760",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "MoeycQ",
+    "url": "https://www.hltv.org/stats/players/8770/moeycq",
+    "maps": "639",
+    "rounds": "16594",
+    "kdd": "+410",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "imoRR",
+    "url": "https://www.hltv.org/stats/players/15835/imorr",
+    "maps": "732",
+    "rounds": "19607",
+    "kdd": "+50",
+    "kd": "1.00",
+    "rating1": "1.02"
+    },
+    {
+    "name": "FaNg",
+    "url": "https://www.hltv.org/stats/players/17372/fang",
+    "maps": "701",
+    "rounds": "18292",
+    "kdd": "+501",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Zyphon",
+    "url": "https://www.hltv.org/stats/players/20090/zyphon",
+    "maps": "492",
+    "rounds": "13099",
+    "kdd": "+398",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "NBK-",
+    "url": "https://www.hltv.org/stats/players/7168/nbk",
+    "maps": "2110",
+    "rounds": "55229",
+    "kdd": "+1179",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "spaze",
+    "url": "https://www.hltv.org/stats/players/8345/spaze",
+    "maps": "538",
+    "rounds": "14117",
+    "kdd": "+89",
+    "kd": "1.01",
+    "rating1": "1.02"
+    },
+    {
+    "name": "v1c7oR",
+    "url": "https://www.hltv.org/stats/players/7834/v1c7or",
+    "maps": "1891",
+    "rounds": "49359",
+    "kdd": "+1181",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "spargo",
+    "url": "https://www.hltv.org/stats/players/15565/spargo",
+    "maps": "520",
+    "rounds": "14151",
+    "kdd": "+410",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Voltage",
+    "url": "https://www.hltv.org/stats/players/13228/voltage",
+    "maps": "444",
+    "rounds": "11421",
+    "kdd": "+571",
+    "kd": "1.08",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Ace",
+    "url": "https://www.hltv.org/stats/players/13273/ace",
+    "maps": "456",
+    "rounds": "11866",
+    "kdd": "+570",
+    "kd": "1.08",
+    "rating1": "1.02"
+    },
+    {
+    "name": "flamie",
+    "url": "https://www.hltv.org/stats/players/7594/flamie",
+    "maps": "1697",
+    "rounds": "44908",
+    "kdd": "+1231",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Jyo",
+    "url": "https://www.hltv.org/stats/players/12269/jyo",
+    "maps": "1227",
+    "rounds": "32846",
+    "kdd": "+1158",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "dimasick",
+    "url": "https://www.hltv.org/stats/players/13780/dimasick",
+    "maps": "585",
+    "rounds": "15322",
+    "kdd": "+447",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "queztone",
+    "url": "https://www.hltv.org/stats/players/7749/queztone",
+    "maps": "709",
+    "rounds": "18569",
+    "kdd": "+235",
+    "kd": "1.02",
+    "rating1": "1.02"
+    },
+    {
+    "name": "ROBO",
+    "url": "https://www.hltv.org/stats/players/3410/robo",
+    "maps": "667",
+    "rounds": "17746",
+    "kdd": "+628",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Goofy",
+    "url": "https://www.hltv.org/stats/players/15428/goofy",
+    "maps": "1183",
+    "rounds": "32021",
+    "kdd": "+401",
+    "kd": "1.02",
+    "rating1": "1.02"
+    },
+    {
+    "name": "steel",
+    "url": "https://www.hltv.org/stats/players/7253/steel",
+    "maps": "617",
+    "rounds": "16290",
+    "kdd": "+261",
+    "kd": "1.02",
+    "rating1": "1.02"
+    },
+    {
+    "name": "iDk",
+    "url": "https://www.hltv.org/stats/players/10818/idk",
+    "maps": "958",
+    "rounds": "24927",
+    "kdd": "+661",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Markoś",
+    "url": "https://www.hltv.org/stats/players/11276/marko",
+    "maps": "693",
+    "rounds": "18617",
+    "kdd": "+810",
+    "kd": "1.07",
+    "rating1": "1.02"
+    },
+    {
+    "name": "fr0slev",
+    "url": "https://www.hltv.org/stats/players/11258/fr0slev",
+    "maps": "611",
+    "rounds": "15973",
+    "kdd": "+470",
+    "kd": "1.04",
+    "rating1": "1.02"
+    },
+    {
+    "name": "TENZKI",
+    "url": "https://www.hltv.org/stats/players/5287/tenzki",
+    "maps": "1497",
+    "rounds": "39370",
+    "kdd": "+1336",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "LETN1",
+    "url": "https://www.hltv.org/stats/players/4216/letn1",
+    "maps": "1111",
+    "rounds": "28880",
+    "kdd": "+1164",
+    "kd": "1.06",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Spongey",
+    "url": "https://www.hltv.org/stats/players/13589/spongey",
+    "maps": "843",
+    "rounds": "21895",
+    "kdd": "+1017",
+    "kd": "1.08",
+    "rating1": "1.02"
+    },
+    {
+    "name": "glowiing",
+    "url": "https://www.hltv.org/stats/players/17508/glowiing",
+    "maps": "573",
+    "rounds": "15326",
+    "kdd": "+141",
+    "kd": "1.01",
+    "rating1": "1.02"
+    },
+    {
+    "name": "fox",
+    "url": "https://www.hltv.org/stats/players/629/fox",
+    "maps": "1058",
+    "rounds": "27636",
+    "kdd": "+523",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "n0thing",
+    "url": "https://www.hltv.org/stats/players/203/n0thing",
+    "maps": "813",
+    "rounds": "21021",
+    "kdd": "+484",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "jedqr",
+    "url": "https://www.hltv.org/stats/players/14684/jedqr",
+    "maps": "877",
+    "rounds": "23688",
+    "kdd": "+714",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "roseau",
+    "url": "https://www.hltv.org/stats/players/8951/roseau",
+    "maps": "412",
+    "rounds": "10376",
+    "kdd": "+119",
+    "kd": "1.02",
+    "rating1": "1.02"
+    },
+    {
+    "name": "roca",
+    "url": "https://www.hltv.org/stats/players/7935/roca",
+    "maps": "660",
+    "rounds": "17324",
+    "kdd": "+195",
+    "kd": "1.02",
+    "rating1": "1.02"
+    },
+    {
+    "name": "yel",
+    "url": "https://www.hltv.org/stats/players/10560/yel",
+    "maps": "957",
+    "rounds": "24829",
+    "kdd": "+1033",
+    "kd": "1.07",
+    "rating1": "1.02"
+    },
+    {
+    "name": "mar",
+    "url": "https://www.hltv.org/stats/players/13464/mar",
+    "maps": "747",
+    "rounds": "19816",
+    "kdd": "+411",
+    "kd": "1.03",
+    "rating1": "1.02"
+    },
+    {
+    "name": "flickz",
+    "url": "https://www.hltv.org/stats/players/11844/flickz",
+    "maps": "461",
+    "rounds": "11606",
+    "kdd": "+357",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "NENO",
+    "url": "https://www.hltv.org/stats/players/2299/neno",
+    "maps": "686",
+    "rounds": "17736",
+    "kdd": "+607",
+    "kd": "1.05",
+    "rating1": "1.02"
+    },
+    {
+    "name": "Krad",
+    "url": "https://www.hltv.org/stats/players/12027/krad",
+    "maps": "1247",
+    "rounds": "33330",
+    "kdd": "+516",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "chrisJ",
+    "url": "https://www.hltv.org/stats/players/2730/chrisj",
+    "maps": "1727",
+    "rounds": "45400",
+    "kdd": "+1085",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Xyp9x",
+    "url": "https://www.hltv.org/stats/players/4954/xyp9x",
+    "maps": "2038",
+    "rounds": "53239",
+    "kdd": "+2229",
+    "kd": "1.07",
+    "rating1": "1.01"
+    },
+    {
+    "name": "xCeeD",
+    "url": "https://www.hltv.org/stats/players/13182/xceed",
+    "maps": "457",
+    "rounds": "11806",
+    "kdd": "+173",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Svedjehed",
+    "url": "https://www.hltv.org/stats/players/20133/svedjehed",
+    "maps": "417",
+    "rounds": "11301",
+    "kdd": "+322",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Kylar",
+    "url": "https://www.hltv.org/stats/players/19114/kylar",
+    "maps": "666",
+    "rounds": "17953",
+    "kdd": "+385",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Plopski",
+    "url": "https://www.hltv.org/stats/players/14218/plopski",
+    "maps": "1049",
+    "rounds": "27758",
+    "kdd": "+784",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "b0RUP",
+    "url": "https://www.hltv.org/stats/players/9896/b0rup",
+    "maps": "1491",
+    "rounds": "39599",
+    "kdd": "+547",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Lekr0",
+    "url": "https://www.hltv.org/stats/players/9261/lekr0",
+    "maps": "1307",
+    "rounds": "34928",
+    "kdd": "+814",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "desi",
+    "url": "https://www.hltv.org/stats/players/8350/desi",
+    "maps": "430",
+    "rounds": "10986",
+    "kdd": "+99",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "szejn",
+    "url": "https://www.hltv.org/stats/players/17113/szejn",
+    "maps": "578",
+    "rounds": "15454",
+    "kdd": "+221",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "clax",
+    "url": "https://www.hltv.org/stats/players/12004/clax",
+    "maps": "445",
+    "rounds": "11828",
+    "kdd": "+319",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "tatazin",
+    "url": "https://www.hltv.org/stats/players/10840/tatazin",
+    "maps": "806",
+    "rounds": "21149",
+    "kdd": "+1031",
+    "kd": "1.08",
+    "rating1": "1.01"
+    },
+    {
+    "name": "es3tag",
+    "url": "https://www.hltv.org/stats/players/8611/es3tag",
+    "maps": "1371",
+    "rounds": "35921",
+    "kdd": "+803",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "mitch",
+    "url": "https://www.hltv.org/stats/players/10470/mitch",
+    "maps": "807",
+    "rounds": "20719",
+    "kdd": "+632",
+    "kd": "1.05",
+    "rating1": "1.01"
+    },
+    {
+    "name": "byali",
+    "url": "https://www.hltv.org/stats/players/5386/byali",
+    "maps": "1937",
+    "rounds": "50959",
+    "kdd": "+1335",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "EasTor",
+    "url": "https://www.hltv.org/stats/players/4373/eastor",
+    "maps": "500",
+    "rounds": "13298",
+    "kdd": "+371",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Tuurtle",
+    "url": "https://www.hltv.org/stats/players/14394/tuurtle",
+    "maps": "824",
+    "rounds": "21701",
+    "kdd": "+375",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "delboNi",
+    "url": "https://www.hltv.org/stats/players/11213/delboni",
+    "maps": "566",
+    "rounds": "14703",
+    "kdd": "+300",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Maikelele",
+    "url": "https://www.hltv.org/stats/players/1045/maikelele",
+    "maps": "1075",
+    "rounds": "28357",
+    "kdd": "+941",
+    "kd": "1.05",
+    "rating1": "1.01"
+    },
+    {
+    "name": "1962",
+    "url": "https://www.hltv.org/stats/players/12094/1962",
+    "maps": "579",
+    "rounds": "15075",
+    "kdd": "0",
+    "kd": "1.00",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Noobster",
+    "url": "https://www.hltv.org/stats/players/9680/noobster",
+    "maps": "496",
+    "rounds": "12790",
+    "kdd": "+203",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Viva",
+    "url": "https://www.hltv.org/stats/players/15419/viva",
+    "maps": "597",
+    "rounds": "15834",
+    "kdd": "+480",
+    "kd": "1.05",
+    "rating1": "1.01"
+    },
+    {
+    "name": "apEX",
+    "url": "https://www.hltv.org/stats/players/7322/apex",
+    "maps": "2062",
+    "rounds": "54158",
+    "kdd": "+405",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "PlesseN",
+    "url": "https://www.hltv.org/stats/players/9811/plessen",
+    "maps": "1376",
+    "rounds": "36967",
+    "kdd": "+166",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "obj",
+    "url": "https://www.hltv.org/stats/players/9416/obj",
+    "maps": "418",
+    "rounds": "10936",
+    "kdd": "+423",
+    "kd": "1.06",
+    "rating1": "1.01"
+    },
+    {
+    "name": "spyleadeR",
+    "url": "https://www.hltv.org/stats/players/3183/spyleader",
+    "maps": "899",
+    "rounds": "23232",
+    "kdd": "+93",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "HexT",
+    "url": "https://www.hltv.org/stats/players/18838/hext",
+    "maps": "538",
+    "rounds": "14272",
+    "kdd": "+233",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "GruBy",
+    "url": "https://www.hltv.org/stats/players/8570/gruby",
+    "maps": "1758",
+    "rounds": "46785",
+    "kdd": "+660",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "hampus",
+    "url": "https://www.hltv.org/stats/players/9766/hampus",
+    "maps": "1413",
+    "rounds": "37556",
+    "kdd": "+223",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "MisteM",
+    "url": "https://www.hltv.org/stats/players/16811/mistem",
+    "maps": "400",
+    "rounds": "10429",
+    "kdd": "+61",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "JDC",
+    "url": "https://www.hltv.org/stats/players/14929/jdc",
+    "maps": "579",
+    "rounds": "15178",
+    "kdd": "+212",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Jinxx",
+    "url": "https://www.hltv.org/stats/players/11538/jinxx",
+    "maps": "407",
+    "rounds": "10684",
+    "kdd": "+305",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "mirbit",
+    "url": "https://www.hltv.org/stats/players/11701/mirbit",
+    "maps": "866",
+    "rounds": "23162",
+    "kdd": "+926",
+    "kd": "1.06",
+    "rating1": "1.01"
+    },
+    {
+    "name": "aidKiT",
+    "url": "https://www.hltv.org/stats/players/20066/aidkit",
+    "maps": "411",
+    "rounds": "11029",
+    "kdd": "+279",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Friis",
+    "url": "https://www.hltv.org/stats/players/7/friis",
+    "maps": "938",
+    "rounds": "24254",
+    "kdd": "+747",
+    "kd": "1.05",
+    "rating1": "1.01"
+    },
+    {
+    "name": "shokz",
+    "url": "https://www.hltv.org/stats/players/16859/shokz",
+    "maps": "723",
+    "rounds": "19381",
+    "kdd": "+391",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "dazzLe",
+    "url": "https://www.hltv.org/stats/players/11064/dazzle",
+    "maps": "690",
+    "rounds": "17971",
+    "kdd": "-8",
+    "kd": "1.00",
+    "rating1": "1.01"
+    },
+    {
+    "name": "SHOCK",
+    "url": "https://www.hltv.org/stats/players/12810/shock",
+    "maps": "852",
+    "rounds": "22875",
+    "kdd": "+497",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "ayaya",
+    "url": "https://www.hltv.org/stats/players/10186/ayaya",
+    "maps": "462",
+    "rounds": "11695",
+    "kdd": "+102",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Nodios",
+    "url": "https://www.hltv.org/stats/players/8891/nodios",
+    "maps": "805",
+    "rounds": "21606",
+    "kdd": "+514",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "stadodo",
+    "url": "https://www.hltv.org/stats/players/11205/stadodo",
+    "maps": "831",
+    "rounds": "21932",
+    "kdd": "+610",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Stewie2K",
+    "url": "https://www.hltv.org/stats/players/8797/stewie2k",
+    "maps": "1525",
+    "rounds": "39802",
+    "kdd": "+376",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "kreaz",
+    "url": "https://www.hltv.org/stats/players/9911/kreaz",
+    "maps": "779",
+    "rounds": "20753",
+    "kdd": "+562",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Polt",
+    "url": "https://www.hltv.org/stats/players/16946/polt",
+    "maps": "536",
+    "rounds": "14192",
+    "kdd": "+442",
+    "kd": "1.05",
+    "rating1": "1.01"
+    },
+    {
+    "name": "kalinka",
+    "url": "https://www.hltv.org/stats/players/9410/kalinka",
+    "maps": "855",
+    "rounds": "22891",
+    "kdd": "+157",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "grux",
+    "url": "https://www.hltv.org/stats/players/15096/grux",
+    "maps": "496",
+    "rounds": "13236",
+    "kdd": "+230",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "to1nou",
+    "url": "https://www.hltv.org/stats/players/7982/to1nou",
+    "maps": "850",
+    "rounds": "22377",
+    "kdd": "+520",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "HUGHMUNGUS",
+    "url": "https://www.hltv.org/stats/players/12086/hughmungus",
+    "maps": "812",
+    "rounds": "21032",
+    "kdd": "+424",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Zero",
+    "url": "https://www.hltv.org/stats/players/8413/zero",
+    "maps": "1184",
+    "rounds": "31519",
+    "kdd": "+979",
+    "kd": "1.05",
+    "rating1": "1.01"
+    },
+    {
+    "name": "DickStacy",
+    "url": "https://www.hltv.org/stats/players/12876/dickstacy",
+    "maps": "624",
+    "rounds": "15708",
+    "kdd": "+346",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "jR",
+    "url": "https://www.hltv.org/stats/players/8786/jr",
+    "maps": "892",
+    "rounds": "23804",
+    "kdd": "+554",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "DESPE",
+    "url": "https://www.hltv.org/stats/players/7980/despe",
+    "maps": "468",
+    "rounds": "12127",
+    "kdd": "+320",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "kioShiMa",
+    "url": "https://www.hltv.org/stats/players/4959/kioshima",
+    "maps": "1495",
+    "rounds": "39250",
+    "kdd": "+1292",
+    "kd": "1.05",
+    "rating1": "1.01"
+    },
+    {
+    "name": "FugLy",
+    "url": "https://www.hltv.org/stats/players/8522/fugly",
+    "maps": "1083",
+    "rounds": "28153",
+    "kdd": "+621",
+    "kd": "1.03",
+    "rating1": "1.01"
+    },
+    {
+    "name": "emagine",
+    "url": "https://www.hltv.org/stats/players/8744/emagine",
+    "maps": "751",
+    "rounds": "18931",
+    "kdd": "+487",
+    "kd": "1.04",
+    "rating1": "1.01"
+    },
+    {
+    "name": "ap0c",
+    "url": "https://www.hltv.org/stats/players/2007/ap0c",
+    "maps": "941",
+    "rounds": "24104",
+    "kdd": "+162",
+    "kd": "1.01",
+    "rating1": "1.01"
+    },
+    {
+    "name": "Nifty",
+    "url": "https://www.hltv.org/stats/players/9069/nifty",
+    "maps": "865",
+    "rounds": "22686",
+    "kdd": "+310",
+    "kd": "1.02",
+    "rating1": "1.01"
+    },
+    {
+    "name": "MINISE",
+    "url": "https://www.hltv.org/stats/players/2826/minise",
+    "maps": "1871",
+    "rounds": "49905",
+    "kdd": "+605",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "reatz",
+    "url": "https://www.hltv.org/stats/players/8242/reatz",
+    "maps": "1576",
+    "rounds": "42370",
+    "kdd": "+653",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "waterfaLLZ",
+    "url": "https://www.hltv.org/stats/players/8727/waterfallz",
+    "maps": "906",
+    "rounds": "24053",
+    "kdd": "+338",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "SIXER",
+    "url": "https://www.hltv.org/stats/players/147/sixer",
+    "maps": "1121",
+    "rounds": "29573",
+    "kdd": "+1118",
+    "kd": "1.06",
+    "rating1": "1.00"
+    },
+    {
+    "name": "pounh",
+    "url": "https://www.hltv.org/stats/players/11307/pounh",
+    "maps": "401",
+    "rounds": "10552",
+    "kdd": "+91",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "arT",
+    "url": "https://www.hltv.org/stats/players/12521/art",
+    "maps": "1043",
+    "rounds": "27103",
+    "kdd": "+16",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Edward",
+    "url": "https://www.hltv.org/stats/players/483/edward",
+    "maps": "1495",
+    "rounds": "39373",
+    "kdd": "+773",
+    "kd": "1.03",
+    "rating1": "1.00"
+    },
+    {
+    "name": "J0LZ",
+    "url": "https://www.hltv.org/stats/players/17510/j0lz",
+    "maps": "458",
+    "rounds": "12037",
+    "kdd": "+80",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "speed4k",
+    "url": "https://www.hltv.org/stats/players/13155/speed4k",
+    "maps": "816",
+    "rounds": "21911",
+    "kdd": "+576",
+    "kd": "1.04",
+    "rating1": "1.00"
+    },
+    {
+    "name": "zqkS",
+    "url": "https://www.hltv.org/stats/players/7383/zqks",
+    "maps": "802",
+    "rounds": "20783",
+    "kdd": "+714",
+    "kd": "1.05",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Relyks",
+    "url": "https://www.hltv.org/stats/players/8517/relyks",
+    "maps": "832",
+    "rounds": "21258",
+    "kdd": "+161",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "innocent",
+    "url": "https://www.hltv.org/stats/players/3669/innocent",
+    "maps": "1830",
+    "rounds": "48329",
+    "kdd": "+500",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "fenvicious",
+    "url": "https://www.hltv.org/stats/players/10590/fenvicious",
+    "maps": "729",
+    "rounds": "19059",
+    "kdd": "+141",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "ragga",
+    "url": "https://www.hltv.org/stats/players/17116/ragga",
+    "maps": "400",
+    "rounds": "10857",
+    "kdd": "+45",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "pesadelo",
+    "url": "https://www.hltv.org/stats/players/17553/pesadelo",
+    "maps": "702",
+    "rounds": "18276",
+    "kdd": "-35",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "glace",
+    "url": "https://www.hltv.org/stats/players/1883/glace",
+    "maps": "589",
+    "rounds": "15307",
+    "kdd": "+366",
+    "kd": "1.04",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Oderus",
+    "url": "https://www.hltv.org/stats/players/11238/oderus",
+    "maps": "473",
+    "rounds": "12356",
+    "kdd": "-52",
+    "kd": "0.99",
+    "rating1": "1.00"
+    },
+    {
+    "name": "1uke",
+    "url": "https://www.hltv.org/stats/players/8724/1uke",
+    "maps": "623",
+    "rounds": "16179",
+    "kdd": "+223",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "xseveN",
+    "url": "https://www.hltv.org/stats/players/7248/xseven",
+    "maps": "1349",
+    "rounds": "35803",
+    "kdd": "+452",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "almazer",
+    "url": "https://www.hltv.org/stats/players/11654/almazer",
+    "maps": "1332",
+    "rounds": "35755",
+    "kdd": "+609",
+    "kd": "1.03",
+    "rating1": "1.00"
+    },
+    {
+    "name": "kenzor",
+    "url": "https://www.hltv.org/stats/players/11515/kenzor",
+    "maps": "605",
+    "rounds": "15796",
+    "kdd": "+57",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "hazed",
+    "url": "https://www.hltv.org/stats/players/8347/hazed",
+    "maps": "736",
+    "rounds": "19138",
+    "kdd": "-81",
+    "kd": "0.99",
+    "rating1": "1.00"
+    },
+    {
+    "name": "xiaosaGe",
+    "url": "https://www.hltv.org/stats/players/11574/xiaosage",
+    "maps": "847",
+    "rounds": "22333",
+    "kdd": "+35",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "kyxsan",
+    "url": "https://www.hltv.org/stats/players/19677/kyxsan",
+    "maps": "421",
+    "rounds": "11284",
+    "kdd": "+73",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Cabbi",
+    "url": "https://www.hltv.org/stats/players/16723/cabbi",
+    "maps": "550",
+    "rounds": "14770",
+    "kdd": "-151",
+    "kd": "0.99",
+    "rating1": "1.00"
+    },
+    {
+    "name": "cbbk",
+    "url": "https://www.hltv.org/stats/players/10764/cbbk",
+    "maps": "404",
+    "rounds": "10342",
+    "kdd": "+163",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "mds",
+    "url": "https://www.hltv.org/stats/players/11926/mds",
+    "maps": "1147",
+    "rounds": "30689",
+    "kdd": "+518",
+    "kd": "1.03",
+    "rating1": "1.00"
+    },
+    {
+    "name": "ImpressioN",
+    "url": "https://www.hltv.org/stats/players/9339/impression",
+    "maps": "684",
+    "rounds": "17721",
+    "kdd": "+131",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "dzt",
+    "url": "https://www.hltv.org/stats/players/10570/dzt",
+    "maps": "705",
+    "rounds": "18270",
+    "kdd": "+157",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "KILLDREAM",
+    "url": "https://www.hltv.org/stats/players/5792/killdream",
+    "maps": "429",
+    "rounds": "11159",
+    "kdd": "-16",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "RoLEX",
+    "url": "https://www.hltv.org/stats/players/10663/rolex",
+    "maps": "492",
+    "rounds": "12610",
+    "kdd": "+33",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "capseN",
+    "url": "https://www.hltv.org/stats/players/16435/capsen",
+    "maps": "442",
+    "rounds": "11760",
+    "kdd": "+344",
+    "kd": "1.05",
+    "rating1": "1.00"
+    },
+    {
+    "name": "zeff",
+    "url": "https://www.hltv.org/stats/players/4637/zeff",
+    "maps": "482",
+    "rounds": "12229",
+    "kdd": "+54",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "R0b3n",
+    "url": "https://www.hltv.org/stats/players/14205/r0b3n",
+    "maps": "530",
+    "rounds": "13950",
+    "kdd": "+208",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "leo_drk",
+    "url": "https://www.hltv.org/stats/players/11329/leo-drk",
+    "maps": "612",
+    "rounds": "15807",
+    "kdd": "+13",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "cromen",
+    "url": "https://www.hltv.org/stats/players/10397/cromen",
+    "maps": "653",
+    "rounds": "17335",
+    "kdd": "+67",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "adreN",
+    "url": "https://www.hltv.org/stats/players/7433/adren",
+    "maps": "697",
+    "rounds": "18241",
+    "kdd": "+380",
+    "kd": "1.03",
+    "rating1": "1.00"
+    },
+    {
+    "name": "siuhy",
+    "url": "https://www.hltv.org/stats/players/16820/siuhy",
+    "maps": "568",
+    "rounds": "15281",
+    "kdd": "-53",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Noktse",
+    "url": "https://www.hltv.org/stats/players/2161/noktse",
+    "maps": "865",
+    "rounds": "22645",
+    "kdd": "+299",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Tsogoo",
+    "url": "https://www.hltv.org/stats/players/9245/tsogoo",
+    "maps": "502",
+    "rounds": "12846",
+    "kdd": "+75",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "void",
+    "url": "https://www.hltv.org/stats/players/14954/void",
+    "maps": "437",
+    "rounds": "11368",
+    "kdd": "+127",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "deco",
+    "url": "https://www.hltv.org/stats/players/17039/deco",
+    "maps": "447",
+    "rounds": "11903",
+    "kdd": "+115",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "pyth",
+    "url": "https://www.hltv.org/stats/players/7527/pyth",
+    "maps": "756",
+    "rounds": "19801",
+    "kdd": "-5",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "MODDII",
+    "url": "https://www.hltv.org/stats/players/545/moddii",
+    "maps": "1170",
+    "rounds": "30550",
+    "kdd": "+401",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "cam",
+    "url": "https://www.hltv.org/stats/players/13186/cam",
+    "maps": "544",
+    "rounds": "13974",
+    "kdd": "+169",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Basso",
+    "url": "https://www.hltv.org/stats/players/10443/basso",
+    "maps": "591",
+    "rounds": "15475",
+    "kdd": "+241",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "SZPERO",
+    "url": "https://www.hltv.org/stats/players/973/szpero",
+    "maps": "2131",
+    "rounds": "56420",
+    "kdd": "+840",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "wiz",
+    "url": "https://www.hltv.org/stats/players/17930/wiz",
+    "maps": "551",
+    "rounds": "14624",
+    "kdd": "+324",
+    "kd": "1.03",
+    "rating1": "1.00"
+    },
+    {
+    "name": "pecks",
+    "url": "https://www.hltv.org/stats/players/10163/pecks",
+    "maps": "389",
+    "rounds": "9930",
+    "kdd": "+162",
+    "kd": "1.03",
+    "rating1": "1.00"
+    },
+    {
+    "name": "magixx",
+    "url": "https://www.hltv.org/stats/players/18317/magixx",
+    "maps": "679",
+    "rounds": "17991",
+    "kdd": "+358",
+    "kd": "1.03",
+    "rating1": "1.00"
+    },
+    {
+    "name": "supra",
+    "url": "https://www.hltv.org/stats/players/16415/supra",
+    "maps": "570",
+    "rounds": "15323",
+    "kdd": "+71",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "vice",
+    "url": "https://www.hltv.org/stats/players/9260/vice",
+    "maps": "493",
+    "rounds": "12707",
+    "kdd": "+128",
+    "kd": "1.01",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Lack1",
+    "url": "https://www.hltv.org/stats/players/13240/lack1",
+    "maps": "949",
+    "rounds": "25457",
+    "kdd": "-45",
+    "kd": "1.00",
+    "rating1": "1.00"
+    },
+    {
+    "name": "STYKO",
+    "url": "https://www.hltv.org/stats/players/6904/styko",
+    "maps": "1604",
+    "rounds": "42356",
+    "kdd": "+424",
+    "kd": "1.02",
+    "rating1": "1.00"
+    },
+    {
+    "name": "Bååten",
+    "url": "https://www.hltv.org/stats/players/10463/bten",
+    "maps": "743",
+    "rounds": "19804",
+    "kdd": "+20",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Liki",
+    "url": "https://www.hltv.org/stats/players/19190/liki",
+    "maps": "408",
+    "rounds": "10364",
+    "kdd": "+201",
+    "kd": "1.03",
+    "rating1": "0.99"
+    },
+    {
+    "name": "morelz",
+    "url": "https://www.hltv.org/stats/players/8324/morelz",
+    "maps": "1162",
+    "rounds": "30923",
+    "kdd": "-112",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "freddieb",
+    "url": "https://www.hltv.org/stats/players/9257/freddieb",
+    "maps": "1135",
+    "rounds": "30119",
+    "kdd": "+180",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "SEMPHIS",
+    "url": "https://www.hltv.org/stats/players/1915/semphis",
+    "maps": "848",
+    "rounds": "21936",
+    "kdd": "-33",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "dephh",
+    "url": "https://www.hltv.org/stats/players/7873/dephh",
+    "maps": "768",
+    "rounds": "20106",
+    "kdd": "-232",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "mopoz",
+    "url": "https://www.hltv.org/stats/players/9254/mopoz",
+    "maps": "1187",
+    "rounds": "31518",
+    "kdd": "-164",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "MUTiRiS",
+    "url": "https://www.hltv.org/stats/players/630/mutiris",
+    "maps": "1309",
+    "rounds": "34303",
+    "kdd": "+192",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "YDNA",
+    "url": "https://www.hltv.org/stats/players/12083/ydna",
+    "maps": "435",
+    "rounds": "11265",
+    "kdd": "+103",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "gMd",
+    "url": "https://www.hltv.org/stats/players/12710/gmd",
+    "maps": "464",
+    "rounds": "12098",
+    "kdd": "-47",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "robiin",
+    "url": "https://www.hltv.org/stats/players/7700/robiin",
+    "maps": "1535",
+    "rounds": "40861",
+    "kdd": "-54",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "ALEX",
+    "url": "https://www.hltv.org/stats/players/8184/alex",
+    "maps": "1162",
+    "rounds": "30750",
+    "kdd": "-372",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "JIaYm",
+    "url": "https://www.hltv.org/stats/players/19232/jiaym",
+    "maps": "542",
+    "rounds": "14676",
+    "kdd": "-256",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "markeloff",
+    "url": "https://www.hltv.org/stats/players/338/markeloff",
+    "maps": "1146",
+    "rounds": "29704",
+    "kdd": "+485",
+    "kd": "1.03",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Puls3",
+    "url": "https://www.hltv.org/stats/players/7296/puls3",
+    "maps": "436",
+    "rounds": "11572",
+    "kdd": "+74",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "neptune",
+    "url": "https://www.hltv.org/stats/players/12101/neptune",
+    "maps": "498",
+    "rounds": "13218",
+    "kdd": "-23",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "xelos",
+    "url": "https://www.hltv.org/stats/players/5373/xelos",
+    "maps": "438",
+    "rounds": "11568",
+    "kdd": "-8",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "rbz",
+    "url": "https://www.hltv.org/stats/players/9103/rbz",
+    "maps": "647",
+    "rounds": "16903",
+    "kdd": "+138",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "BENDJI",
+    "url": "https://www.hltv.org/stats/players/8396/bendji",
+    "maps": "878",
+    "rounds": "23318",
+    "kdd": "+137",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "uli",
+    "url": "https://www.hltv.org/stats/players/9818/uli",
+    "maps": "603",
+    "rounds": "16107",
+    "kdd": "+167",
+    "kd": "1.02",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Vegi",
+    "url": "https://www.hltv.org/stats/players/15204/vegi",
+    "maps": "850",
+    "rounds": "23308",
+    "kdd": "-181",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "jaxi",
+    "url": "https://www.hltv.org/stats/players/4726/jaxi",
+    "maps": "472",
+    "rounds": "12125",
+    "kdd": "+183",
+    "kd": "1.02",
+    "rating1": "0.99"
+    },
+    {
+    "name": "truth",
+    "url": "https://www.hltv.org/stats/players/9298/truth",
+    "maps": "518",
+    "rounds": "13914",
+    "kdd": "-4",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Jerry",
+    "url": "https://www.hltv.org/stats/players/13157/jerry",
+    "maps": "1667",
+    "rounds": "44944",
+    "kdd": "+204",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "BARBARR",
+    "url": "https://www.hltv.org/stats/players/44/barbarr",
+    "maps": "876",
+    "rounds": "23180",
+    "kdd": "-20",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Djoko",
+    "url": "https://www.hltv.org/stats/players/19738/djoko",
+    "maps": "564",
+    "rounds": "14996",
+    "kdd": "-127",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "freakazoid",
+    "url": "https://www.hltv.org/stats/players/7808/freakazoid",
+    "maps": "920",
+    "rounds": "23667",
+    "kdd": "-113",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "facecrack",
+    "url": "https://www.hltv.org/stats/players/8726/facecrack",
+    "maps": "1717",
+    "rounds": "45802",
+    "kdd": "-690",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "nitr0",
+    "url": "https://www.hltv.org/stats/players/7687/nitr0",
+    "maps": "1457",
+    "rounds": "38108",
+    "kdd": "+283",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "realz1n",
+    "url": "https://www.hltv.org/stats/players/16769/realz1n",
+    "maps": "622",
+    "rounds": "16487",
+    "kdd": "+108",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "ANGE1",
+    "url": "https://www.hltv.org/stats/players/339/ange1",
+    "maps": "1728",
+    "rounds": "45027",
+    "kdd": "-685",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "kaboose",
+    "url": "https://www.hltv.org/stats/players/10372/kaboose",
+    "maps": "549",
+    "rounds": "14235",
+    "kdd": "-305",
+    "kd": "0.97",
+    "rating1": "0.99"
+    },
+    {
+    "name": "djay",
+    "url": "https://www.hltv.org/stats/players/12102/djay",
+    "maps": "867",
+    "rounds": "22391",
+    "kdd": "-5",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "roman",
+    "url": "https://www.hltv.org/stats/players/2241/roman",
+    "maps": "1203",
+    "rounds": "31540",
+    "kdd": "-3",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Norwi",
+    "url": "https://www.hltv.org/stats/players/19882/norwi",
+    "maps": "453",
+    "rounds": "12183",
+    "kdd": "+71",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "VINI",
+    "url": "https://www.hltv.org/stats/players/12822/vini",
+    "maps": "1031",
+    "rounds": "26998",
+    "kdd": "-50",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Dimaoneshot",
+    "url": "https://www.hltv.org/stats/players/8125/dimaoneshot",
+    "maps": "1315",
+    "rounds": "34605",
+    "kdd": "-550",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Drone",
+    "url": "https://www.hltv.org/stats/players/9130/drone",
+    "maps": "454",
+    "rounds": "11841",
+    "kdd": "-168",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "vanity",
+    "url": "https://www.hltv.org/stats/players/12089/vanity",
+    "maps": "609",
+    "rounds": "15688",
+    "kdd": "+80",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "kory",
+    "url": "https://www.hltv.org/stats/players/16495/kory",
+    "maps": "562",
+    "rounds": "14976",
+    "kdd": "-79",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "AZR",
+    "url": "https://www.hltv.org/stats/players/8082/azr",
+    "maps": "1115",
+    "rounds": "29102",
+    "kdd": "-136",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "k1to",
+    "url": "https://www.hltv.org/stats/players/12781/k1to",
+    "maps": "1329",
+    "rounds": "35373",
+    "kdd": "-436",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "fitch",
+    "url": "https://www.hltv.org/stats/players/10052/fitch",
+    "maps": "574",
+    "rounds": "15207",
+    "kdd": "-210",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "ALLE",
+    "url": "https://www.hltv.org/stats/players/11922/alle",
+    "maps": "492",
+    "rounds": "13018",
+    "kdd": "+43",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "gade",
+    "url": "https://www.hltv.org/stats/players/8875/gade",
+    "maps": "964",
+    "rounds": "25326",
+    "kdd": "-128",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "jabbi",
+    "url": "https://www.hltv.org/stats/players/17956/jabbi",
+    "maps": "844",
+    "rounds": "22627",
+    "kdd": "+111",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "SAGGERTON",
+    "url": "https://www.hltv.org/stats/players/7529/saggerton",
+    "maps": "540",
+    "rounds": "14097",
+    "kdd": "-231",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "dukefissura",
+    "url": "https://www.hltv.org/stats/players/19823/dukefissura",
+    "maps": "394",
+    "rounds": "10562",
+    "kdd": "-170",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "chop",
+    "url": "https://www.hltv.org/stats/players/19705/chop",
+    "maps": "496",
+    "rounds": "13211",
+    "kdd": "-5",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "larsen",
+    "url": "https://www.hltv.org/stats/players/7965/larsen",
+    "maps": "607",
+    "rounds": "16049",
+    "kdd": "+141",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Lukki",
+    "url": "https://www.hltv.org/stats/players/8871/lukki",
+    "maps": "893",
+    "rounds": "23437",
+    "kdd": "-9",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "bodyy",
+    "url": "https://www.hltv.org/stats/players/8374/bodyy",
+    "maps": "1402",
+    "rounds": "37210",
+    "kdd": "-238",
+    "kd": "0.99",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Dosia",
+    "url": "https://www.hltv.org/stats/players/735/dosia",
+    "maps": "1450",
+    "rounds": "38010",
+    "kdd": "+213",
+    "kd": "1.01",
+    "rating1": "0.99"
+    },
+    {
+    "name": "ryotzz",
+    "url": "https://www.hltv.org/stats/players/13989/ryotzz",
+    "maps": "447",
+    "rounds": "11613",
+    "kdd": "-154",
+    "kd": "0.98",
+    "rating1": "0.99"
+    },
+    {
+    "name": "apocdud",
+    "url": "https://www.hltv.org/stats/players/12872/apocdud",
+    "maps": "766",
+    "rounds": "19786",
+    "kdd": "-63",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "J1rah",
+    "url": "https://www.hltv.org/stats/players/12593/j1rah",
+    "maps": "797",
+    "rounds": "20680",
+    "kdd": "-12",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "krii",
+    "url": "https://www.hltv.org/stats/players/9291/krii",
+    "maps": "429",
+    "rounds": "11302",
+    "kdd": "-21",
+    "kd": "1.00",
+    "rating1": "0.99"
+    },
+    {
+    "name": "Stev0se",
+    "url": "https://www.hltv.org/stats/players/12304/stev0se",
+    "maps": "428",
+    "rounds": "11328",
+    "kdd": "-106",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "DAVEY",
+    "url": "https://www.hltv.org/stats/players/8508/davey",
+    "maps": "801",
+    "rounds": "20713",
+    "kdd": "-294",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Jonji",
+    "url": "https://www.hltv.org/stats/players/12113/jonji",
+    "maps": "1103",
+    "rounds": "28246",
+    "kdd": "-495",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "stellar",
+    "url": "https://www.hltv.org/stats/players/13177/stellar",
+    "maps": "427",
+    "rounds": "10968",
+    "kdd": "+26",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Xizt",
+    "url": "https://www.hltv.org/stats/players/884/xizt",
+    "maps": "1665",
+    "rounds": "42830",
+    "kdd": "+507",
+    "kd": "1.02",
+    "rating1": "0.98"
+    },
+    {
+    "name": "NEKIZ",
+    "url": "https://www.hltv.org/stats/players/9482/nekiz",
+    "maps": "1020",
+    "rounds": "26840",
+    "kdd": "-163",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Perfecto",
+    "url": "https://www.hltv.org/stats/players/16947/perfecto",
+    "maps": "769",
+    "rounds": "20338",
+    "kdd": "+475",
+    "kd": "1.04",
+    "rating1": "0.98"
+    },
+    {
+    "name": "bubble",
+    "url": "https://www.hltv.org/stats/players/2799/bubble",
+    "maps": "2270",
+    "rounds": "59622",
+    "kdd": "+408",
+    "kd": "1.01",
+    "rating1": "0.98"
+    },
+    {
+    "name": "RUBINO",
+    "url": "https://www.hltv.org/stats/players/1485/rubino",
+    "maps": "998",
+    "rounds": "26140",
+    "kdd": "-170",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "AdreN",
+    "url": "https://www.hltv.org/stats/players/334/adren",
+    "maps": "1767",
+    "rounds": "46454",
+    "kdd": "-217",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "bq",
+    "url": "https://www.hltv.org/stats/players/17936/bq",
+    "maps": "423",
+    "rounds": "11361",
+    "kdd": "-193",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "DemQQ",
+    "url": "https://www.hltv.org/stats/players/19733/demqq",
+    "maps": "473",
+    "rounds": "12435",
+    "kdd": "-9",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "viz",
+    "url": "https://www.hltv.org/stats/players/18761/viz",
+    "maps": "395",
+    "rounds": "10272",
+    "kdd": "+19",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "ryann",
+    "url": "https://www.hltv.org/stats/players/12088/ryann",
+    "maps": "697",
+    "rounds": "17857",
+    "kdd": "-269",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Zix",
+    "url": "https://www.hltv.org/stats/players/13992/zix",
+    "maps": "400",
+    "rounds": "10329",
+    "kdd": "-166",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "DeathZz",
+    "url": "https://www.hltv.org/stats/players/13093/deathzz",
+    "maps": "553",
+    "rounds": "14739",
+    "kdd": "+17",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "notaN",
+    "url": "https://www.hltv.org/stats/players/9903/notan",
+    "maps": "533",
+    "rounds": "14226",
+    "kdd": "-37",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Spiidi",
+    "url": "https://www.hltv.org/stats/players/7499/spiidi",
+    "maps": "2112",
+    "rounds": "56165",
+    "kdd": "+214",
+    "kd": "1.01",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Ex3rcice",
+    "url": "https://www.hltv.org/stats/players/19739/ex3rcice",
+    "maps": "390",
+    "rounds": "10468",
+    "kdd": "-18",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "ZEDKO",
+    "url": "https://www.hltv.org/stats/players/8488/zedko",
+    "maps": "1257",
+    "rounds": "33358",
+    "kdd": "-11",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Furlan",
+    "url": "https://www.hltv.org/stats/players/8327/furlan",
+    "maps": "2157",
+    "rounds": "57423",
+    "kdd": "-769",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "DeadFox",
+    "url": "https://www.hltv.org/stats/players/8716/deadfox",
+    "maps": "807",
+    "rounds": "21060",
+    "kdd": "-54",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "zende",
+    "url": "https://www.hltv.org/stats/players/5045/zende",
+    "maps": "397",
+    "rounds": "10444",
+    "kdd": "-1",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Daffu",
+    "url": "https://www.hltv.org/stats/players/11996/daffu",
+    "maps": "717",
+    "rounds": "19219",
+    "kdd": "+103",
+    "kd": "1.01",
+    "rating1": "0.98"
+    },
+    {
+    "name": "reversive",
+    "url": "https://www.hltv.org/stats/players/9221/reversive",
+    "maps": "683",
+    "rounds": "17895",
+    "kdd": "-34",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "anger",
+    "url": "https://www.hltv.org/stats/players/7438/anger",
+    "maps": "682",
+    "rounds": "17700",
+    "kdd": "-229",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "propleh",
+    "url": "https://www.hltv.org/stats/players/14055/propleh",
+    "maps": "419",
+    "rounds": "11133",
+    "kdd": "-35",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "gla1ve",
+    "url": "https://www.hltv.org/stats/players/7412/gla1ve",
+    "maps": "1745",
+    "rounds": "45979",
+    "kdd": "-36",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Fadey",
+    "url": "https://www.hltv.org/stats/players/10611/fadey",
+    "maps": "788",
+    "rounds": "20271",
+    "kdd": "-454",
+    "kd": "0.97",
+    "rating1": "0.98"
+    },
+    {
+    "name": "tifa",
+    "url": "https://www.hltv.org/stats/players/9480/tifa",
+    "maps": "407",
+    "rounds": "10476",
+    "kdd": "-109",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "JACKZ",
+    "url": "https://www.hltv.org/stats/players/284/jackz",
+    "maps": "1157",
+    "rounds": "30781",
+    "kdd": "-317",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Sapec",
+    "url": "https://www.hltv.org/stats/players/15569/sapec",
+    "maps": "513",
+    "rounds": "13742",
+    "kdd": "-302",
+    "kd": "0.97",
+    "rating1": "0.98"
+    },
+    {
+    "name": "sXe",
+    "url": "https://www.hltv.org/stats/players/10436/sxe",
+    "maps": "605",
+    "rounds": "15708",
+    "kdd": "-157",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "WOOD7",
+    "url": "https://www.hltv.org/stats/players/14390/wood7",
+    "maps": "627",
+    "rounds": "16416",
+    "kdd": "+350",
+    "kd": "1.03",
+    "rating1": "0.98"
+    },
+    {
+    "name": "raalz",
+    "url": "https://www.hltv.org/stats/players/2898/raalz",
+    "maps": "1038",
+    "rounds": "28211",
+    "kdd": "-250",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "prt",
+    "url": "https://www.hltv.org/stats/players/10827/prt",
+    "maps": "761",
+    "rounds": "19760",
+    "kdd": "-73",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "droid",
+    "url": "https://www.hltv.org/stats/players/14495/droid",
+    "maps": "448",
+    "rounds": "11548",
+    "kdd": "-12",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "byr9",
+    "url": "https://www.hltv.org/stats/players/19590/byr9",
+    "maps": "427",
+    "rounds": "11647",
+    "kdd": "-82",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "isak",
+    "url": "https://www.hltv.org/stats/players/17937/isak",
+    "maps": "631",
+    "rounds": "17072",
+    "kdd": "-83",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Llamas",
+    "url": "https://www.hltv.org/stats/players/16529/llamas",
+    "maps": "459",
+    "rounds": "11767",
+    "kdd": "-35",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "manguss",
+    "url": "https://www.hltv.org/stats/players/16432/manguss",
+    "maps": "406",
+    "rounds": "10945",
+    "kdd": "+73",
+    "kd": "1.01",
+    "rating1": "0.98"
+    },
+    {
+    "name": "syken",
+    "url": "https://www.hltv.org/stats/players/8000/syken",
+    "maps": "413",
+    "rounds": "10832",
+    "kdd": "-248",
+    "kd": "0.97",
+    "rating1": "0.98"
+    },
+    {
+    "name": "kwezz",
+    "url": "https://www.hltv.org/stats/players/13170/kwezz",
+    "maps": "750",
+    "rounds": "20130",
+    "kdd": "-106",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "NickelBack",
+    "url": "https://www.hltv.org/stats/players/11498/nickelback",
+    "maps": "1468",
+    "rounds": "39205",
+    "kdd": "-177",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "BURNRUOk",
+    "url": "https://www.hltv.org/stats/players/9636/burnruok",
+    "maps": "860",
+    "rounds": "22168",
+    "kdd": "-518",
+    "kd": "0.97",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Radifaction",
+    "url": "https://www.hltv.org/stats/players/13148/radifaction",
+    "maps": "509",
+    "rounds": "13632",
+    "kdd": "-162",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "BIT",
+    "url": "https://www.hltv.org/stats/players/555/bit",
+    "maps": "735",
+    "rounds": "19001",
+    "kdd": "+47",
+    "kd": "1.00",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Boombl4",
+    "url": "https://www.hltv.org/stats/players/11840/boombl4",
+    "maps": "1093",
+    "rounds": "28952",
+    "kdd": "-432",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "jnt",
+    "url": "https://www.hltv.org/stats/players/11747/jnt",
+    "maps": "661",
+    "rounds": "17118",
+    "kdd": "+151",
+    "kd": "1.01",
+    "rating1": "0.98"
+    },
+    {
+    "name": "RUSH",
+    "url": "https://www.hltv.org/stats/players/7805/rush",
+    "maps": "1460",
+    "rounds": "38214",
+    "kdd": "-335",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "SHOOWTiME",
+    "url": "https://www.hltv.org/stats/players/9220/shoowtime",
+    "maps": "1019",
+    "rounds": "26393",
+    "kdd": "-346",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Sergiz",
+    "url": "https://www.hltv.org/stats/players/12244/sergiz",
+    "maps": "465",
+    "rounds": "12322",
+    "kdd": "+98",
+    "kd": "1.01",
+    "rating1": "0.98"
+    },
+    {
+    "name": "sinnopsyy",
+    "url": "https://www.hltv.org/stats/players/18120/sinnopsyy",
+    "maps": "723",
+    "rounds": "19411",
+    "kdd": "-589",
+    "kd": "0.96",
+    "rating1": "0.98"
+    },
+    {
+    "name": "PERCY",
+    "url": "https://www.hltv.org/stats/players/5061/percy",
+    "maps": "1030",
+    "rounds": "27376",
+    "kdd": "-400",
+    "kd": "0.98",
+    "rating1": "0.98"
+    },
+    {
+    "name": "RuStY",
+    "url": "https://www.hltv.org/stats/players/10784/rusty",
+    "maps": "1392",
+    "rounds": "37714",
+    "kdd": "-229",
+    "kd": "0.99",
+    "rating1": "0.98"
+    },
+    {
+    "name": "FinigaN",
+    "url": "https://www.hltv.org/stats/players/17305/finigan",
+    "maps": "556",
+    "rounds": "14969",
+    "kdd": "+111",
+    "kd": "1.01",
+    "rating1": "0.98"
+    },
+    {
+    "name": "Bymas",
+    "url": "https://www.hltv.org/stats/players/19015/bymas",
+    "maps": "391",
+    "rounds": "10456",
+    "kdd": "+68",
+    "kd": "1.01",
+    "rating1": "0.97"
+    },
+    {
+    "name": "blocker",
+    "url": "https://www.hltv.org/stats/players/10697/blocker",
+    "maps": "895",
+    "rounds": "23790",
+    "kdd": "-523",
+    "kd": "0.97",
+    "rating1": "0.97"
+    },
+    {
+    "name": "RpK",
+    "url": "https://www.hltv.org/stats/players/7169/rpk",
+    "maps": "1499",
+    "rounds": "39100",
+    "kdd": "-617",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "doto",
+    "url": "https://www.hltv.org/stats/players/9819/doto",
+    "maps": "722",
+    "rounds": "19386",
+    "kdd": "-290",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "ice",
+    "url": "https://www.hltv.org/stats/players/17792/ice",
+    "maps": "487",
+    "rounds": "13036",
+    "kdd": "-253",
+    "kd": "0.97",
+    "rating1": "0.97"
+    },
+    {
+    "name": "mono",
+    "url": "https://www.hltv.org/stats/players/9916/mono",
+    "maps": "662",
+    "rounds": "17680",
+    "kdd": "-17",
+    "kd": "1.00",
+    "rating1": "0.97"
+    },
+    {
+    "name": "niki1",
+    "url": "https://www.hltv.org/stats/players/8917/niki1",
+    "maps": "1088",
+    "rounds": "28427",
+    "kdd": "-439",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "jmqa",
+    "url": "https://www.hltv.org/stats/players/8368/jmqa",
+    "maps": "922",
+    "rounds": "24189",
+    "kdd": "-273",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "DeStRoYeR",
+    "url": "https://www.hltv.org/stats/players/10192/destroyer",
+    "maps": "600",
+    "rounds": "15845",
+    "kdd": "-235",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "seb",
+    "url": "https://www.hltv.org/stats/players/3886/seb",
+    "maps": "603",
+    "rounds": "15586",
+    "kdd": "-224",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "SPELLAN",
+    "url": "https://www.hltv.org/stats/players/11217/spellan",
+    "maps": "1477",
+    "rounds": "38681",
+    "kdd": "-339",
+    "kd": "0.99",
+    "rating1": "0.97"
+    },
+    {
+    "name": "kUcheR",
+    "url": "https://www.hltv.org/stats/players/302/kucher",
+    "maps": "852",
+    "rounds": "22314",
+    "kdd": "-145",
+    "kd": "0.99",
+    "rating1": "0.97"
+    },
+    {
+    "name": "stk",
+    "url": "https://www.hltv.org/stats/players/12129/stk",
+    "maps": "591",
+    "rounds": "15136",
+    "kdd": "-223",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "Keoz",
+    "url": "https://www.hltv.org/stats/players/15117/keoz",
+    "maps": "871",
+    "rounds": "23208",
+    "kdd": "-687",
+    "kd": "0.96",
+    "rating1": "0.97"
+    },
+    {
+    "name": "ELUSIVE",
+    "url": "https://www.hltv.org/stats/players/8446/elusive",
+    "maps": "397",
+    "rounds": "10059",
+    "kdd": "+56",
+    "kd": "1.01",
+    "rating1": "0.97"
+    },
+    {
+    "name": "leman",
+    "url": "https://www.hltv.org/stats/players/8539/leman",
+    "maps": "564",
+    "rounds": "15196",
+    "kdd": "-218",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "oskarish",
+    "url": "https://www.hltv.org/stats/players/8321/oskarish",
+    "maps": "1103",
+    "rounds": "29517",
+    "kdd": "-411",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "SOKER",
+    "url": "https://www.hltv.org/stats/players/7388/soker",
+    "maps": "645",
+    "rounds": "16934",
+    "kdd": "-442",
+    "kd": "0.96",
+    "rating1": "0.97"
+    },
+    {
+    "name": "DEVIL",
+    "url": "https://www.hltv.org/stats/players/8569/devil",
+    "maps": "636",
+    "rounds": "16582",
+    "kdd": "-291",
+    "kd": "0.97",
+    "rating1": "0.97"
+    },
+    {
+    "name": "gabesson",
+    "url": "https://www.hltv.org/stats/players/7925/gabesson",
+    "maps": "441",
+    "rounds": "11654",
+    "kdd": "-264",
+    "kd": "0.97",
+    "rating1": "0.97"
+    },
+    {
+    "name": "MAIROLLS",
+    "url": "https://www.hltv.org/stats/players/10666/mairolls",
+    "maps": "498",
+    "rounds": "12894",
+    "kdd": "-226",
+    "kd": "0.97",
+    "rating1": "0.97"
+    },
+    {
+    "name": "Mayker",
+    "url": "https://www.hltv.org/stats/players/14957/mayker",
+    "maps": "433",
+    "rounds": "11216",
+    "kdd": "-220",
+    "kd": "0.97",
+    "rating1": "0.97"
+    },
+    {
+    "name": "PKL",
+    "url": "https://www.hltv.org/stats/players/6593/pkl",
+    "maps": "1197",
+    "rounds": "31299",
+    "kdd": "-452",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "KHRN",
+    "url": "https://www.hltv.org/stats/players/971/khrn",
+    "maps": "935",
+    "rounds": "24443",
+    "kdd": "-245",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "chopper",
+    "url": "https://www.hltv.org/stats/players/7716/chopper",
+    "maps": "1144",
+    "rounds": "30353",
+    "kdd": "-385",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "Leaf",
+    "url": "https://www.hltv.org/stats/players/11248/leaf",
+    "maps": "398",
+    "rounds": "10120",
+    "kdd": "-71",
+    "kd": "0.99",
+    "rating1": "0.97"
+    },
+    {
+    "name": "reltuC",
+    "url": "https://www.hltv.org/stats/players/8137/reltuc",
+    "maps": "865",
+    "rounds": "22664",
+    "kdd": "-74",
+    "kd": "1.00",
+    "rating1": "0.97"
+    },
+    {
+    "name": "seized",
+    "url": "https://www.hltv.org/stats/players/3347/seized",
+    "maps": "1543",
+    "rounds": "40663",
+    "kdd": "-683",
+    "kd": "0.98",
+    "rating1": "0.97"
+    },
+    {
+    "name": "Hyper",
+    "url": "https://www.hltv.org/stats/players/7368/hyper",
+    "maps": "646",
+    "rounds": "16949",
+    "kdd": "-167",
+    "kd": "0.99",
+    "rating1": "0.96"
+    },
+    {
+    "name": "expro",
+    "url": "https://www.hltv.org/stats/players/12490/expro",
+    "maps": "463",
+    "rounds": "12278",
+    "kdd": "-242",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "LUCAS1",
+    "url": "https://www.hltv.org/stats/players/8566/lucas1",
+    "maps": "943",
+    "rounds": "24480",
+    "kdd": "-481",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "The eLiVe",
+    "url": "https://www.hltv.org/stats/players/14388/the-elive",
+    "maps": "617",
+    "rounds": "16750",
+    "kdd": "-274",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Maniac",
+    "url": "https://www.hltv.org/stats/players/823/maniac",
+    "maps": "837",
+    "rounds": "22049",
+    "kdd": "-388",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "kaper",
+    "url": "https://www.hltv.org/stats/players/14221/kaper",
+    "maps": "536",
+    "rounds": "14240",
+    "kdd": "-168",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "SmithZz",
+    "url": "https://www.hltv.org/stats/players/7170/smithzz",
+    "maps": "1168",
+    "rounds": "30301",
+    "kdd": "-563",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Drea3er",
+    "url": "https://www.hltv.org/stats/players/11161/drea3er",
+    "maps": "418",
+    "rounds": "10753",
+    "kdd": "-374",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "SADDYX",
+    "url": "https://www.hltv.org/stats/players/15563/saddyx",
+    "maps": "647",
+    "rounds": "17350",
+    "kdd": "-363",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Queenix",
+    "url": "https://www.hltv.org/stats/players/13749/queenix",
+    "maps": "554",
+    "rounds": "14950",
+    "kdd": "-221",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "maeVe",
+    "url": "https://www.hltv.org/stats/players/8150/maeve",
+    "maps": "487",
+    "rounds": "12606",
+    "kdd": "-131",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Kairi",
+    "url": "https://www.hltv.org/stats/players/329/kairi",
+    "maps": "404",
+    "rounds": "10297",
+    "kdd": "-204",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "phr",
+    "url": "https://www.hltv.org/stats/players/11891/phr",
+    "maps": "1369",
+    "rounds": "36600",
+    "kdd": "-507",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Tommy",
+    "url": "https://www.hltv.org/stats/players/11460/tommy",
+    "maps": "387",
+    "rounds": "9900",
+    "kdd": "-323",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Surreal",
+    "url": "https://www.hltv.org/stats/players/9019/surreal",
+    "maps": "1573",
+    "rounds": "41274",
+    "kdd": "-872",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "starix",
+    "url": "https://www.hltv.org/stats/players/303/starix",
+    "maps": "640",
+    "rounds": "16850",
+    "kdd": "-311",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "bodito",
+    "url": "https://www.hltv.org/stats/players/8733/bodito",
+    "maps": "467",
+    "rounds": "12521",
+    "kdd": "-428",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "w1nt3r",
+    "url": "https://www.hltv.org/stats/players/14359/w1nt3r",
+    "maps": "609",
+    "rounds": "16274",
+    "kdd": "-201",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "stanislaw",
+    "url": "https://www.hltv.org/stats/players/8507/stanislaw",
+    "maps": "1383",
+    "rounds": "35819",
+    "kdd": "-538",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "HOLMES",
+    "url": "https://www.hltv.org/stats/players/3730/holmes",
+    "maps": "462",
+    "rounds": "12092",
+    "kdd": "-367",
+    "kd": "0.96",
+    "rating1": "0.96"
+    },
+    {
+    "name": "JazzPimp",
+    "url": "https://www.hltv.org/stats/players/11039/jazzpimp",
+    "maps": "496",
+    "rounds": "13025",
+    "kdd": "-362",
+    "kd": "0.96",
+    "rating1": "0.96"
+    },
+    {
+    "name": "TMB",
+    "url": "https://www.hltv.org/stats/players/11995/tmb",
+    "maps": "820",
+    "rounds": "21949",
+    "kdd": "-619",
+    "kd": "0.96",
+    "rating1": "0.96"
+    },
+    {
+    "name": "PR1mE",
+    "url": "https://www.hltv.org/stats/players/19038/pr1me",
+    "maps": "552",
+    "rounds": "14898",
+    "kdd": "-412",
+    "kd": "0.96",
+    "rating1": "0.96"
+    },
+    {
+    "name": "xms",
+    "url": "https://www.hltv.org/stats/players/9545/xms",
+    "maps": "712",
+    "rounds": "18783",
+    "kdd": "-624",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "ProbLeM",
+    "url": "https://www.hltv.org/stats/players/16870/problem",
+    "maps": "594",
+    "rounds": "16090",
+    "kdd": "-339",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Walco",
+    "url": "https://www.hltv.org/stats/players/17929/walco",
+    "maps": "554",
+    "rounds": "14695",
+    "kdd": "-479",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "nafany",
+    "url": "https://www.hltv.org/stats/players/16921/nafany",
+    "maps": "926",
+    "rounds": "24627",
+    "kdd": "-797",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "nosraC",
+    "url": "https://www.hltv.org/stats/players/17918/nosrac",
+    "maps": "554",
+    "rounds": "14634",
+    "kdd": "-425",
+    "kd": "0.96",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Uber",
+    "url": "https://www.hltv.org/stats/players/9053/uber",
+    "maps": "398",
+    "rounds": "10027",
+    "kdd": "-299",
+    "kd": "0.96",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Marek",
+    "url": "https://www.hltv.org/stats/players/8598/marek",
+    "maps": "439",
+    "rounds": "11573",
+    "kdd": "-265",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "glow",
+    "url": "https://www.hltv.org/stats/players/205/glow",
+    "maps": "395",
+    "rounds": "10045",
+    "kdd": "-99",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Aleksib",
+    "url": "https://www.hltv.org/stats/players/9816/aleksib",
+    "maps": "1061",
+    "rounds": "28161",
+    "kdd": "-402",
+    "kd": "0.98",
+    "rating1": "0.96"
+    },
+    {
+    "name": "SEMINTE",
+    "url": "https://www.hltv.org/stats/players/8453/seminte",
+    "maps": "728",
+    "rounds": "19198",
+    "kdd": "-539",
+    "kd": "0.96",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Kvik",
+    "url": "https://www.hltv.org/stats/players/8459/kvik",
+    "maps": "785",
+    "rounds": "20509",
+    "kdd": "-688",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "misutaaa",
+    "url": "https://www.hltv.org/stats/players/14176/misutaaa",
+    "maps": "517",
+    "rounds": "13706",
+    "kdd": "-417",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "LOGAN",
+    "url": "https://www.hltv.org/stats/players/13042/logan",
+    "maps": "590",
+    "rounds": "15692",
+    "kdd": "-300",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "tiziaN",
+    "url": "https://www.hltv.org/stats/players/5796/tizian",
+    "maps": "1782",
+    "rounds": "47184",
+    "kdd": "-945",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "MAJ3R",
+    "url": "https://www.hltv.org/stats/players/150/maj3r",
+    "maps": "1109",
+    "rounds": "29102",
+    "kdd": "-558",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "RZU",
+    "url": "https://www.hltv.org/stats/players/13179/rzu",
+    "maps": "502",
+    "rounds": "13085",
+    "kdd": "-554",
+    "kd": "0.94",
+    "rating1": "0.96"
+    },
+    {
+    "name": "Kristou",
+    "url": "https://www.hltv.org/stats/players/10961/kristou",
+    "maps": "433",
+    "rounds": "11528",
+    "kdd": "-387",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "0i",
+    "url": "https://www.hltv.org/stats/players/11358/0i",
+    "maps": "492",
+    "rounds": "12863",
+    "kdd": "-437",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "ponczek",
+    "url": "https://www.hltv.org/stats/players/11286/ponczek",
+    "maps": "539",
+    "rounds": "14500",
+    "kdd": "-247",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "smF",
+    "url": "https://www.hltv.org/stats/players/7414/smf",
+    "maps": "830",
+    "rounds": "21760",
+    "kdd": "-390",
+    "kd": "0.97",
+    "rating1": "0.96"
+    },
+    {
+    "name": "nbl",
+    "url": "https://www.hltv.org/stats/players/10508/nbl",
+    "maps": "611",
+    "rounds": "15786",
+    "kdd": "-523",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "YJ",
+    "url": "https://www.hltv.org/stats/players/11746/yj",
+    "maps": "514",
+    "rounds": "13425",
+    "kdd": "-71",
+    "kd": "0.99",
+    "rating1": "0.96"
+    },
+    {
+    "name": "kinqie",
+    "url": "https://www.hltv.org/stats/players/3459/kinqie",
+    "maps": "631",
+    "rounds": "16775",
+    "kdd": "-597",
+    "kd": "0.95",
+    "rating1": "0.96"
+    },
+    {
+    "name": "NEO",
+    "url": "https://www.hltv.org/stats/players/165/neo",
+    "maps": "2037",
+    "rounds": "53165",
+    "kdd": "-1558",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "tahsiN",
+    "url": "https://www.hltv.org/stats/players/2148/tahsin",
+    "maps": "600",
+    "rounds": "15607",
+    "kdd": "-643",
+    "kd": "0.94",
+    "rating1": "0.95"
+    },
+    {
+    "name": "denis",
+    "url": "https://www.hltv.org/stats/players/7511/denis",
+    "maps": "1840",
+    "rounds": "48974",
+    "kdd": "-1863",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "alexRr",
+    "url": "https://www.hltv.org/stats/players/7508/alexrr",
+    "maps": "433",
+    "rounds": "11346",
+    "kdd": "-554",
+    "kd": "0.93",
+    "rating1": "0.95"
+    },
+    {
+    "name": "dumz",
+    "url": "https://www.hltv.org/stats/players/7958/dumz",
+    "maps": "455",
+    "rounds": "12074",
+    "kdd": "-320",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "spamzzy1",
+    "url": "https://www.hltv.org/stats/players/9214/spamzzy1",
+    "maps": "385",
+    "rounds": "9701",
+    "kdd": "-451",
+    "kd": "0.94",
+    "rating1": "0.95"
+    },
+    {
+    "name": "Snappi",
+    "url": "https://www.hltv.org/stats/players/922/snappi",
+    "maps": "1633",
+    "rounds": "43119",
+    "kdd": "-1064",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "dezon",
+    "url": "https://www.hltv.org/stats/players/15639/dezon",
+    "maps": "549",
+    "rounds": "14759",
+    "kdd": "-267",
+    "kd": "0.97",
+    "rating1": "0.95"
+    },
+    {
+    "name": "Grus",
+    "url": "https://www.hltv.org/stats/players/16462/grus",
+    "maps": "598",
+    "rounds": "16291",
+    "kdd": "-819",
+    "kd": "0.93",
+    "rating1": "0.95"
+    },
+    {
+    "name": "friberg",
+    "url": "https://www.hltv.org/stats/players/7148/friberg",
+    "maps": "1965",
+    "rounds": "51191",
+    "kdd": "-1729",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "rafftu",
+    "url": "https://www.hltv.org/stats/players/16412/rafftu",
+    "maps": "536",
+    "rounds": "14361",
+    "kdd": "-437",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "Console",
+    "url": "https://www.hltv.org/stats/players/10404/console",
+    "maps": "708",
+    "rounds": "18612",
+    "kdd": "-582",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "steel",
+    "url": "https://www.hltv.org/stats/players/7382/steel",
+    "maps": "1467",
+    "rounds": "38403",
+    "kdd": "-903",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "CONNOR93",
+    "url": "https://www.hltv.org/stats/players/9660/connor93",
+    "maps": "449",
+    "rounds": "11544",
+    "kdd": "-457",
+    "kd": "0.94",
+    "rating1": "0.95"
+    },
+    {
+    "name": "soju_j",
+    "url": "https://www.hltv.org/stats/players/12590/soju-j",
+    "maps": "554",
+    "rounds": "14231",
+    "kdd": "-410",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "oxygeN",
+    "url": "https://www.hltv.org/stats/players/18697/oxygen",
+    "maps": "581",
+    "rounds": "15681",
+    "kdd": "-445",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "beastik",
+    "url": "https://www.hltv.org/stats/players/11199/beastik",
+    "maps": "842",
+    "rounds": "22614",
+    "kdd": "-775",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "devoduvek",
+    "url": "https://www.hltv.org/stats/players/10569/devoduvek",
+    "maps": "651",
+    "rounds": "17261",
+    "kdd": "-618",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "KrizzeN",
+    "url": "https://www.hltv.org/stats/players/12161/krizzen",
+    "maps": "763",
+    "rounds": "20020",
+    "kdd": "-368",
+    "kd": "0.97",
+    "rating1": "0.95"
+    },
+    {
+    "name": "dERZKIY",
+    "url": "https://www.hltv.org/stats/players/7942/derzkiy",
+    "maps": "419",
+    "rounds": "10917",
+    "kdd": "-406",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "maNkz",
+    "url": "https://www.hltv.org/stats/players/15349/mankz",
+    "maps": "765",
+    "rounds": "20632",
+    "kdd": "-684",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "caike",
+    "url": "https://www.hltv.org/stats/players/10563/caike",
+    "maps": "528",
+    "rounds": "13869",
+    "kdd": "-426",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "AcilioN",
+    "url": "https://www.hltv.org/stats/players/8151/acilion",
+    "maps": "1777",
+    "rounds": "46881",
+    "kdd": "-1489",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "darko",
+    "url": "https://www.hltv.org/stats/players/11287/darko",
+    "maps": "809",
+    "rounds": "21939",
+    "kdd": "-825",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "TaZ",
+    "url": "https://www.hltv.org/stats/players/161/taz",
+    "maps": "2237",
+    "rounds": "58803",
+    "kdd": "-1758",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "H4RR3",
+    "url": "https://www.hltv.org/stats/players/14311/h4rr3",
+    "maps": "686",
+    "rounds": "18424",
+    "kdd": "-835",
+    "kd": "0.94",
+    "rating1": "0.95"
+    },
+    {
+    "name": "flashie",
+    "url": "https://www.hltv.org/stats/players/5440/flashie",
+    "maps": "594",
+    "rounds": "15719",
+    "kdd": "-518",
+    "kd": "0.95",
+    "rating1": "0.95"
+    },
+    {
+    "name": "strux1",
+    "url": "https://www.hltv.org/stats/players/7214/strux1",
+    "maps": "403",
+    "rounds": "10276",
+    "kdd": "-246",
+    "kd": "0.96",
+    "rating1": "0.95"
+    },
+    {
+    "name": "ecfN",
+    "url": "https://www.hltv.org/stats/players/10367/ecfn",
+    "maps": "426",
+    "rounds": "11214",
+    "kdd": "-471",
+    "kd": "0.94",
+    "rating1": "0.95"
+    },
+    {
+    "name": "Inzta",
+    "url": "https://www.hltv.org/stats/players/7463/inzta",
+    "maps": "754",
+    "rounds": "19798",
+    "kdd": "-849",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "BRACE",
+    "url": "https://www.hltv.org/stats/players/12588/brace",
+    "maps": "447",
+    "rounds": "11553",
+    "kdd": "-456",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "uNdo",
+    "url": "https://www.hltv.org/stats/players/7943/undo",
+    "maps": "432",
+    "rounds": "11267",
+    "kdd": "-371",
+    "kd": "0.95",
+    "rating1": "0.94"
+    },
+    {
+    "name": "vSa",
+    "url": "https://www.hltv.org/stats/players/9845/vsa",
+    "maps": "385",
+    "rounds": "10066",
+    "kdd": "-322",
+    "kd": "0.95",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Karsa",
+    "url": "https://www.hltv.org/stats/players/8599/karsa",
+    "maps": "461",
+    "rounds": "11782",
+    "kdd": "-319",
+    "kd": "0.96",
+    "rating1": "0.94"
+    },
+    {
+    "name": "kzy",
+    "url": "https://www.hltv.org/stats/players/3517/kzy",
+    "maps": "991",
+    "rounds": "25840",
+    "kdd": "-835",
+    "kd": "0.95",
+    "rating1": "0.94"
+    },
+    {
+    "name": "RAiLWAY",
+    "url": "https://www.hltv.org/stats/players/14161/railway",
+    "maps": "498",
+    "rounds": "13445",
+    "kdd": "-767",
+    "kd": "0.92",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Patrick",
+    "url": "https://www.hltv.org/stats/players/14380/patrick",
+    "maps": "415",
+    "rounds": "11206",
+    "kdd": "-562",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Fifflaren",
+    "url": "https://www.hltv.org/stats/players/7147/fifflaren",
+    "maps": "538",
+    "rounds": "13220",
+    "kdd": "-40",
+    "kd": "0.99",
+    "rating1": "0.94"
+    },
+    {
+    "name": "JT",
+    "url": "https://www.hltv.org/stats/players/11630/jt",
+    "maps": "1111",
+    "rounds": "28858",
+    "kdd": "-1132",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "boX",
+    "url": "https://www.hltv.org/stats/players/13976/box",
+    "maps": "1312",
+    "rounds": "35014",
+    "kdd": "-1374",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "SileNt",
+    "url": "https://www.hltv.org/stats/players/8752/silent",
+    "maps": "624",
+    "rounds": "16235",
+    "kdd": "-788",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Rock1nG",
+    "url": "https://www.hltv.org/stats/players/10762/rock1ng",
+    "maps": "903",
+    "rounds": "23762",
+    "kdd": "-1088",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Sidney",
+    "url": "https://www.hltv.org/stats/players/15697/sidney",
+    "maps": "557",
+    "rounds": "15037",
+    "kdd": "-447",
+    "kd": "0.95",
+    "rating1": "0.94"
+    },
+    {
+    "name": "TOAO",
+    "url": "https://www.hltv.org/stats/players/11278/toao",
+    "maps": "1181",
+    "rounds": "31556",
+    "kdd": "-1150",
+    "kd": "0.95",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Twixie",
+    "url": "https://www.hltv.org/stats/players/15180/twixie",
+    "maps": "767",
+    "rounds": "20821",
+    "kdd": "-780",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Shakezullah",
+    "url": "https://www.hltv.org/stats/players/14203/shakezullah",
+    "maps": "859",
+    "rounds": "22364",
+    "kdd": "-450",
+    "kd": "0.97",
+    "rating1": "0.94"
+    },
+    {
+    "name": "arvid",
+    "url": "https://www.hltv.org/stats/players/9325/arvid",
+    "maps": "943",
+    "rounds": "25323",
+    "kdd": "-1184",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "tonyblack",
+    "url": "https://www.hltv.org/stats/players/1950/tonyblack",
+    "maps": "826",
+    "rounds": "21699",
+    "kdd": "-725",
+    "kd": "0.95",
+    "rating1": "0.94"
+    },
+    {
+    "name": "arch",
+    "url": "https://www.hltv.org/stats/players/8410/arch",
+    "maps": "593",
+    "rounds": "15530",
+    "kdd": "-658",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "RIZZZ",
+    "url": "https://www.hltv.org/stats/players/2260/rizzz",
+    "maps": "423",
+    "rounds": "11085",
+    "kdd": "-550",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "dan1",
+    "url": "https://www.hltv.org/stats/players/18788/dan1",
+    "maps": "395",
+    "rounds": "10644",
+    "kdd": "-441",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "interz",
+    "url": "https://www.hltv.org/stats/players/15071/interz",
+    "maps": "908",
+    "rounds": "24175",
+    "kdd": "-159",
+    "kd": "0.99",
+    "rating1": "0.94"
+    },
+    {
+    "name": "LOMME",
+    "url": "https://www.hltv.org/stats/players/1889/lomme",
+    "maps": "623",
+    "rounds": "16172",
+    "kdd": "-532",
+    "kd": "0.95",
+    "rating1": "0.94"
+    },
+    {
+    "name": "ztr",
+    "url": "https://www.hltv.org/stats/players/16486/ztr",
+    "maps": "481",
+    "rounds": "12868",
+    "kdd": "-608",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Ex6TenZ",
+    "url": "https://www.hltv.org/stats/players/7166/ex6tenz",
+    "maps": "1393",
+    "rounds": "36352",
+    "kdd": "-1064",
+    "kd": "0.96",
+    "rating1": "0.94"
+    },
+    {
+    "name": "ub1que",
+    "url": "https://www.hltv.org/stats/players/7405/ub1que",
+    "maps": "491",
+    "rounds": "12691",
+    "kdd": "-496",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Duplicate",
+    "url": "https://www.hltv.org/stats/players/16410/duplicate",
+    "maps": "849",
+    "rounds": "22631",
+    "kdd": "-1009",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "Noisia",
+    "url": "https://www.hltv.org/stats/players/11492/noisia",
+    "maps": "579",
+    "rounds": "15033",
+    "kdd": "-616",
+    "kd": "0.94",
+    "rating1": "0.94"
+    },
+    {
+    "name": "EXUS",
+    "url": "https://www.hltv.org/stats/players/8549/exus",
+    "maps": "936",
+    "rounds": "25007",
+    "kdd": "-1214",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "ngiN",
+    "url": "https://www.hltv.org/stats/players/9857/ngin",
+    "maps": "1025",
+    "rounds": "26895",
+    "kdd": "-748",
+    "kd": "0.96",
+    "rating1": "0.94"
+    },
+    {
+    "name": "forget",
+    "url": "https://www.hltv.org/stats/players/2292/forget",
+    "maps": "442",
+    "rounds": "11512",
+    "kdd": "-734",
+    "kd": "0.91",
+    "rating1": "0.94"
+    },
+    {
+    "name": "repo",
+    "url": "https://www.hltv.org/stats/players/8320/repo",
+    "maps": "505",
+    "rounds": "13254",
+    "kdd": "-657",
+    "kd": "0.93",
+    "rating1": "0.94"
+    },
+    {
+    "name": "DANZ",
+    "url": "https://www.hltv.org/stats/players/9104/danz",
+    "maps": "391",
+    "rounds": "10173",
+    "kdd": "-620",
+    "kd": "0.92",
+    "rating1": "0.93"
+    },
+    {
+    "name": "tutehen",
+    "url": "https://www.hltv.org/stats/players/10506/tutehen",
+    "maps": "450",
+    "rounds": "11640",
+    "kdd": "-422",
+    "kd": "0.95",
+    "rating1": "0.93"
+    },
+    {
+    "name": "Polly",
+    "url": "https://www.hltv.org/stats/players/3631/polly",
+    "maps": "460",
+    "rounds": "11957",
+    "kdd": "-602",
+    "kd": "0.93",
+    "rating1": "0.93"
+    },
+    {
+    "name": "neaLaN",
+    "url": "https://www.hltv.org/stats/players/11940/nealan",
+    "maps": "1113",
+    "rounds": "29739",
+    "kdd": "-1408",
+    "kd": "0.93",
+    "rating1": "0.93"
+    },
+    {
+    "name": "emi",
+    "url": "https://www.hltv.org/stats/players/2476/emi",
+    "maps": "1116",
+    "rounds": "29191",
+    "kdd": "-1333",
+    "kd": "0.93",
+    "rating1": "0.93"
+    },
+    {
+    "name": "hutji",
+    "url": "https://www.hltv.org/stats/players/8790/hutji",
+    "maps": "453",
+    "rounds": "12010",
+    "kdd": "-664",
+    "kd": "0.92",
+    "rating1": "0.93"
+    },
+    {
+    "name": "crisby",
+    "url": "https://www.hltv.org/stats/players/1064/crisby",
+    "maps": "1210",
+    "rounds": "31547",
+    "kdd": "-1814",
+    "kd": "0.92",
+    "rating1": "0.93"
+    },
+    {
+    "name": "kiR",
+    "url": "https://www.hltv.org/stats/players/10938/kir",
+    "maps": "651",
+    "rounds": "17551",
+    "kdd": "-1057",
+    "kd": "0.91",
+    "rating1": "0.93"
+    },
+    {
+    "name": "SkulL",
+    "url": "https://www.hltv.org/stats/players/14290/skull",
+    "maps": "627",
+    "rounds": "16380",
+    "kdd": "-1115",
+    "kd": "0.91",
+    "rating1": "0.93"
+    },
+    {
+    "name": "matty",
+    "url": "https://www.hltv.org/stats/players/8231/matty",
+    "maps": "605",
+    "rounds": "16038",
+    "kdd": "-810",
+    "kd": "0.93",
+    "rating1": "0.93"
+    },
+    {
+    "name": "mynio",
+    "url": "https://www.hltv.org/stats/players/4829/mynio",
+    "maps": "837",
+    "rounds": "22494",
+    "kdd": "-1402",
+    "kd": "0.91",
+    "rating1": "0.93"
+    },
+    {
+    "name": "quix",
+    "url": "https://www.hltv.org/stats/players/3329/quix",
+    "maps": "958",
+    "rounds": "25334",
+    "kdd": "-1917",
+    "kd": "0.90",
+    "rating1": "0.93"
+    },
+    {
+    "name": "aVN",
+    "url": "https://www.hltv.org/stats/players/5351/avn",
+    "maps": "603",
+    "rounds": "16147",
+    "kdd": "-762",
+    "kd": "0.93",
+    "rating1": "0.93"
+    },
+    {
+    "name": "S0tF1k",
+    "url": "https://www.hltv.org/stats/players/9081/s0tf1k",
+    "maps": "1297",
+    "rounds": "34176",
+    "kdd": "-1899",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "hitMouse",
+    "url": "https://www.hltv.org/stats/players/1200/hitmouse",
+    "maps": "538",
+    "rounds": "14028",
+    "kdd": "-625",
+    "kd": "0.93",
+    "rating1": "0.92"
+    },
+    {
+    "name": "Xp3",
+    "url": "https://www.hltv.org/stats/players/1331/xp3",
+    "maps": "502",
+    "rounds": "13113",
+    "kdd": "-792",
+    "kd": "0.91",
+    "rating1": "0.92"
+    },
+    {
+    "name": "TACO",
+    "url": "https://www.hltv.org/stats/players/9217/taco",
+    "maps": "1443",
+    "rounds": "37557",
+    "kdd": "-1525",
+    "kd": "0.94",
+    "rating1": "0.92"
+    },
+    {
+    "name": "pNshr",
+    "url": "https://www.hltv.org/stats/players/1278/pnshr",
+    "maps": "600",
+    "rounds": "15671",
+    "kdd": "-812",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "arki",
+    "url": "https://www.hltv.org/stats/players/356/arki",
+    "maps": "889",
+    "rounds": "23396",
+    "kdd": "-1274",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "SANJI",
+    "url": "https://www.hltv.org/stats/players/11716/sanji",
+    "maps": "743",
+    "rounds": "19879",
+    "kdd": "-998",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "Zeus",
+    "url": "https://www.hltv.org/stats/players/484/zeus",
+    "maps": "1405",
+    "rounds": "37152",
+    "kdd": "-1990",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "MSL",
+    "url": "https://www.hltv.org/stats/players/7156/msl",
+    "maps": "1739",
+    "rounds": "45470",
+    "kdd": "-3381",
+    "kd": "0.90",
+    "rating1": "0.92"
+    },
+    {
+    "name": "Luz",
+    "url": "https://www.hltv.org/stats/players/5385/luz",
+    "maps": "660",
+    "rounds": "17302",
+    "kdd": "-994",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "akez",
+    "url": "https://www.hltv.org/stats/players/8837/akez",
+    "maps": "531",
+    "rounds": "14320",
+    "kdd": "-1005",
+    "kd": "0.90",
+    "rating1": "0.92"
+    },
+    {
+    "name": "nak",
+    "url": "https://www.hltv.org/stats/players/169/nak",
+    "maps": "515",
+    "rounds": "13322",
+    "kdd": "-674",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "SENER1",
+    "url": "https://www.hltv.org/stats/players/15778/sener1",
+    "maps": "453",
+    "rounds": "12052",
+    "kdd": "-664",
+    "kd": "0.92",
+    "rating1": "0.92"
+    },
+    {
+    "name": "dobbo",
+    "url": "https://www.hltv.org/stats/players/20128/dobbo",
+    "maps": "395",
+    "rounds": "10732",
+    "kdd": "-509",
+    "kd": "0.93",
+    "rating1": "0.92"
+    },
+    {
+    "name": "arya",
+    "url": "https://www.hltv.org/stats/players/6453/arya",
+    "maps": "440",
+    "rounds": "11291",
+    "kdd": "-868",
+    "kd": "0.89",
+    "rating1": "0.92"
+    },
+    {
+    "name": "sorrow",
+    "url": "https://www.hltv.org/stats/players/19967/sorrow",
+    "maps": "439",
+    "rounds": "11766",
+    "kdd": "-839",
+    "kd": "0.90",
+    "rating1": "0.91"
+    },
+    {
+    "name": "svyat",
+    "url": "https://www.hltv.org/stats/players/12016/svyat",
+    "maps": "734",
+    "rounds": "19717",
+    "kdd": "-1060",
+    "kd": "0.92",
+    "rating1": "0.91"
+    },
+    {
+    "name": "Dav",
+    "url": "https://www.hltv.org/stats/players/4218/dav",
+    "maps": "468",
+    "rounds": "12095",
+    "kdd": "-822",
+    "kd": "0.90",
+    "rating1": "0.91"
+    },
+    {
+    "name": "BTN",
+    "url": "https://www.hltv.org/stats/players/1206/btn",
+    "maps": "1123",
+    "rounds": "29562",
+    "kdd": "-2152",
+    "kd": "0.90",
+    "rating1": "0.91"
+    },
+    {
+    "name": "xartE",
+    "url": "https://www.hltv.org/stats/players/7537/xarte",
+    "maps": "1155",
+    "rounds": "30358",
+    "kdd": "-1660",
+    "kd": "0.92",
+    "rating1": "0.91"
+    },
+    {
+    "name": "ncl",
+    "url": "https://www.hltv.org/stats/players/9736/ncl",
+    "maps": "546",
+    "rounds": "14042",
+    "kdd": "-764",
+    "kd": "0.92",
+    "rating1": "0.91"
+    },
+    {
+    "name": "karrigan",
+    "url": "https://www.hltv.org/stats/players/429/karrigan",
+    "maps": "2079",
+    "rounds": "54580",
+    "kdd": "-3802",
+    "kd": "0.90",
+    "rating1": "0.91"
+    },
+    {
+    "name": "LEGIJA",
+    "url": "https://www.hltv.org/stats/players/3252/legija",
+    "maps": "869",
+    "rounds": "22614",
+    "kdd": "-1671",
+    "kd": "0.90",
+    "rating1": "0.91"
+    },
+    {
+    "name": "roman",
+    "url": "https://www.hltv.org/stats/players/1154/roman",
+    "maps": "414",
+    "rounds": "10880",
+    "kdd": "-664",
+    "kd": "0.91",
+    "rating1": "0.91"
+    },
+    {
+    "name": "wayLander",
+    "url": "https://www.hltv.org/stats/players/7796/waylander",
+    "maps": "794",
+    "rounds": "20857",
+    "kdd": "-1715",
+    "kd": "0.89",
+    "rating1": "0.91"
+    },
+    {
+    "name": "BONA",
+    "url": "https://www.hltv.org/stats/players/10114/bona",
+    "maps": "476",
+    "rounds": "12674",
+    "kdd": "-943",
+    "kd": "0.89",
+    "rating1": "0.91"
+    },
+    {
+    "name": "sAw",
+    "url": "https://www.hltv.org/stats/players/7821/saw",
+    "maps": "1267",
+    "rounds": "33681",
+    "kdd": "-2108",
+    "kd": "0.91",
+    "rating1": "0.90"
+    },
+    {
+    "name": "coolio",
+    "url": "https://www.hltv.org/stats/players/14202/coolio",
+    "maps": "396",
+    "rounds": "10638",
+    "kdd": "-649",
+    "kd": "0.91",
+    "rating1": "0.90"
+    },
+    {
+    "name": "kRYSTAL",
+    "url": "https://www.hltv.org/stats/players/7218/krystal",
+    "maps": "1869",
+    "rounds": "48888",
+    "kdd": "-3463",
+    "kd": "0.90",
+    "rating1": "0.90"
+    },
+    {
+    "name": "ben1337",
+    "url": "https://www.hltv.org/stats/players/13250/ben1337",
+    "maps": "970",
+    "rounds": "25263",
+    "kdd": "-1810",
+    "kd": "0.90",
+    "rating1": "0.90"
+    },
+    {
+    "name": "MiGHTYMAX",
+    "url": "https://www.hltv.org/stats/players/8983/mightymax",
+    "maps": "1229",
+    "rounds": "32587",
+    "kdd": "-2175",
+    "kd": "0.90",
+    "rating1": "0.90"
+    },
+    {
+    "name": "crush",
+    "url": "https://www.hltv.org/stats/players/9348/crush",
+    "maps": "732",
+    "rounds": "19295",
+    "kdd": "-1476",
+    "kd": "0.89",
+    "rating1": "0.90"
+    },
+    {
+    "name": "balblna",
+    "url": "https://www.hltv.org/stats/players/8294/balblna",
+    "maps": "612",
+    "rounds": "16045",
+    "kdd": "-1236",
+    "kd": "0.89",
+    "rating1": "0.90"
+    },
+    {
+    "name": "sycrone",
+    "url": "https://www.hltv.org/stats/players/9295/sycrone",
+    "maps": "553",
+    "rounds": "14608",
+    "kdd": "-978",
+    "kd": "0.90",
+    "rating1": "0.90"
+    },
+    {
+    "name": "nkl",
+    "url": "https://www.hltv.org/stats/players/5327/nkl",
+    "maps": "642",
+    "rounds": "16554",
+    "kdd": "-1046",
+    "kd": "0.91",
+    "rating1": "0.90"
+    },
+    {
+    "name": "Golden",
+    "url": "https://www.hltv.org/stats/players/11110/golden",
+    "maps": "872",
+    "rounds": "23212",
+    "kdd": "-2006",
+    "kd": "0.88",
+    "rating1": "0.90"
+    },
+    {
+    "name": "hooch",
+    "url": "https://www.hltv.org/stats/players/499/hooch",
+    "maps": "897",
+    "rounds": "23538",
+    "kdd": "-1828",
+    "kd": "0.89",
+    "rating1": "0.90"
+    },
+    {
+    "name": "lunAtic",
+    "url": "https://www.hltv.org/stats/players/9798/lunatic",
+    "maps": "935",
+    "rounds": "25381",
+    "kdd": "-1850",
+    "kd": "0.89",
+    "rating1": "0.90"
+    },
+    {
+    "name": "FNS",
+    "url": "https://www.hltv.org/stats/players/6451/fns",
+    "maps": "953",
+    "rounds": "25080",
+    "kdd": "-1794",
+    "kd": "0.89",
+    "rating1": "0.89"
+    },
+    {
+    "name": "spiker",
+    "url": "https://www.hltv.org/stats/players/7797/spiker",
+    "maps": "415",
+    "rounds": "10974",
+    "kdd": "-974",
+    "kd": "0.88",
+    "rating1": "0.89"
+    },
+    {
+    "name": "Psycho",
+    "url": "https://www.hltv.org/stats/players/16563/psycho",
+    "maps": "509",
+    "rounds": "13561",
+    "kdd": "-1062",
+    "kd": "0.89",
+    "rating1": "0.89"
+    },
+    {
+    "name": "JiNKZ",
+    "url": "https://www.hltv.org/stats/players/15120/jinkz",
+    "maps": "542",
+    "rounds": "14411",
+    "kdd": "-1193",
+    "kd": "0.88",
+    "rating1": "0.89"
+    },
+    {
+    "name": "Adam9130",
+    "url": "https://www.hltv.org/stats/players/18219/adam9130",
+    "maps": "567",
+    "rounds": "15415",
+    "kdd": "-1452",
+    "kd": "0.87",
+    "rating1": "0.89"
+    },
+    {
+    "name": "MAiNLiNE",
+    "url": "https://www.hltv.org/stats/players/9017/mainline",
+    "maps": "437",
+    "rounds": "11092",
+    "kdd": "-1064",
+    "kd": "0.87",
+    "rating1": "0.89"
+    },
+    {
+    "name": "pronax",
+    "url": "https://www.hltv.org/stats/players/41/pronax",
+    "maps": "1199",
+    "rounds": "31403",
+    "kdd": "-2267",
+    "kd": "0.89",
+    "rating1": "0.89"
+    },
+    {
+    "name": "Polen",
+    "url": "https://www.hltv.org/stats/players/9882/polen",
+    "maps": "435",
+    "rounds": "11470",
+    "kdd": "-978",
+    "kd": "0.88",
+    "rating1": "0.89"
+    },
+    {
+    "name": "IceBerg",
+    "url": "https://www.hltv.org/stats/players/16731/iceberg",
+    "maps": "507",
+    "rounds": "13539",
+    "kdd": "-1485",
+    "kd": "0.85",
+    "rating1": "0.89"
+    },
+    {
+    "name": "Lambert",
+    "url": "https://www.hltv.org/stats/players/8047/lambert",
+    "maps": "775",
+    "rounds": "20411",
+    "kdd": "-1581",
+    "kd": "0.88",
+    "rating1": "0.88"
+    },
+    {
+    "name": "LeX",
+    "url": "https://www.hltv.org/stats/players/8504/lex",
+    "maps": "463",
+    "rounds": "11937",
+    "kdd": "-1263",
+    "kd": "0.85",
+    "rating1": "0.88"
+    },
+    {
+    "name": "ScrunK",
+    "url": "https://www.hltv.org/stats/players/8212/scrunk",
+    "maps": "1005",
+    "rounds": "26731",
+    "kdd": "-2769",
+    "kd": "0.85",
+    "rating1": "0.88"
+    },
+    {
+    "name": "torben",
+    "url": "https://www.hltv.org/stats/players/10993/torben",
+    "maps": "532",
+    "rounds": "13939",
+    "kdd": "-1196",
+    "kd": "0.87",
+    "rating1": "0.88"
+    },
+    {
+    "name": "seang@res",
+    "url": "https://www.hltv.org/stats/players/1916/seangres",
+    "maps": "713",
+    "rounds": "18391",
+    "kdd": "-1629",
+    "kd": "0.87",
+    "rating1": "0.88"
+    },
+    {
+    "name": "daps",
+    "url": "https://www.hltv.org/stats/players/8521/daps",
+    "maps": "1075",
+    "rounds": "28101",
+    "kdd": "-2364",
+    "kd": "0.87",
+    "rating1": "0.88"
+    },
+    {
+    "name": "flowsicK",
+    "url": "https://www.hltv.org/stats/players/1328/flowsick",
+    "maps": "395",
+    "rounds": "10074",
+    "kdd": "-1047",
+    "kd": "0.86",
+    "rating1": "0.87"
+    },
+    {
+    "name": "birdfromsky",
+    "url": "https://www.hltv.org/stats/players/13718/birdfromsky",
+    "maps": "894",
+    "rounds": "24214",
+    "kdd": "-2346",
+    "kd": "0.86",
+    "rating1": "0.87"
+    },
+    {
+    "name": "BERRY",
+    "url": "https://www.hltv.org/stats/players/921/berry",
+    "maps": "803",
+    "rounds": "21015",
+    "kdd": "-2362",
+    "kd": "0.85",
+    "rating1": "0.87"
+    },
+    {
+    "name": "nawrot",
+    "url": "https://www.hltv.org/stats/players/15726/nawrot",
+    "maps": "603",
+    "rounds": "16182",
+    "kdd": "-1737",
+    "kd": "0.85",
+    "rating1": "0.87"
+    },
+    {
+    "name": "advent",
+    "url": "https://www.hltv.org/stats/players/8600/advent",
+    "maps": "1122",
+    "rounds": "28861",
+    "kdd": "-2280",
+    "kd": "0.88",
+    "rating1": "0.87"
+    },
+    {
+    "name": "def",
+    "url": "https://www.hltv.org/stats/players/9350/def",
+    "maps": "605",
+    "rounds": "15797",
+    "kdd": "-1593",
+    "kd": "0.85",
+    "rating1": "0.86"
+    },
+    {
+    "name": "HooXi",
+    "url": "https://www.hltv.org/stats/players/10096/hooxi",
+    "maps": "836",
+    "rounds": "22205",
+    "kdd": "-2385",
+    "kd": "0.84",
+    "rating1": "0.86"
+    },
+    {
+    "name": "djL",
+    "url": "https://www.hltv.org/stats/players/12572/djl",
+    "maps": "688",
+    "rounds": "18180",
+    "kdd": "-1735",
+    "kd": "0.86",
+    "rating1": "0.86"
+    },
+    {
+    "name": "Devilwalk",
+    "url": "https://www.hltv.org/stats/players/7378/devilwalk",
+    "maps": "408",
+    "rounds": "10717",
+    "kdd": "-1146",
+    "kd": "0.84",
+    "rating1": "0.86"
+    },
+    {
+    "name": "gob b",
+    "url": "https://www.hltv.org/stats/players/136/gob-b",
+    "maps": "975",
+    "rounds": "25707",
+    "kdd": "-2811",
+    "kd": "0.84",
+    "rating1": "0.85"
+    },
+    {
+    "name": "Slemmy",
+    "url": "https://www.hltv.org/stats/players/8708/slemmy",
+    "maps": "445",
+    "rounds": "11663",
+    "kdd": "-1313",
+    "kd": "0.83",
+    "rating1": "0.85"
+    },
+    {
+    "name": "PASHANOJ",
+    "url": "https://www.hltv.org/stats/players/13779/pashanoj",
+    "maps": "618",
+    "rounds": "16187",
+    "kdd": "-2383",
+    "kd": "0.80",
+    "rating1": "0.83"
+    },
+    {
+    "name": "B1ad3",
+    "url": "https://www.hltv.org/stats/players/472/b1ad3",
+    "maps": "899",
+    "rounds": "23232",
+    "kdd": "-3408",
+    "kd": "0.80",
+    "rating1": "0.83"
+    },
+    {
+    "name": "netrick",
+    "url": "https://www.hltv.org/stats/players/8422/netrick",
+    "maps": "455",
+    "rounds": "11976",
+    "kdd": "-1736",
+    "kd": "0.80",
+    "rating1": "0.82"
+    },
+    {
+    "name": "HUNDEN",
+    "url": "https://www.hltv.org/stats/players/7415/hunden",
+    "maps": "1578",
+    "rounds": "41153",
+    "kdd": "-6238",
+    "kd": "0.78",
+    "rating1": "0.81"
+    },
+    {
+    "name": "RuFire",
+    "url": "https://www.hltv.org/stats/players/13156/rufire",
+    "maps": "389",
+    "rounds": "10334",
+    "kdd": "-1959",
+    "kd": "0.74",
+    "rating1": "0.78"
+    },
+    {
+    "name": "OCEAN",
+    "url": "https://www.hltv.org/stats/players/6455/ocean",
+    "maps": "410",
+    "rounds": "10602",
+    "kdd": "-1962",
+    "kd": "0.74",
+    "rating1": "0.77"
+    }
+    ]
+    
+}
