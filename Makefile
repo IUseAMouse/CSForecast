@@ -38,7 +38,7 @@ train-all:
 	@echo "Training models for 180/120 configuration..."
 	$(PYTHON) scripts/train_models.py --model all --seq-length 180 --out-length 120
 	@echo "Training models for 225/150 configuration..."
-	$(PYTHON) scripts/train_models.py --model all --seq-length 225 --out-length 150
+	$(PYTHON) scripts/train_models.py --model all --seq-length 226 --out-length 150
 
 train-lstm: 
 	@mkdir -p $(MODELS_DIR)
@@ -59,7 +59,7 @@ train-ridge:
 		--out-length $(or $(OUT),30)
 
 evaluate: 
-	$(PYTHON) scripts/evaluate_models.py --models-dir $(MODELS_DIR)
+	$(PYTHON) scripts/evaluate_models.py --models-dir $(MODELS_DIR) --plot
 
 format:  
 	black src/ scripts/ tests/

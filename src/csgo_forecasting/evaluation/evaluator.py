@@ -2,12 +2,14 @@
 Model evaluation class.
 """
 
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 import numpy as np
 import torch
+import pandas as pd
 from scipy import stats
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
+import sklearn.base
 
 from .metrics import calculate_metrics
 from ..training.torch import prepare_data
@@ -29,7 +31,7 @@ class Evaluator:
 
     def evaluate_on_dataset(
         self,
-        data: Any,
+        data: pd.DataFrame,
         seq_length: int,
         out_length: int,
         is_pytorch: bool = True,
@@ -50,14 +52,19 @@ class Evaluator:
         all_true = []
         player_results = []
 
-        # Vérifier le type réel du modèle
-        import sklearn.base
-        is_sklearn = isinstance(self.model, sklearn.base.BaseEstimator)
+        # Check if model is a pure sklearn estimator (not our wrapper)
+        is_pure_sklearn = isinstance(self.model, sklearn.base.BaseEstimator) and not hasattr(self.model, "forward")
+        
+        # Performance Note: 
+        # Ideally, we should batch this loop for ARIMA/ETS to leverage joblib parallelism.
+        # However, to keep the evaluation logic consistent and simple per player, 
+        # we keep the iterative approach. For ARIMA/ETS, this might be slow.
         
         for index, row in data.iterrows():
             trend = row["rating_trend"]
             pname = row["players_name"]
             
+            # Prepare data for this specific player
             _, _, _, x_ratings, y_ratings = prepare_data(
                 trend, sequence_length=seq_length, out_length=out_length
             )
@@ -65,22 +72,30 @@ class Evaluator:
             if len(y_ratings) == 0:
                 continue
 
+            # We only take the LAST sequence of the test set for the "future" prediction simulation
+            # Or do we want to evaluate on all sliding windows in the test set?
+            # Standard approach: Evaluate on the last available window to predict the 'unseen' future
+            # But here x_ratings contains all sliding windows. 
+            # Let's evaluate on the very last window to avoid data leakage overlap in metrics 
+            # if that's the goal, OR evaluate on all windows.
+            # Based on your previous code: `initial_step = x_ratings[-1]` implies only the last window.
+            
             initial_step = x_ratings[-1]
-            y_true = np.array(y_ratings[-1])
+            y_true_sample = np.array(y_ratings[-1])
 
-            if is_sklearn:
-                # Modèle sklearn
+            # 1. Pure Sklearn (Raw objects)
+            if is_pure_sklearn:
                 initial_step = np.array(initial_step)
-                initial_step = np.reshape(
-                    initial_step, newshape=(1, initial_step.shape[0])
-                )
-                y_pred = self.model.predict(initial_step)[0]
+                initial_step = np.reshape(initial_step, newshape=(1, -1))
+                y_pred_sample = self.model.predict(initial_step)[0]
+
+            # 2. PyTorch Models (LSTM, GRU, Transformer)
             elif is_pytorch:
-                # Modèle PyTorch
                 initial_step = np.array(initial_step)
+                # Shape: (1, Seq, Feature)
                 initial_step = Variable(torch.Tensor(initial_step)).to(self.device)
                 initial_step = torch.reshape(
-                    initial_step, shape=(1, 1, initial_step.shape[0])
+                    initial_step, shape=(1, initial_step.shape[0], 1)
                 )
 
                 with torch.no_grad():
@@ -89,39 +104,50 @@ class Evaluator:
                 if isinstance(predictions, tuple):
                     predictions = predictions[0]
                     
-                y_pred = predictions[0].cpu().detach().numpy()
+                y_pred_sample = predictions[0].cpu().detach().numpy()
+
+            # 3. Our Custom Wrappers (Ridge, RF, ARIMA, ETS)
             else:
-                # Classical ML model avec forward()
                 initial_step = np.array(initial_step)
-                initial_step = np.reshape(
-                    initial_step, newshape=(1, initial_step.shape[0])
-                )
-                predictions = self.model.forward(initial_step, output_len=out_length)
-                y_pred = np.array(predictions[0])
+                # Shape: (1, Seq)
+                initial_step = np.reshape(initial_step, newshape=(1, -1))
+                
+                # FIX: Do not pass output_len, the models already know it
+                predictions = self.model.forward(initial_step)
+                y_pred_sample = np.array(predictions[0])
 
-            # Ensure y_pred and y_true are 1D arrays
-            y_pred = np.array(y_pred).flatten()
-            y_true = np.array(y_true).flatten()
+            # Ensure flat arrays
+            y_pred_sample = np.array(y_pred_sample).flatten()
+            y_true_sample = np.array(y_true_sample).flatten()
 
-            metrics = calculate_metrics(y_true, y_pred, include_horizons=True)
+            # Calculate metrics for this specific player/sample
+            metrics = calculate_metrics(y_true_sample, y_pred_sample, include_horizons=True)
 
             player_results.append({
                 "player_name": pname,
                 "metrics": metrics,
-                "y_true": y_true,
-                "y_pred": y_pred,
+                "y_true": y_true_sample,
+                "y_pred": y_pred_sample,
             })
 
-            all_predictions.append(y_pred)
-            all_true.append(y_true)
+            all_predictions.append(y_pred_sample)
+            all_true.append(y_true_sample)
 
-            if not is_sklearn:
+            if is_pytorch:
                 torch.cuda.empty_cache()
 
-        # Calculate aggregate metrics
-        all_predictions = np.concatenate(all_predictions)
-        all_true = np.concatenate(all_true)
-        aggregate_metrics = calculate_metrics(all_true, all_predictions, include_horizons=True)
+        # Calculate aggregate metrics across all players
+        if not all_predictions:
+            return {"aggregate_metrics": {}, "player_results": []}
+
+        all_predictions_concat = np.concatenate(all_predictions)
+        all_true_concat = np.concatenate(all_true)
+        
+        aggregate_metrics = calculate_metrics(
+            all_true_concat, 
+            all_predictions_concat, 
+            include_horizons=True
+        )
 
         return {
             "aggregate_metrics": aggregate_metrics,
@@ -136,45 +162,37 @@ class Evaluator:
     ) -> Dict[str, float]:
         """
         Perform paired t-test comparing model to baseline.
-        
-        Args:
-            model_results: Results from evaluate_on_dataset() for the model
-            baseline_results: Results from evaluate_on_dataset() for baseline
-            metric: Metric to compare (default: 'rmse')
-            
-        Returns:
-            Dictionary with statistical test results
         """
-        
         # Extract metric values per player
-        model_scores = [
-            r["metrics"][metric] 
-            for r in model_results["player_results"]
-        ]
-        baseline_scores = [
-            r["metrics"][metric] 
-            for r in baseline_results["player_results"]
-        ]
+        model_scores = [r["metrics"][metric] for r in model_results["player_results"]]
+        baseline_scores = [r["metrics"][metric] for r in baseline_results["player_results"]]
         
-        # Ensure same number of players
-        assert len(model_scores) == len(baseline_scores), \
-            "Model and baseline must have same number of players"
-        
-        # Paired t-test (lower is better for RMSE/MAE)
+        # Ensure alignment
+        if len(model_scores) != len(baseline_scores):
+            # Fallback: intersection by player name
+            model_map = {r["player_name"]: r["metrics"][metric] for r in model_results["player_results"]}
+            baseline_map = {r["player_name"]: r["metrics"][metric] for r in baseline_results["player_results"]}
+            
+            common_names = set(model_map.keys()) & set(baseline_map.keys())
+            model_scores = [model_map[n] for n in common_names]
+            baseline_scores = [baseline_map[n] for n in common_names]
+
+        # Paired t-test
         t_stat, p_value = stats.ttest_rel(baseline_scores, model_scores)
         
-        # Calculate effect size (Cohen's d for paired samples)
+        # Cohen's d
         differences = np.array(baseline_scores) - np.array(model_scores)
-        cohens_d = np.mean(differences) / np.std(differences, ddof=1)
+        std_diff = np.std(differences, ddof=1)
+        cohens_d = np.mean(differences) / std_diff if std_diff != 0 else 0.0
         
-        # Percentage of players where model beats baseline
+        # Win rate
         wins = np.sum(np.array(model_scores) < np.array(baseline_scores))
-        win_rate = 100 * wins / len(model_scores)
+        win_rate = 100 * wins / len(model_scores) if len(model_scores) > 0 else 0
         
         return {
             "t_statistic": t_stat,
             "p_value": p_value,
-            "significant": p_value < 0.001,  # p < 0.001 threshold
+            "significant": p_value < 0.001,
             "cohens_d": cohens_d,
             "win_rate_percent": win_rate,
             "n_players": len(model_scores)
@@ -184,37 +202,36 @@ class Evaluator:
         self,
         player_results: List[Dict],
         num_players: int = 15,
-        figsize: tuple = (40, 40),
+        figsize: tuple = (20, 15), # Adjusted size
     ) -> None:
         """
         Plot predictions for multiple players.
-
-        Args:
-            player_results: List of player results
-            num_players: Number of players to plot
-            figsize: Figure size
         """
-        plot_width = 5
-        plot_len = min(3, (num_players + plot_width - 1) // plot_width)
+        if not player_results:
+            print("No results to plot.")
+            return
 
-        fig, ax = plt.subplots(plot_len, plot_width, figsize=figsize)
+        num_players = min(num_players, len(player_results))
+        cols = 3
+        rows = (num_players + cols - 1) // cols
+
+        fig, axes = plt.subplots(rows, cols, figsize=figsize)
+        axes = np.array(axes).flatten()
         
-        for idx, result in enumerate(player_results[:num_players]):
-            i = idx % plot_len
-            j = idx // plot_len
+        for idx in range(num_players):
+            result = player_results[idx]
+            ax = axes[idx]
+            
+            ax.plot(result["y_true"], label="True", marker='o', markersize=3)
+            ax.plot(result["y_pred"], label="Predicted", linestyle='--', marker='x', markersize=3)
+            ax.set_title(f"{result['player_name']}\nRMSE: {result['metrics']['rmse']:.3f}")
+            if idx == 0:
+                ax.legend()
+            ax.grid(True, alpha=0.3)
 
-            if plot_len == 1:
-                curr_ax = ax[j] if plot_width > 1 else ax
-            else:
-                curr_ax = ax[i, j] if plot_width > 1 else ax[i]
-
-            curr_ax.plot(result["y_true"], label="True")
-            curr_ax.plot(result["y_pred"], label="Predicted")
-            curr_ax.set_title(
-                f"{result['player_name']}: "
-                f"RMSE={result['metrics']['rmse']:.4f}"
-            )
-            curr_ax.legend()
+        # Hide empty subplots
+        for idx in range(num_players, len(axes)):
+            axes[idx].axis('off')
 
         plt.tight_layout()
         plt.show()

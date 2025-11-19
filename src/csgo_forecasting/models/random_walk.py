@@ -49,8 +49,8 @@ class RandomWalkModel(BaseModel):
         
         # Extract sequences
         if len(x.shape) == 3:
-            # Shape: (batch, features, timesteps) -> extract (batch, timesteps)
-            sequences = x[:, 0, :]
+            # Shape: (batch, timesteps, features) -> extract (batch, timesteps)
+            sequences = x[:, :, 0]
         elif len(x.shape) == 2:
             sequences = x
         else:

@@ -72,7 +72,6 @@ csgo-performance-forecasting/
 │   ├── models/             # Model architectures
 │   ├── training/           # Training utilities
 │   └── evaluation/         # Evaluation metrics
-├── notebooks/              # Jupyter notebooks for demos
 └── scripts/                # Executable scripts
 ```
 
@@ -204,4 +203,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Yvann VINCENT - yvann.vincent@gmail.com
 
-Project Link: [https://github.com/IUseAMouse/csgo-performance-forecasting](https://github.com/IUseAMouse/csgo-performance-forecasting)
+Project Link: [https://github.com/IUseAMouse/CSForecast](https://github.com/IUseAMouse/CSForecast)
