@@ -57,13 +57,13 @@ def parse_args():
     parser.add_argument(
         "--batch-size",
         type=int,
-        default=60,
+        default=512,
         help="Batch size (default: 60)",
     )
     parser.add_argument(
         "--epochs",
         type=int,
-        default=10,
+        default=20000,
         help="Number of epochs (default: 10000)",
     )
     parser.add_argument(

@@ -112,8 +112,12 @@ class Evaluator:
                 # Shape: (1, Seq)
                 initial_step = np.reshape(initial_step, newshape=(1, -1))
                 
-                # FIX: Do not pass output_len, the models already know it
-                predictions = self.model.forward(initial_step)
+                try:
+                    predictions = self.model.forward(initial_step, output_len=out_length)
+                except TypeError:
+                    # Fallback pour ARIMA, ETS, Ridge, RF qui ne prennent pas output_len
+                    predictions = self.model.forward(initial_step)
+                
                 y_pred_sample = np.array(predictions[0])
 
             # Ensure flat arrays

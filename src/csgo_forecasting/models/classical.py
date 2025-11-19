@@ -98,6 +98,7 @@ class RandomForestModel(BaseModel):
             max_depth=self.max_depth,
             random_state=self.random_state,
             verbose=1,
+            n_jobs=-1
         )
 
     def forward(self, x: np.ndarray) -> np.ndarray:
