@@ -251,7 +251,7 @@ def train_transformer(X_train, y_train, X_val, y_val, args):
         num_layers=1,
         dropout=0.2,
         nhead=4,
-        dmodel=64,
+        d_model=64,
         device=args.device,
     )
     
