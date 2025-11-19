@@ -131,19 +131,9 @@ class ARIMAModel(BaseModel):
         pass
 
     def save(self, path: str) -> None:
-        """Save model configuration to disk."""
-        config = {
-            "out_length": self.out_length,
-            "start_p": self.start_p,
-            "max_p": self.max_p,
-            "start_q": self.start_q,
-            "max_q": self.max_q,
-            "d": self.d,
-            "max_d": self.max_d,
-            "seasonal": self.seasonal
-        }
+        """Save model object to disk."""
         with open(path, "wb") as f:
-            pickle.dump(config, f)
+            pickle.dump(self, f)
 
     def load(self, path: str) -> None:
         """Load model configuration from disk."""

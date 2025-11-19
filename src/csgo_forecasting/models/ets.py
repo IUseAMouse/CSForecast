@@ -119,12 +119,9 @@ class ETSModel(BaseModel):
         pass
 
     def save(self, path: str) -> None:
-        config = {
-            "out_length": self.out_length,
-            "seasonal_periods": self.seasonal_periods
-        }
+        """Save model object to disk."""
         with open(path, "wb") as f:
-            pickle.dump(config, f)
+            pickle.dump(self, f)
 
     def load(self, path: str) -> None:
         with open(path, "rb") as f:
