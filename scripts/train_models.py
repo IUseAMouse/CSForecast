@@ -155,7 +155,7 @@ def train_lstm(
     
     model = LSTM(
         input_size=1,
-        hidden_size=args.seq_length,
+        hidden_size=int(args.out_length/3),
         output_size=args.out_length,
         num_layers=1,
         device=args.device,
@@ -201,7 +201,7 @@ def train_gru(X_train, y_train, X_val, y_val, args):
     
     model = GRU(
         input_size=1,
-        hidden_size=args.seq_length,
+        hidden_size=int(args.out_length/3),
         output_size=args.out_length,
         num_layers=1,
         device=args.device,
@@ -310,7 +310,7 @@ def train_random_forest(X_train, y_train, X_val, y_val, args):
     print("\n🌲 Training Random Forest model...")
     
     model = RandomForestModel(
-        n_estimators=100,
+        n_estimators=20,
         max_depth=None,
         random_state=42,
     )
@@ -335,7 +335,7 @@ def train_arima(X_val, y_val, args):
     
     model = ARIMAModel(
         out_length=args.out_length,
-        max_p=5, max_q=5, max_d=2, # As per LaTeX description
+        max_p=60, max_q=10, max_d=2, # As per LaTeX description
         n_jobs=-1 # Use all cores
     )
     
