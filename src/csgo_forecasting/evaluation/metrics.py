@@ -169,38 +169,3 @@ def calculate_metrics(
             metrics[f"mae@{horizon}"] = np.mean(mae_values)
     
     return metrics
-
-
-def statistical_comparison(
-    y_true: np.ndarray,
-    y_pred_model: np.ndarray,
-    y_pred_baseline: np.ndarray
-) -> Dict[str, float]:
-    """
-    Statistical comparison between model and baseline predictions.
-    
-    Args:
-        y_true: Ground truth values
-        y_pred_model: Model predictions
-        y_pred_baseline: Baseline predictions
-        
-    Returns:
-        Dictionary with comparison metrics
-    """
-    
-    # Squared errors for each prediction
-    se_model = (y_true - y_pred_model) ** 2
-    se_baseline = (y_true - y_pred_baseline) ** 2
-    
-    # Paired t-test on squared errors
-    t_stat, p_value = stats.ttest_rel(se_baseline, se_model)
-    
-    # Percentage improvement
-    improvement = 100 * (1 - rmse(y_true, y_pred_model) / rmse(y_true, y_pred_baseline))
-    
-    return {
-        "t_statistic": t_stat,
-        "p_value": p_value,
-        "improvement_percent": improvement,
-        "significant_at_001": p_value < 0.001
-    }

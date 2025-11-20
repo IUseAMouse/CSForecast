@@ -317,7 +317,9 @@ def main():
                 
                 print(f"  Improvement: {improvement:+.2f}%")
                 print(f"  p-value: {stats_comparison['p_value']:.6f}")
-                print(f"  Significant (p<0.001): {'✓ Yes' if stats_comparison['significant'] else '✗ No'}")
+                print(f"  Significant (p<0.001): {'✓ Yes' if stats_comparison['very_significant'] else '✗ No'}")
+                print(f"  Significant (p<0.01): {'✓ Yes' if stats_comparison['significant'] else '✗ No'}")
+                print(f"  Significant (p<0.05): {'✓ Yes' if stats_comparison['95%_significant'] else '✗ No'}")
                 print(f"  Win rate: {stats_comparison['win_rate_percent']:.1f}%")
                 print(f"  Cohen's d: {stats_comparison['cohens_d']:.3f}")
                 
@@ -330,7 +332,9 @@ def main():
                     "improvement_percent": improvement,
                     "t_statistic": stats_comparison["t_statistic"],
                     "p_value": stats_comparison["p_value"],
-                    "significant_at_001": stats_comparison["significant"],
+                    "significant_at_001": stats_comparison["very_significant"],
+                    "significant_at_01": stats_comparison["significant"],
+                    "significant_at_05": stats_comparison["95%_significant"],
                     "win_rate_percent": stats_comparison["win_rate_percent"],
                     "cohens_d": stats_comparison["cohens_d"],
                     "n_players": stats_comparison["n_players"],
@@ -370,7 +374,8 @@ def main():
         print("🧪 Statistical Tests Summary")
         print(f"{'=' * 60}\n")
         print(stats_df[['model', 'out_length', 'improvement_percent', 
-                       'p_value', 'significant_at_001', 'win_rate_percent', 
+                       'p_value', 'significant_at_001', 'significant_at_01',
+                       'significant_at_05', 'win_rate_percent', 
                        'cohens_d']].to_string(index=False))
     
     print(f"\n{'=' * 60}")

@@ -196,7 +196,9 @@ class Evaluator:
         return {
             "t_statistic": t_stat,
             "p_value": p_value,
-            "significant": p_value < 0.001,
+            "very_significant": p_value < 0.001,
+            "significant": p_value < 0.01,
+            "95%_significant": p_value < 0.05,
             "cohens_d": cohens_d,
             "win_rate_percent": win_rate,
             "n_players": len(model_scores)
