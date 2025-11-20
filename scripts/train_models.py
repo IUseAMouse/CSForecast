@@ -63,7 +63,7 @@ def parse_args():
     parser.add_argument(
         "--epochs",
         type=int,
-        default=20000,
+        default=2,
         help="Number of epochs (default: 10000)",
     )
     parser.add_argument(
@@ -157,7 +157,7 @@ def train_lstm(
         input_size=1,
         hidden_size=int(args.out_length/3),
         output_size=args.out_length,
-        num_layers=1,
+        num_layers=2,
         device=args.device,
     )
     
@@ -203,7 +203,7 @@ def train_gru(X_train, y_train, X_val, y_val, args):
         input_size=1,
         hidden_size=int(args.out_length/3),
         output_size=args.out_length,
-        num_layers=1,
+        num_layers=2,
         device=args.device,
     )
     
@@ -248,7 +248,7 @@ def train_transformer(X_train, y_train, X_val, y_val, args):
     model = TransformerModel(
         input_size=1,
         output_size=args.out_length,
-        num_layers=1,
+        num_layers=2,
         dropout=0.2,
         nhead=4,
         d_model=64,

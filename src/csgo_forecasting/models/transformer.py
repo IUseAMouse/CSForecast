@@ -1,99 +1,256 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 import numpy as np
 import pickle
+import math
+from typing import Optional, Tuple
+
 from .base import BaseModel
 
-class PositionalEncoding(nn.Module):
-    """Positional encoding for transformer."""
-    def __init__(self, d_model: int, max_len: int = 5000):
-        super(PositionalEncoding, self).__init__()
-        pe = torch.zeros(max_len, d_model)
-        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
-        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-np.log(10000.0) / d_model))
-        
-        pe[:, 0::2] = torch.sin(position * div_term)
-        pe[:, 1::2] = torch.cos(position * div_term[:pe[:, 1::2].shape[1]])
-        
-        pe = pe.unsqueeze(0).transpose(0, 1)
-        self.register_buffer("pe", pe)
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        # x shape: (Seq_Len, Batch, d_model)
-        return x + self.pe[:x.size(0), :]
+class RevIN(nn.Module):
+    """
+    Reversible Instance Normalization.
+    Normalizes the input to mean 0 and std 1 per instance, applies the model,
+    and denormalizes the output. Helps significantly with non-stationary data.
+    """
+    def __init__(self, num_features: int, eps: float = 1e-5, affine: bool = True):
+        super(RevIN, self).__init__()
+        self.num_features = num_features
+        self.eps = eps
+        self.affine = affine
+        if self.affine:
+            self._init_params()
+
+    def _init_params(self):
+        self.affine_weight = nn.Parameter(torch.ones(self.num_features))
+        self.affine_bias = nn.Parameter(torch.zeros(self.num_features))
+
+    def forward(self, x: torch.Tensor, mode: str) -> torch.Tensor:
+        if mode == 'norm':
+            self._get_statistics(x)
+            x = self._normalize(x)
+        elif mode == 'denorm':
+            x = self._denormalize(x)
+        else:
+            raise NotImplementedError
+        return x
+
+    def _get_statistics(self, x: torch.Tensor):
+        dim2reduce = tuple(range(1, x.ndim - 1))
+        self.mean = torch.mean(x, dim=dim2reduce, keepdim=True).detach()
+        self.stdev = torch.sqrt(torch.var(x, dim=dim2reduce, keepdim=True, unbiased=False) + self.eps).detach()
+
+    def _normalize(self, x: torch.Tensor):
+        x = x - self.mean
+        x = x / self.stdev
+        if self.affine:
+            x = x * self.affine_weight
+            x = x + self.affine_bias
+        return x
+
+    def _denormalize(self, x: torch.Tensor):
+        if self.affine:
+            x = x - self.affine_bias
+            x = x / (self.affine_weight + self.eps*self.eps)
+        x = x * self.stdev
+        x = x + self.mean
+        return x
+
+
+class RotaryEmbedding(nn.Module):
+    def __init__(self, dim: int, max_seq_len: int = 5000):
+        super().__init__()
+        inv_freq = 1.0 / (10000 ** (torch.arange(0, dim, 2).float() / dim))
+        t = torch.arange(max_seq_len).float()
+        freqs = torch.einsum("i,j->ij", t, inv_freq)
+        # On crée les embeddings cos/sin une fois pour toutes
+        emb = torch.cat((freqs, freqs), dim=-1)
+        self.register_buffer("cos_cached", emb.cos()[None, None, :, :])
+        self.register_buffer("sin_cached", emb.sin()[None, None, :, :])
+
+    def forward(self, x: torch.Tensor, seq_len: int):
+        # x shape: (Batch, n_head, seq_len, head_dim)
+        # On retourne les tranches correspondantes à la longueur de séquence actuelle
+        return (
+            self.cos_cached[:, :, :seq_len, ...],
+            self.sin_cached[:, :, :seq_len, ...]
+        )
+
+def rotate_half(x: torch.Tensor):
+    x1, x2 = x.chunk(2, dim=-1)
+    return torch.cat((-x2, x1), dim=-1)
+
+def apply_rotary_pos_emb(x: torch.Tensor, cos: torch.Tensor, sin: torch.Tensor):
+    # x: (Batch, n_head, seq_len, head_dim)
+    # cos, sin: (1, 1, seq_len, head_dim) - broadcasting automatique
+    return (x * cos) + (rotate_half(x) * sin)
+
+
+class CausalSelfAttention(nn.Module):
+    def __init__(self, d_model: int, nhead: int, dropout: float, max_len: int):
+        super().__init__()
+        assert d_model % nhead == 0, "d_model must be divisible by nhead"
+        
+        self.n_head = nhead
+        self.head_dim = d_model // nhead
+        
+        self.c_attn = nn.Linear(d_model, 3 * d_model) # Q, K, V en une seule projection
+        self.c_proj = nn.Linear(d_model, d_model)     # Output projection
+        
+        self.attn_dropout = nn.Dropout(dropout)
+        self.resid_dropout = nn.Dropout(dropout)
+        
+        self.rotary_emb = RotaryEmbedding(self.head_dim, max_seq_len=max_len)
+
+    def forward(self, x: torch.Tensor, mask: Optional[torch.Tensor] = None):
+        B, T, C = x.size() # Batch, Time (Seq), Channels (d_model)
+        
+        # Calcul Q, K, V
+        qkv = self.c_attn(x)
+        q, k, v = qkv.split(C, dim=2)
+        
+        # Reshape pour multi-head : (B, T, n_head, head_dim) -> transpose -> (B, n_head, T, head_dim)
+        k = k.view(B, T, self.n_head, self.head_dim).transpose(1, 2)
+        q = q.view(B, T, self.n_head, self.head_dim).transpose(1, 2)
+        v = v.view(B, T, self.n_head, self.head_dim).transpose(1, 2)
+        
+        # Application du RoPE
+        cos, sin = self.rotary_emb(v, seq_len=T)
+        q = apply_rotary_pos_emb(q, cos, sin)
+        k = apply_rotary_pos_emb(k, cos, sin)
+        
+        # Attention Scaled Dot Product
+        # (B, n_head, T, head_dim) @ (B, n_head, head_dim, T) -> (B, n_head, T, T)
+        att = (q @ k.transpose(-2, -1)) * (1.0 / math.sqrt(k.size(-1)))
+        
+        if mask is not None:
+            # Le masque arrive souvent en (T, T), on doit l'adapter
+            att = att.masked_fill(mask == 0, float('-inf'))
+            
+        att = F.softmax(att, dim=-1)
+        att = self.attn_dropout(att)
+        
+        # Agrégation
+        y = att @ v # (B, n_head, T, T) @ (B, n_head, T, head_dim) -> (B, n_head, T, head_dim)
+        y = y.transpose(1, 2).contiguous().view(B, T, C) # Re-assemble heads
+        
+        return self.resid_dropout(self.c_proj(y))
+
+class TransformerBlock(nn.Module):
+    """Un bloc standard Transformer : Pre-LayerNorm, Attention, FeedForward."""
+    def __init__(self, d_model: int, nhead: int, dropout: float, max_len: int):
+        super().__init__()
+        self.ln1 = nn.LayerNorm(d_model)
+        self.attn = CausalSelfAttention(d_model, nhead, dropout, max_len)
+        self.ln2 = nn.LayerNorm(d_model)
+        self.mlp = nn.Sequential(
+            nn.Linear(d_model, 4 * d_model),
+            nn.GELU(), # GELU est souvent préféré à ReLU maintenant
+            nn.Linear(4 * d_model, d_model),
+            nn.Dropout(dropout),
+        )
+
+    def forward(self, x: torch.Tensor, mask: Optional[torch.Tensor] = None):
+        # Pre-Norm architecture (plus stable que Post-Norm)
+        x = x + self.attn(self.ln1(x), mask)
+        x = x + self.mlp(self.ln2(x))
+        return x
+
 
 class TransAm(nn.Module):
-    """Transformer architecture for time series."""
     def __init__(
         self, 
         feature_size: int = 1, 
         d_model: int = 64, 
-        num_layers: int = 1, 
+        num_layers: int = 2, 
         dropout: float = 0.1, 
         nhead: int = 4, 
-        num_classes: int = 1
+        num_classes: int = 1,
+        max_len: int = 5000
     ):
         super(TransAm, self).__init__()
-        self.model_type = 'Transformer'
+        self.model_type = 'TransformerRoPE_RevIN'
         
-        # 1. Projection d'entrée : on passe de 1 feature (rating) à d_model (ex: 64)
-        # C'est crucial pour que le Transformer "comprenne" la donnée sans exploser les calculs
+        # SOTA: Reversible Instance Normalization
+        self.revin = RevIN(feature_size)
+        
+        # Projection d'entrée
         self.input_embedding = nn.Linear(feature_size, d_model)
-        self.src_mask = None
-        self.pos_encoder = PositionalEncoding(d_model)
+        self.dropout = nn.Dropout(dropout)
         
-        # 2. Encoder Layer
-        encoder_layers = nn.TransformerEncoderLayer(d_model=d_model, nhead=nhead, dropout=dropout)
-        self.transformer_encoder = nn.TransformerEncoder(encoder_layers, num_layers=num_layers)
+        # Stack de blocs Transformer Custom
+        self.blocks = nn.ModuleList([
+            TransformerBlock(d_model, nhead, dropout, max_len)
+            for _ in range(num_layers)
+        ])
         
-        # 3. Decoder final
+        # Normalisation finale (nécessaire avec Pre-Norm architecture)
+        self.ln_f = nn.LayerNorm(d_model)
+        
+        # Decoder
         self.decoder = nn.Linear(d_model, num_classes)
+        
         self.init_weights()
 
     def init_weights(self):
-        initrange = 0.1
-        self.decoder.bias.data.zero_()
-        self.decoder.weight.data.uniform_(-initrange, initrange)
+        # Initialisation soignée
+        std = 0.02
+        nn.init.normal_(self.input_embedding.weight, mean=0.0, std=std)
+        nn.init.normal_(self.decoder.weight, mean=0.0, std=std)
+        nn.init.zeros_(self.decoder.bias)
 
-    def forward(self, src: torch.Tensor) -> torch.Tensor:
-        # src shape arrive comme : (Batch, Seq, Feature=1)
-        
-        # Permutation pour le Transformer PyTorch : (Seq, Batch, Feature)
-        src = src.permute(1, 0, 2) 
-        
-        # Projection vers d_model
-        src = self.input_embedding(src)
-        
-        if self.src_mask is None or self.src_mask.size(0) != len(src):
-            device = src.device
-            mask = self._generate_square_subsequent_mask(len(src)).to(device)
-            self.src_mask = mask
-
-        src = self.pos_encoder(src)
-        output = self.transformer_encoder(src, self.src_mask)
-        
-        # On prend le dernier état temporel pour la prédiction
-        output = output[-1, :, :] # (Batch, d_model)
-        
-        output = self.decoder(output)
-        return output
-
-    def _generate_square_subsequent_mask(self, sz: int) -> torch.Tensor:
-        mask = (torch.triu(torch.ones(sz, sz)) == 1).transpose(0, 1)
-        mask = mask.float().masked_fill(mask == 0, float('-inf')).masked_fill(mask == 1, float(0.0))
+    def _generate_square_subsequent_mask(self, sz: int, device: torch.device) -> torch.Tensor:
+        mask = torch.triu(torch.ones(sz, sz, device=device)) == 1
+        mask = mask.transpose(0, 1)
         return mask
 
+    def forward(self, src: torch.Tensor) -> torch.Tensor:
+        # src: (Batch, Seq, Feature)
+        
+        # 1. Appliquer RevIN (Normalisation)
+        src = self.revin(src, mode='norm')
+        
+        # 2. Embedding
+        x = self.input_embedding(src)
+        x = self.dropout(x)
+        
+        # 3. Masque Causal (pour ne pas voir le futur)
+        B, T, C = x.shape
+        mask = self._generate_square_subsequent_mask(T, x.device)
+        
+        # 4. Transformer Blocks
+        for block in self.blocks:
+            x = block(x, mask)
+            
+        x = self.ln_f(x)
+        
+        # 5. Prédiction (on prend le dernier token)
+        output = x[:, -1, :] # (Batch, d_model)
+        output = self.decoder(output) # (Batch, Output_Dim)
+        
+        # 6. Appliquer RevIN Inverse (Dénormalisation)
+        # Note: RevIN attend (Batch, Seq, Feat), ici on a (Batch, Feat).
+        # On unsqueeze pour matcher les dims attendues par RevIN
+        output = output.unsqueeze(1) 
+        output = self.revin(output, mode='denorm')
+        output = output.squeeze(1)
+        
+        return output
+
+
 class TransformerModel(BaseModel):
-    """Transformer model wrapper."""
+    """Transformer model wrapper updated with RoPE and RevIN."""
 
     def __init__(
         self,
         input_size: int,
         output_size: int,
-        num_layers: int = 1,
+        num_layers: int = 2, # Augmenté un peu car le modèle est plus robuste
         dropout: float = 0.2,
         nhead: int = 4,
-        d_model: int = 64, # Nouveau paramètre important
+        d_model: int = 64,
         device: str = "cuda",
     ):
         super().__init__()
@@ -105,7 +262,6 @@ class TransformerModel(BaseModel):
         self.d_model = d_model
         self.device = device
         
-        # Appel de la méthode build
         self.model = self.build()
 
     def build(self) -> TransAm:
@@ -116,19 +272,39 @@ class TransformerModel(BaseModel):
             num_layers=self.num_layers,
             dropout=self.dropout,
             nhead=self.nhead,
-            num_classes=self.output_size
+            num_classes=self.output_size,
+            max_len=5000 # Buffer pour RoPE
         ).to(self.device)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """Forward pass."""
+        # Le modèle attend (Batch, Seq, Feature)
+        # Si l'entrée est (Batch, Feature, Seq), il faut permuter.
+        # Assumons que le DataLoader envoie (Batch, Seq, Feature) comme discuté précédemment.
         return self.model(x)
 
+    def fit(self, X: torch.Tensor, y: torch.Tensor, epochs: int = 10, lr: float = 1e-3) -> None:
+        # Implémentation simple d'un fit loop pour l'exemple, 
+        # à adapter selon ta classe BaseModel originale
+        optimizer = torch.optim.AdamW(self.model.parameters(), lr=lr, weight_decay=1e-4)
+        criterion = nn.MSELoss()
+        
+        self.model.train()
+        X = X.to(self.device)
+        y = y.to(self.device)
+        
+        for epoch in range(epochs):
+            optimizer.zero_grad()
+            output = self.forward(X)
+            loss = criterion(output, y)
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(self.model.parameters(), 1.0)
+            optimizer.step()
+            
     def save(self, path: str) -> None:
-        """Save model to disk."""
         with open(path, "wb") as f:
             pickle.dump(self.model, f)
 
     def load(self, path: str) -> None:
-        """Load model from disk."""
         with open(path, "rb") as f:
             self.model = pickle.load(f)
