@@ -216,7 +216,8 @@ make check-all
 
 ## 📝 Citation
 
-If you use this work in your research, please cite (preprint in progress, will have the right bibtex ref soon):
+> 🚀 **Preprint submitted to HAL/arXiv.** 
+> Paper title: "Time Series Forecasting for Professional Counter-Strike Player Performance"
 
 ## 📄 License
 
