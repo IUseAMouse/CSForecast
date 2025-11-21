@@ -79,7 +79,8 @@ def reformat_trend_data(trend: List[Dict], month_translator: Dict = MONTH_TRANSL
 
 def smooth_series(y: np.ndarray, window_size: int) -> np.ndarray:
     """
-    Smooth a time series using a moving average.
+    Smooth a time series using a CAUSAL moving average.
+    Unlike convolution with mode='same', this does not look ahead into the future.
     
     Args:
         y: Time series data
@@ -88,9 +89,10 @@ def smooth_series(y: np.ndarray, window_size: int) -> np.ndarray:
     Returns:
         Smoothed time series
     """
-    box = np.ones(window_size) / window_size
-    y_smooth = np.convolve(y, box, mode="same")
-    return y_smooth
+    # Using pandas rolling ensures the window looks backwards (causal).
+    # min_periods=1 ensures we get values at the start, though they are noisier 
+    # (handled later by edge_trim).
+    return pd.Series(y).rolling(window=window_size, min_periods=1).mean().values
 
 
 def preprocess_player_data(
@@ -104,7 +106,7 @@ def preprocess_player_data(
     Args:
         data: Raw player data DataFrame
         smoothing_window: Window size for smoothing
-        edge_trim: Number of points to trim from edges
+        edge_trim: Number of points to trim from the start (warm-up period)
         
     Returns:
         Preprocessed DataFrame
@@ -123,10 +125,12 @@ def preprocess_player_data(
         rating = smooth_series(rating, smoothing_window)
         
         # Trim edges
-        trend["rating"] = rating[edge_trim:-edge_trim]
-        trend["start"] = trend["start"][edge_trim:-edge_trim]
-        trend["end"] = trend["end"][edge_trim:-edge_trim]
-        trend["maps"] = trend["maps"][edge_trim:-edge_trim]
+        # CAUSAL UPDATE: We only trim the start (warm-up period where the moving average is stabilizing).
+        # We do NOT trim the end, as causal smoothing does not corrupt the most recent data.
+        trend["rating"] = rating[edge_trim:]
+        trend["start"] = trend["start"][edge_trim:]
+        trend["end"] = trend["end"][edge_trim:]
+        trend["maps"] = trend["maps"][edge_trim:]
     
     return data
 
