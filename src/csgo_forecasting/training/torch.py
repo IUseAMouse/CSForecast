@@ -104,11 +104,9 @@ def random_walk_predictions(
     """
     initial_step = np.array(initial_step)
 
-    # Estimate the mean and variance of the successive steps
     mean = np.mean(initial_step[1:] - initial_step[:-1])
     variance = np.var(initial_step[1:] - initial_step[:-1])
 
-    # Generate the random walk predictions
     predictions = np.zeros(shape=out_length)
     predictions[0] = initial_step[-1] + np.random.normal(
         loc=mean, scale=np.sqrt(variance)

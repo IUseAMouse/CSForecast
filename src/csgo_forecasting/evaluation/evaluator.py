@@ -55,11 +55,6 @@ class Evaluator:
         # Check if model is a pure sklearn estimator (not our wrapper)
         is_pure_sklearn = isinstance(self.model, sklearn.base.BaseEstimator) and not hasattr(self.model, "forward")
         
-        # Performance Note: 
-        # Ideally, we should batch this loop for ARIMA/ETS to leverage joblib parallelism.
-        # However, to keep the evaluation logic consistent and simple per player, 
-        # we keep the iterative approach. For ARIMA/ETS, this might be slow.
-        
         for index, row in data.iterrows():
             trend = row["rating_trend"]
             pname = row["players_name"]
@@ -71,28 +66,19 @@ class Evaluator:
 
             if len(y_ratings) == 0:
                 continue
-
-            # We only take the LAST sequence of the test set for the "future" prediction simulation
-            # Or do we want to evaluate on all sliding windows in the test set?
-            # Standard approach: Evaluate on the last available window to predict the 'unseen' future
-            # But here x_ratings contains all sliding windows. 
-            # Let's evaluate on the very last window to avoid data leakage overlap in metrics 
-            # if that's the goal, OR evaluate on all windows.
-            # Based on your previous code: `initial_step = x_ratings[-1]` implies only the last window.
             
+            # Take the last test set window
             initial_step = x_ratings[-1]
             y_true_sample = np.array(y_ratings[-1])
 
-            # 1. Pure Sklearn (Raw objects)
             if is_pure_sklearn:
                 initial_step = np.array(initial_step)
                 initial_step = np.reshape(initial_step, newshape=(1, -1))
                 y_pred_sample = self.model.predict(initial_step)[0]
 
-            # 2. PyTorch Models (LSTM, GRU, Transformer)
             elif is_pytorch:
                 initial_step = np.array(initial_step)
-                # Shape: (1, Seq, Feature)
+                # Shape: (1, Seq, 1)
                 initial_step = Variable(torch.Tensor(initial_step)).to(self.device)
                 initial_step = torch.reshape(
                     initial_step, shape=(1, initial_step.shape[0], 1)
@@ -106,7 +92,6 @@ class Evaluator:
                     
                 y_pred_sample = predictions[0].cpu().detach().numpy()
 
-            # 3. Our Custom Wrappers (Ridge, RF, ARIMA, ETS)
             else:
                 initial_step = np.array(initial_step)
                 # Shape: (1, Seq)
@@ -115,7 +100,7 @@ class Evaluator:
                 try:
                     predictions = self.model.forward(initial_step, output_len=out_length)
                 except TypeError:
-                    # Fallback pour ARIMA, ETS, Ridge, RF qui ne prennent pas output_len
+                    # Fallback for ETS and ARIMA because they don't have an output_len arg
                     predictions = self.model.forward(initial_step)
                 
                 y_pred_sample = np.array(predictions[0])
@@ -208,7 +193,7 @@ class Evaluator:
         self,
         player_results: List[Dict],
         num_players: int = 15,
-        figsize: tuple = (20, 15), # Adjusted size
+        figsize: tuple = (20, 15), 
     ) -> None:
         """
         Plot predictions for multiple players.

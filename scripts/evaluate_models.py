@@ -87,7 +87,6 @@ def load_model(model_path: Path, device: str):
     
     with open(model_path, "rb") as f:
         # Pickle will use torch.load internally, which respects map_location
-        # We need to monkey-patch it temporarily
         original_torch_load = torch.load
         
         def patched_load(*args, **kwargs):
@@ -125,7 +124,7 @@ def create_baseline_model(baseline_name: str):
     
     print(f"\n🎲 Creating Random Walk baseline (adaptive)...")
     
-    # Create model - no fitting needed, it's adaptive per-sequence
+    # No fitting needed, it's adaptive per-sequence
     model = RandomWalkModel(random_state=42, adaptive=True)
     
     print(f"  ✓ Random Walk created (will estimate per-sequence)\n")

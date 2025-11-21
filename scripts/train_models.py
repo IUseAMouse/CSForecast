@@ -335,12 +335,9 @@ def train_arima(X_val, y_val, args):
     
     model = ARIMAModel(
         out_length=args.out_length,
-        max_p=60, max_q=10, max_d=2, # As per LaTeX description
-        n_jobs=-1 # Use all cores
+        max_p=60, max_q=10, max_d=2,
+        n_jobs=-1 
     )
-    
-    # We don't fit on X_train for local statistical models
-    # But we evaluate on X_val to get a comparable MSE
     
     print(f"Running evaluation on {len(X_val)} validation samples...")
     
@@ -362,7 +359,7 @@ def train_ets(X_val, y_val, args):
     
     model = ETSModel(
         out_length=args.out_length,
-        seasonal_periods=None, # As per LaTeX description (no strict seasonality)
+        seasonal_periods=None,
         n_jobs=-1
     )
     

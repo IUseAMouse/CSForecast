@@ -89,9 +89,6 @@ def smooth_series(y: np.ndarray, window_size: int) -> np.ndarray:
     Returns:
         Smoothed time series
     """
-    # Using pandas rolling ensures the window looks backwards (causal).
-    # min_periods=1 ensures we get values at the start, though they are noisier 
-    # (handled later by edge_trim).
     return pd.Series(y).rolling(window=window_size, min_periods=1).mean().values
 
 
@@ -124,9 +121,6 @@ def preprocess_player_data(
         rating = np.array(trend["rating"])
         rating = smooth_series(rating, smoothing_window)
         
-        # Trim edges
-        # CAUSAL UPDATE: We only trim the start (warm-up period where the moving average is stabilizing).
-        # We do NOT trim the end, as causal smoothing does not corrupt the most recent data.
         trend["rating"] = rating[edge_trim:]
         trend["start"] = trend["start"][edge_trim:]
         trend["end"] = trend["end"][edge_trim:]

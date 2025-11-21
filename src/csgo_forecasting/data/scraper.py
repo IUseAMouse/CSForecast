@@ -28,20 +28,16 @@ def load_page_soup(url: str, sleep_time: int = 3) -> BeautifulSoup:
     
     try:
         options = uc.ChromeOptions()
-        # options.add_argument("--headless=new")  # New headless mode
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         
-        # Specify Chrome binary location for WSL
-        options.binary_location = "/usr/bin/google-chrome"  # Or try "/usr/bin/chromium-browser"
+        options.binary_location = "/usr/bin/google-chrome"  
         
         driver = uc.Chrome(options=options, use_subprocess=True)
         driver.get(url)
         
-        # Random sleep to mimic human behavior
         time.sleep(random.uniform(2, 4))
 
-        # Vérifier si on a la vraie page
         page_source = driver.page_source
         if "challenge-success-text" in page_source or "Checking your browser" in page_source:
             print(" [Still blocked, waiting more...]", end="")
@@ -76,40 +72,7 @@ def get_rating_trend(url: str, sleep_time: int = 3, max_retries: int = 3) -> Lis
     while retries < max_retries:
         soup = load_page_soup(url, sleep_time)
         
-        # Debug: Afficher les divs trouvés
-        print(f"\n=== DEBUG pour {url} ===")
-        
-        # Chercher les divs avec uniqueChart
         perf_trend = soup.findAll("div", id=lambda x: x and x.startswith("uniqueChart"))
-        print(f"Nombre de divs 'uniqueChart' trouvés: {len(perf_trend)}")
-        
-        if perf_trend:
-            print(f"Premier div trouvé - ID: {perf_trend[0].get('id')}")
-            print(f"Attributs du div: {perf_trend[0].attrs}")
-        
-        # Chercher tous les divs avec un ID
-        all_divs_with_id = soup.findAll("div", id=True)
-        print(f"\nTotal de divs avec ID: {len(all_divs_with_id)}")
-        print("IDs trouvés (20 premiers):")
-        for div in all_divs_with_id[:20]:
-            print(f"  - {div.get('id')}")
-        
-        # Chercher des patterns alternatifs
-        chart_divs = soup.findAll("div", class_=lambda x: x and "chart" in str(x).lower())
-        print(f"\nDivs avec 'chart' dans la classe: {len(chart_divs)}")
-        for div in chart_divs[:5]:
-            print(f"  - Classes: {div.get('class')}, ID: {div.get('id')}")
-        
-        # Chercher dans les scripts
-        scripts = soup.findAll("script")
-        print(f"\nScripts trouvés: {len(scripts)}")
-        for script in scripts:
-            if script.string and ("rating" in script.string.lower() or "chart" in script.string.lower()):
-                print(f"Script avec 'rating' ou 'chart' trouvé (premiers 300 chars):")
-                print(script.string[:300])
-                break
-        
-        print("=== FIN DEBUG ===\n")
         
         try:
             perf_trend = json.loads(perf_trend[0]["data-fusionchart-config"])

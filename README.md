@@ -16,13 +16,16 @@ This project introduces a novel approach to performance forecasting in professio
 - Random Forest struggle with extrapolation on long horizons.
 - Deep Learning approaches (specifically Attention-based) demonstrate robust performance on long-term forecasts that statistical methods
 
-## Disclaimer
+## ⚠️ Disclaimer : Data Collection & Terms of Service
 
-**The goal of this GitHub repository is not to be used as a production package to scrap data from HLTV. I strongly discourage anyone from doing this.**
+**This repository includes the scraping logic solely for the sake of methodological transparency and reproducibility.**
 
-Rightfully, HLTV protects their website from data scraping by using Cloudflare to block bots. The scraping script here is slow to work around getting blocked, and it might still happen when running the scrapper. If it does, I advise being patient and increasing sleep times to not saturate HLTV servers.
+I **strongly discourage** using this codebase to scrape HLTV.org actively. HLTV employs strict anti-bot measures (Cloudflare) to protect their infrastructure. The scraper included here is designed for low-volume, compliant data gathering, but using it may still result in IP bans or violate HLTV's Terms of Service.
 
-The only goal behind this GitHub repository is to show, from the perspective of applied timeseries research, that my work and results are reproducible. I still have a copy of the dataset I used to write my paper, and will happily share it privately with HLTV's permission if you are a researcher trying to replicate the results and you do not want to wait a full day with long sleep times to gather the data.
+**For Researchers:**
+The goal of this repository is to allow the replication of the results presented in my paper. To avoid burdening HLTV's servers or dealing with anti-bot blocking, I am willing to share the dataset privately for academic replication purposes.
+
+Please contact me at *yvann.vincent@gmail.com* to request access to the dataset used in the paper.
 
 ## 🚀 Quick Start
 
@@ -214,15 +217,6 @@ make check-all
 ## 📝 Citation
 
 If you use this work in your research, please cite (preprint in progress, will have the right bibtex ref soon):
-
-```bibtex
-@software{vincent2024csgo,
-  author = {Vincent, Yvann},
-  title = {Time Series Forecasting for Professional Counter-Strike Performance Prediction},
-  year = {2024},
-  url = {https://github.com/IUseAMouse/csgo-performance-forecasting}
-}
-```
 
 ## 📄 License
 

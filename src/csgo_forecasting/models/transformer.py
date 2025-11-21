@@ -65,14 +65,14 @@ class RotaryEmbedding(nn.Module):
         inv_freq = 1.0 / (10000 ** (torch.arange(0, dim, 2).float() / dim))
         t = torch.arange(max_seq_len).float()
         freqs = torch.einsum("i,j->ij", t, inv_freq)
-        # On crée les embeddings cos/sin une fois pour toutes
+        
         emb = torch.cat((freqs, freqs), dim=-1)
         self.register_buffer("cos_cached", emb.cos()[None, None, :, :])
         self.register_buffer("sin_cached", emb.sin()[None, None, :, :])
 
     def forward(self, x: torch.Tensor, seq_len: int):
         # x shape: (Batch, n_head, seq_len, head_dim)
-        # On retourne les tranches correspondantes à la longueur de séquence actuelle
+        # Only return elements corresponding to current sequence
         return (
             self.cos_cached[:, :, :seq_len, ...],
             self.sin_cached[:, :, :seq_len, ...]
@@ -84,7 +84,7 @@ def rotate_half(x: torch.Tensor):
 
 def apply_rotary_pos_emb(x: torch.Tensor, cos: torch.Tensor, sin: torch.Tensor):
     # x: (Batch, n_head, seq_len, head_dim)
-    # cos, sin: (1, 1, seq_len, head_dim) - broadcasting automatique
+    # cos, sin: (1, 1, seq_len, head_dim) 
     return (x * cos) + (rotate_half(x) * sin)
 
 
@@ -96,8 +96,8 @@ class CausalSelfAttention(nn.Module):
         self.n_head = nhead
         self.head_dim = d_model // nhead
         
-        self.c_attn = nn.Linear(d_model, 3 * d_model) # Q, K, V en une seule projection
-        self.c_proj = nn.Linear(d_model, d_model)     # Output projection
+        self.c_attn = nn.Linear(d_model, 3 * d_model) 
+        self.c_proj = nn.Linear(d_model, d_model)
         
         self.attn_dropout = nn.Dropout(dropout)
         self.resid_dropout = nn.Dropout(dropout)
@@ -105,18 +105,16 @@ class CausalSelfAttention(nn.Module):
         self.rotary_emb = RotaryEmbedding(self.head_dim, max_seq_len=max_len)
 
     def forward(self, x: torch.Tensor, mask: Optional[torch.Tensor] = None):
-        B, T, C = x.size() # Batch, Time (Seq), Channels (d_model)
+        B, T, C = x.size() # Batch, Time, Channels
         
-        # Calcul Q, K, V
         qkv = self.c_attn(x)
         q, k, v = qkv.split(C, dim=2)
         
-        # Reshape pour multi-head : (B, T, n_head, head_dim) -> transpose -> (B, n_head, T, head_dim)
+        # (B, T, n_head, head_dim) -> transpose -> (B, n_head, T, head_dim)
         k = k.view(B, T, self.n_head, self.head_dim).transpose(1, 2)
         q = q.view(B, T, self.n_head, self.head_dim).transpose(1, 2)
         v = v.view(B, T, self.n_head, self.head_dim).transpose(1, 2)
         
-        # Application du RoPE
         cos, sin = self.rotary_emb(v, seq_len=T)
         q = apply_rotary_pos_emb(q, cos, sin)
         k = apply_rotary_pos_emb(k, cos, sin)
@@ -126,20 +124,18 @@ class CausalSelfAttention(nn.Module):
         att = (q @ k.transpose(-2, -1)) * (1.0 / math.sqrt(k.size(-1)))
         
         if mask is not None:
-            # Le masque arrive souvent en (T, T), on doit l'adapter
             att = att.masked_fill(mask == 0, float('-inf'))
             
         att = F.softmax(att, dim=-1)
         att = self.attn_dropout(att)
         
-        # Agrégation
         y = att @ v # (B, n_head, T, T) @ (B, n_head, T, head_dim) -> (B, n_head, T, head_dim)
         y = y.transpose(1, 2).contiguous().view(B, T, C) # Re-assemble heads
         
         return self.resid_dropout(self.c_proj(y))
 
 class TransformerBlock(nn.Module):
-    """Un bloc standard Transformer : Pre-LayerNorm, Attention, FeedForward."""
+    """Standart Transformer Block: Pre-LayerNorm, Attention, FeedForward."""
     def __init__(self, d_model: int, nhead: int, dropout: float, max_len: int):
         super().__init__()
         self.ln1 = nn.LayerNorm(d_model)
@@ -147,13 +143,13 @@ class TransformerBlock(nn.Module):
         self.ln2 = nn.LayerNorm(d_model)
         self.mlp = nn.Sequential(
             nn.Linear(d_model, 4 * d_model),
-            nn.GELU(), # GELU est souvent préféré à ReLU maintenant
+            nn.GELU(),
             nn.Linear(4 * d_model, d_model),
             nn.Dropout(dropout),
         )
 
     def forward(self, x: torch.Tensor, mask: Optional[torch.Tensor] = None):
-        # Pre-Norm architecture (plus stable que Post-Norm)
+        # Pre-Norm architecture 
         x = x + self.attn(self.ln1(x), mask)
         x = x + self.mlp(self.ln2(x))
         return x
@@ -173,29 +169,21 @@ class TransAm(nn.Module):
         super(TransAm, self).__init__()
         self.model_type = 'TransformerRoPE_RevIN'
         
-        # SOTA: Reversible Instance Normalization
         self.revin = RevIN(feature_size)
-        
-        # Projection d'entrée
         self.input_embedding = nn.Linear(feature_size, d_model)
         self.dropout = nn.Dropout(dropout)
         
-        # Stack de blocs Transformer Custom
         self.blocks = nn.ModuleList([
             TransformerBlock(d_model, nhead, dropout, max_len)
             for _ in range(num_layers)
         ])
         
-        # Normalisation finale (nécessaire avec Pre-Norm architecture)
         self.ln_f = nn.LayerNorm(d_model)
-        
-        # Decoder
         self.decoder = nn.Linear(d_model, num_classes)
         
         self.init_weights()
 
     def init_weights(self):
-        # Initialisation soignée
         std = 0.02
         nn.init.normal_(self.input_embedding.weight, mean=0.0, std=std)
         nn.init.normal_(self.decoder.weight, mean=0.0, std=std)
@@ -207,32 +195,23 @@ class TransAm(nn.Module):
         return mask
 
     def forward(self, src: torch.Tensor) -> torch.Tensor:
-        # src: (Batch, Seq, Feature)
-        
-        # 1. Appliquer RevIN (Normalisation)
+        # Shape is (Batch, Sequence, d_model)
         src = self.revin(src, mode='norm')
         
-        # 2. Embedding
         x = self.input_embedding(src)
         x = self.dropout(x)
         
-        # 3. Masque Causal (pour ne pas voir le futur)
         B, T, C = x.shape
         mask = self._generate_square_subsequent_mask(T, x.device)
         
-        # 4. Transformer Blocks
         for block in self.blocks:
             x = block(x, mask)
             
         x = self.ln_f(x)
         
-        # 5. Prédiction (on prend le dernier token)
         output = x[:, -1, :] # (Batch, d_model)
         output = self.decoder(output) # (Batch, Output_Dim)
         
-        # 6. Appliquer RevIN Inverse (Dénormalisation)
-        # Note: RevIN attend (Batch, Seq, Feat), ici on a (Batch, Feat).
-        # On unsqueeze pour matcher les dims attendues par RevIN
         output = output.unsqueeze(1) 
         output = self.revin(output, mode='denorm')
         output = output.squeeze(1)
