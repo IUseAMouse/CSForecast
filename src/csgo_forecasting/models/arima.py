@@ -98,7 +98,7 @@ class ARIMAModel(BaseModel):
                 return forecast
                 
         except Exception:
-            # Fallback strategy: Naive forecast (last value repeated)
+            # Fallback strategy: Naive forecast
             # This happens if the series is constant or too short
             return np.full(self.out_length, x[-1])
 
@@ -112,7 +112,7 @@ class ARIMAModel(BaseModel):
         Returns:
             Predictions of shape (batch_size, out_length)
         """
-        # Handle dimensions
+        # Reshape if needed
         if len(x.shape) == 3:
             x = x.squeeze(-1)
         

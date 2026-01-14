@@ -48,7 +48,6 @@ class ETSModel(BaseModel):
         Fit best ETS model on a single sequence and predict.
         """
         # Shift data to be strictly positive if we want to test Multiplicative trends
-        # Adding a small constant if min <= 0
         min_val = np.min(x)
         offset = 0
         if min_val <= 0:
@@ -60,10 +59,6 @@ class ETSModel(BaseModel):
         best_aic = float('inf')
         best_model_res = None
         
-        # Configurations to test based on the LaTeX description:
-        # Focus on Trend (Additive/Multiplicative) and Damping.
-        # Error is usually Additive (A) or Multiplicative (M).
-        # Seasonality is None (N) as per description.
         configs = [
             {"error": "add", "trend": "add", "damped_trend": False},
             {"error": "add", "trend": "add", "damped_trend": True},
@@ -83,7 +78,6 @@ class ETSModel(BaseModel):
                         damped_trend=config["damped_trend"],
                         seasonal=None, # Force non-seasonal as per context
                     )
-                    # Optimize parameters
                     fit = model.fit(disp=False)
                     
                     if fit.aicc < best_aic:

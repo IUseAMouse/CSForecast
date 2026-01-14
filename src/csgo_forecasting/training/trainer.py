@@ -65,7 +65,6 @@ class Trainer:
 
             outputs = self.model(batch_x)
             
-            # Handle different output formats
             if isinstance(outputs, tuple):
                 outputs = outputs[0]
             
@@ -103,7 +102,6 @@ class Trainer:
 
                 outputs = self.model(batch_x)
                 
-                # Handle different output formats
                 if isinstance(outputs, tuple):
                     outputs = outputs[0]
                 

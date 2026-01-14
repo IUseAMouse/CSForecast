@@ -120,7 +120,7 @@ def calculate_metrics(
     y_pred: np.ndarray,
     include_horizons: bool = True,
     horizons: Optional[List[int]] = None,
-    player_results: Optional[List[Dict]] = None  # NOUVEAU
+    player_results: Optional[List[Dict]] = None 
 ) -> Dict[str, float]:
     """Calculate all metrics."""
     
@@ -135,9 +135,7 @@ def calculate_metrics(
     
     # Add horizon-specific metrics
     if include_horizons and player_results is not None:
-        # Calculer par horizon EN AGRÉGANT LES MÉTRIQUES PAR JOUEUR
         if horizons is None:
-            # Détecter out_length depuis le premier joueur
             out_length = len(player_results[0]["y_true"])
             horizons = [30, 60, 90, 120]
             horizons = [h for h in horizons if h <= out_length]
@@ -145,7 +143,6 @@ def calculate_metrics(
                 horizons = [out_length // 4, out_length // 2, 3 * out_length // 4, out_length]
                 horizons = [h for h in horizons if h > 0]
         
-        # Pour chaque horizon, calculer la métrique sur chaque joueur puis moyenner
         for horizon in horizons:
             rmse_values = []
             mae_values = []
@@ -157,14 +154,12 @@ def calculate_metrics(
                 if horizon > len(y_t):
                     continue
                     
-                # Prendre les N premiers timesteps POUR CE JOUEUR
                 y_t_h = y_t[:horizon]
                 y_p_h = y_p[:horizon]
                 
                 rmse_values.append(rmse(y_t_h, y_p_h))
                 mae_values.append(mae(y_t_h, y_p_h))
             
-            # Moyenne sur tous les joueurs
             metrics[f"rmse@{horizon}"] = np.mean(rmse_values)
             metrics[f"mae@{horizon}"] = np.mean(mae_values)
     
